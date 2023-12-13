@@ -133,6 +133,25 @@ def compare_entity_timestamps(ifc_original_context: IfcOriginalContext, ifc_impo
         }
 
 
+def compare_property_sets(ifc_original_context: IfcOriginalContext, ifc_import_context: IfcImportContext) -> None:
+    """
+    Compare property sets of entities between original and import contexts.
+    Modifies ifc_import_context.report with discrepancies in property sets.
+    """
+    for guid, original_props in ifc_original_context.entities_with_props.items():
+        import_props = ifc_import_context.entities_with_props.get(guid)
+
+        if not import_props:
+            ifc_import_context.report[guid] = {
+                'expected_props': original_props,
+                'observed_props': 'None'
+            }
+        elif original_props != import_props:
+            ifc_import_context.report[guid] = {
+                'expected_props': original_props,
+                'observed_props': import_props
+            }
+
 def run():
     original_path = '/Users/geerthesselink/Documents/BSI/Import-Certification/original_Schependomlaan (1).ifc'
     import_path = '/Users/geerthesselink/Documents/BSI/Import-Certification/import_Schependomlaan.ifc'
@@ -143,6 +162,7 @@ def run():
     compare_entity_counts(ifc_original_context, ifc_import_context)
     compare_entity_guids(ifc_original_context, ifc_import_context)
     compare_entity_timestamps(ifc_original_context, ifc_import_context)
+    compare_property_sets(ifc_original_context, ifc_import_context)
 
 
 if __name__ == '__main__':
