@@ -1,0 +1,2097 @@
+error,in_original,in_import
+Incorrect decomposition IfcProject,Only single IfcProject,"project #7=IfcProject('13wgq_5dL2zBQHLeOBYcly',#1,'default project',$,$,$,$,(#12),#8) is incorrectly added and no decomposition"
+different GUID,20FpTZCqJy2vhVJYtjuIce,0FVKnNgfXFq9Z6WLhsquF5
+Different number of buildings in site,1,28
+Mismatch in building GUID,00tMo7QcxqWdIGvc4sMN2A,3famIPE915HAYLkGVRgnKc
+different GUID,00tMo7QcxqWdIGvc4sMN2A,3famIPE915HAYLkGVRgnKc
+Mismatch in storey GUID,1Q6PG1Po9C5hoyWBnJmRby,2RM1AVv9H8beSmAziDkd5A
+Mismatch in storey name,-1 fundering,IfcBuildingStorey - -1 fundering
+different GUID,1Q6PG1Po9C5hoyWBnJmRby,2RM1AVv9H8beSmAziDkd5A
+different name,-1 fundering,IfcBuildingStorey - -1 fundering
+different GUID,3vSAOyJwTEhQMEIJ6D9qRY,3DwrJhsfHE4xRP$4hB6l4X
+different name,liftputwand,IfcBeam - liftputwand
+different GUID,1a49H1hof5wg_s62YvIj$u,07fIt9ZbnA_hLfMN5LeLU0
+different name,fund_strook,IfcBeam - fund_strook
+different GUID,2501ntWb95m8MEJo4qrYny,2Sd$p5j99EPgzsS6fNNdio
+different name,fund_opstort,IfcBeam - fund_opstort
+different GUID,1HNUZLqr52MQIS8JLIpeyr,06KtQSsQ5AiObt92s5AwCF
+different name,fund_opstort,IfcBeam - fund_opstort
+different GUID,3yL4PuBWf5GQngGRpOzQj0,1s$waCIJTBzOyUD2MaeURI
+different name,fund_opstort,IfcBeam - fund_opstort
+different GUID,2CVrp1qDn4igzjEOaRy1At,3jDrE_VDDClQgmzCMCzu5d
+different name,liftputwand,IfcBeam - liftputwand
+different GUID,1c9iYd1ID6_8SdfF0_$1oL,0HsjCUZIP5PBlZsbC$w82S
+different name,fund_opstort,IfcBeam - fund_opstort
+different GUID,3rCiBKKhrDwwbew3HLeWaY,3dQGPqg7v3KBUXI48aQ4j7
+different name,fund_opstort,IfcBeam - fund_opstort
+different GUID,24n0GKaSvFeRV3aNSSwJju,0ytEiXS0D6aPbdQgOrWqB1
+different name,fund_opstort,IfcBeam - fund_opstort
+different GUID,1OnyTz3nHAl89yfXGn_mxA,3e0VMO37TAqe4O1uyt4wnN
+different name,liftputwand,IfcBeam - liftputwand
+different GUID,0dG$USXzf0kfosAbNzx0hZ,0UXtmhXdjAwveWU8vh9gbD
+different name,fund_opstort,IfcBeam - fund_opstort
+different GUID,2ccM307sn8XeBTwsFKE_pR,0QYAM_vfjAJh1MdG4Y7yF9
+different name,fund_opstort,IfcBeam - fund_opstort
+different GUID,2Ye2fKnjXAEftAAecRMNfV,18_xxUGcrF0wRdeDl3c7oU
+different name,fund_opstort,IfcBeam - fund_opstort
+different GUID,2QLBwuZDfEmuESkiT_yymc,2B0YwiRmX5Lw8BjIix8$Wi
+different name,fund_opstort,IfcBeam - fund_opstort
+different GUID,0aWtcM$1j1$wMs6qq3amY0,3JaW6lCprF5hj8XNqyPr0I
+different name,fund_opstort,IfcBeam - fund_opstort
+different GUID,21JedoyDf1jg7ixONhPH5B,2lb9dQ8k56URUrGT6nF5ix
+different name,fund_opstort,IfcBeam - fund_opstort
+different GUID,1o34KGWg5AnRTiJOhwQVdk,1kkdjLKoD0qhBXWqeMyIf8
+different name,fund_opstort,IfcBeam - fund_opstort
+different GUID,0m0_V5iFz0993Gy0YjDTTT,0vK4ydUg946PXoul$dyPbx
+different name,fund_opstort,IfcBeam - fund_opstort
+different GUID,3f3PNjEKnD0vZTIofateh2,12DjogLJnFgvC$pniY6afG
+different name,fund_opstort,IfcBeam - fund_opstort
+different GUID,3EDZcM$kn05hoHQ$Z2Vy3d,3RhflUqe9Eu939cAMZdIIG
+different name,fund_strook,IfcBeam - fund_strook
+different GUID,1n2fUvkDb5$uMdMN$ImRfp,2YxYlHbKn5c9tkO3il$OLn
+different name,fund_opstort,IfcBeam - fund_opstort
+different GUID,2JP$Vh$OrBn8WddLabs41k,0fgHlzNGr2$vtPVgGLwowd
+different name,fund_opstort,IfcBeam - fund_opstort
+different GUID,0thyQFjPX45OCdLCm3UMpK,2JVeqhc397$uKfR7ALoXYj
+different name,liftputwand,IfcBeam - liftputwand
+different GUID,1Hv1uFMHTCJ9Q$UWKGXCNB,1HwsXrx5b9SRR7cH6SHPXD
+different name,liftputwand,IfcBeam - liftputwand
+different GUID,2i_cekBh9Av8P5LKYyoUPb,2l283Azdj1NwQOtt_HFCCH
+different name,liftputwand,IfcBeam - liftputwand
+different GUID,3eiwfebPz6aBJmLNliMSzQ,02eogodzH0gP_fKRKnXSn9
+different name,fund_opstort,IfcBeam - fund_opstort
+different GUID,1O9Uq4qWPFXx76ALAUin0I,0R_URXNUPE_9uTqfXQotNI
+different name,fund_opstort,IfcBeam - fund_opstort
+different GUID,3Vnlo777D6sear4VnH98Ey,3yAx9j$uv65PuMk_ySzZFW
+different name,fund_strook,IfcBeam - fund_strook
+different GUID,1PIXKKGbjAhveqygt5d$RV,3AhVM4yKn4dhmtcM3jVKwl
+different name,liftputwand,IfcBeam - liftputwand
+different GUID,1ZKphijRv5aQMN2BPxf7bL,3JMiU70CX0GeIrufMXd5S$
+different name,liftputwand,IfcBeam - liftputwand
+different GUID,0zCNOX7Q93$xXgBkmGhGey,0x5gXuh_9EqhfkfgwXucd0
+different name,liftputwand,IfcBeam - liftputwand
+different GUID,1oISTbKmL9mfZhmsVEb8hJ,3PknIZ0tH4$PcL4FnoM$zM
+different name,fund_strook,IfcBeam - fund_strook
+different GUID,00IbOoI7nFSxfp71ZyLBPm,34a19aLIX6JeLKqL55hCoX
+different name,fund_strook,IfcBeam - fund_strook
+different GUID,1ixfSQr9n76xc3$_jdjyOM,3Rwk2YXtfFkRCKnVgKHrXc
+different name,fund_strook,IfcBeam - fund_strook
+different GUID,0j3ypi4UzFcQ6as7zS7nt8,2BKBqvFlLA4AIt04UqCsU6
+different name,fund_opstort,IfcBeam - fund_opstort
+different GUID,3ig8lYbDr8gAJsEpAqMubV,3saImt7zL5lf5KOgZE_Ye$
+different name,fund_opstort,IfcBeam - fund_opstort
+different GUID,0jNuu$i_rD2eUoRxpITzh5,2Ul02Gr0jE19YRs24B4evJ
+different name,fund_opstort,IfcBeam - fund_opstort
+different GUID,0lc$v_NHjC_xBVfczhz9SK,38GgOusjDFXv2RhfEvVoj3
+different name,liftputwand,IfcBeam - liftputwand
+different GUID,3oDHF87SD6GB$hBtQMlz7t,1TmY4jdN57cx_tauOWZt0V
+different name,fund_opstort,IfcBeam - fund_opstort
+different GUID,2f0$QVByX6ugBTFoMIOEvG,3A5msQQV55QxOKvJm4bS6o
+different name,fund_opstort,IfcBeam - fund_opstort
+different GUID,37_P0I4rjCSP6yY7b9oPCb,1OzRgkkkr4HxAyxqH60AqN
+different name,fund_opstort,IfcBeam - fund_opstort
+different GUID,10MxXhTT99LQ0GlRLBqlO3,2u34fm8Yn7zvyRjpphMFO9
+different name,fund_opstort,IfcBeam - fund_opstort
+different GUID,3UqAkIwpHEvuKm0l0k$CKt,3VWIZ1ZGH6i98tjl6Owyn2
+different name,fund_opstort,IfcBeam - fund_opstort
+different GUID,0nMFjIkQb8nO7pDrrZbNb_,2_skAUkfb4PfuEpr$jZvjF
+different name,fund_opstort,IfcBeam - fund_opstort
+different GUID,3QJiKD5p93qgcUxHX8_Z7j,0AMFrGYXb3owtl6htSK6os
+different name,fund_strook,IfcBeam - fund_strook
+different GUID,0sN$ROEPr71OXQ86YpsVkj,1T_LH_WyPAcebnw5FTKDc0
+different name,fund_opstort,IfcBeam - fund_opstort
+different GUID,3UWW7y9uTD78thZQ1AADnu,1wqRaKOVLD$fHNYT1ZBsON
+different name,fund_poer,IfcBeam - fund_poer
+different GUID,2ON6EcLMD0$O2ZGZgwvXfd,2NFcxr89D6sAxVX34b9C8l
+different name,fund_opstort,IfcBeam - fund_opstort
+different GUID,2K3xEFMCn8Oe$qGTeRQqLG,00JCHCaPX1FAkj5v0DUs1F
+different name,fund_opstort,IfcBeam - fund_opstort
+different GUID,00nskTKeH6WOgaqMmwF3pp,0KyX0m2Qn9E9Vh3vEc58WN
+different name,fund_opstort,IfcBeam - fund_opstort
+different GUID,0HQQO2$RT5NxjAYqu6dRxV,1irArSlWfC_wk6TKP$I5va
+different name,fund_strook,IfcBeam - fund_strook
+different GUID,39pO7ncAnD5w5sgzGgcfcf,1KrVvsDL5DzhhFJFSA3zUC
+different name,fund_strook,IfcBeam - fund_strook
+different GUID,2MzOJGCZbCuh2oTKejJas_,2gIjYklefFngAR345CYM7E
+different name,fund_opstort,IfcBeam - fund_opstort
+different GUID,0M6fb3N3rBghp24veh83Nr,1dirnqqbP6Ze4mS3F_XgIc
+different name,liftputwand,IfcBeam - liftputwand
+different GUID,2fMb5HmwrADxi44qQ_8H2J,35LFDzinDAzgLKsCwPXCTU
+different name,fund_opstort,IfcBeam - fund_opstort
+different GUID,1ARCkaiqTCdheZNfSbvLCm,1PeIyoTzjA7PY4imIkCtEf
+different name,fund_opstort,IfcBeam - fund_opstort
+different GUID,3MpbjSJ79AF8GSoW6uAzc0,0frdq$BODBleyHMq5pIBYJ
+different name,fund_opstort,IfcBeam - fund_opstort
+different GUID,3aUxcoO_j3tfpBZz8KhVDA,1p4A1Ey1j2fAJUPAXrfK64
+different name,fund_strook,IfcBeam - fund_strook
+different GUID,1ZgIIxjwjBBBxWK2odqmNt,3k9FzXHG5FUxZFfQz9HmEG
+different name,fund_strook,IfcBeam - fund_strook
+different GUID,2FwhScHlD1lf2P0_fxWpdF,0LIcuiSev3IvHg77LPpq8_
+different name,fund_opstort,IfcBeam - fund_opstort
+different GUID,3KZ1A31pLDZgv61Pr5ILuZ,2e2Pr_t752Rhwta1NXBLvT
+different name,fund_strook,IfcBeam - fund_strook
+different GUID,1AAprqPif3muSW78GUrrAQ,2Utce_lsT3SeJbAasJLyXu
+different name,fund_strook,IfcBeam - fund_strook
+different GUID,0CDXLiWLH6_eUKGAQGeEX9,38_A3ytubCfPpJ6x_e9lF3
+different name,fund_strook,IfcBeam - fund_strook
+different GUID,25jnbRuOH3yR0Vnxbrf4Ey,03kDYi4LP7Oh8ni9K6Mqa2
+different name,fund_strook,IfcBeam - fund_strook
+different GUID,2DXRwGxjb2hAD7EnaJghPn,0PIZq2i0D8aQQMDqgzgsCn
+different name,fund_strook,IfcBeam - fund_strook
+different GUID,0vISlVtTXFjgpC$RZewh3J,1zXeuHbBzDPO8WuR0X6qUC
+different name,fund_strook,IfcBeam - fund_strook
+different GUID,1W3I3R2x19bfOBW_WD4sxL,3EKTbYS7zAX831zsPUHAau
+different name,fund_strook,IfcBeam - fund_strook
+different GUID,2onr4hRYf5AOPdEOcMaAGr,2pJOYumpXD8h_kmIrvEpWy
+different name,fund_strook,IfcBeam - fund_strook
+different GUID,2svKHCTfTCJeS$mVvXojdH,0yfBRXecLAxgvxFM6SlN5X
+different name,fund_strook,IfcBeam - fund_strook
+different GUID,3whW5kRxz9uPvew6tBRVkS,2zOZYXXDD7PAWSMxP3lhWk
+different name,fund_strook,IfcBeam - fund_strook
+different GUID,1L189paHTCx8_OpSrSK35v,1uV$4cx7XE3f89Phzy1zhE
+different name,fund_strook,IfcBeam - fund_strook
+different GUID,3LgbXHWjL33wXWkwFrdttj,2NrWuMQJ9F$ev2f$71HsLs
+different name,fund_strook,IfcBeam - fund_strook
+different GUID,033KaR1kL86e6qeKWXcfxF,26m6fUA4TBxhHB6z1Z0pC1
+different name,fund_strook,IfcBeam - fund_strook
+different GUID,2K7JRliz9F8R2WKcFfDhY9,0iY1gH1drCiuPdJcG5ZH9i
+different name,fund_strook,IfcBeam - fund_strook
+different GUID,3pu87UvP13p9E_$8QPMNkM,1oH86I4rL6ww5O9Jbjv0T1
+different name,fund_strook,IfcBeam - fund_strook
+different GUID,0bBhbWDY123eBffCPFwaaU,0zCogAYd9DzBZt2MYFX1wc
+different name,fund_strook,IfcBeam - fund_strook
+different GUID,3BxVQne458OBfuo$8pV1HD,3QfEujXP1C9Bm0lKq28TT_
+different name,fund_strook,IfcBeam - fund_strook
+different GUID,3r$IV2dbHAOuD3XJ$Kd92o,1wLX7794z5_vtCQneAmMkX
+different name,fund_strook,IfcBeam - fund_strook
+different GUID,2UtSx95dv3JRuY4Yu9CqPb,2Uy$ulJR5BsxqXAL68Nnlh
+different name,fund_strook,IfcBeam - fund_strook
+different GUID,0H6WZKwMz2yfLBeSGHTQGE,0OdMq3y51FReGViSYi1AD2
+different name,fund_strook,IfcBeam - fund_strook
+different GUID,1qbDTWHmL3WOviuiQtPseV,0Beds4wf92VRNkX01tDVAr
+different name,fund_opstort,IfcBeam - fund_opstort
+different GUID,2SNH8$CzP0tQ4Ndlfu37pR,3gNiWd21rDWR1J83ae_PwD
+different name,fund_opstort,IfcBeam - fund_opstort
+different GUID,3THh6wol9DE9p0sKC2_JQR,1ryLyAXej9wxywa$JN0ezQ
+different name,liftputvloer,IfcSlab - liftputvloer
+Different number of IfcWall in storey -1 fundering,36,50
+Mismatch in storey GUID,2SWZMQPyD9pfT9q87pgXa1,33m5wC27zBUvf8G_Py6cHD
+Mismatch in storey name,00 begane grond,IfcBuildingStorey - 00 begane grond
+different GUID,2SWZMQPyD9pfT9q87pgXa1,33m5wC27zBUvf8G_Py6cHD
+different name,00 begane grond,IfcBuildingStorey - 00 begane grond
+different GUID,27XF91$mX5sw7SxEowD4Bu,3afRiWCyj7tRWjSL9j3fgV
+different name,betonlatei,IfcBeam - betonlatei
+different GUID,3_sm0$DsvDaRlGqGW8ep4k,3FXBbMl9975PqVdg48p2YP
+different name,geveldrager,IfcBeam - geveldrager
+different GUID,0KNmVKmh519eKhcfjdm0L1,1YCtMqEVXA_wloSPFbrTnj
+different name,staallatei,IfcBeam - staallatei
+different GUID,3NdkzhQHz3wxMr0BA5Cn4d,3yPmcmHEv9Nw62R2xKVRoW
+different name,hoeklijn bordes,IfcBeam - hoeklijn bordes
+different GUID,3$Ql2irJbA8fOlMMiZl_$S,1DdoRnGc5COOqb_MBzq8cy
+different name,hoeklijn bordes,IfcBeam - hoeklijn bordes
+different GUID,3gSHfU2iT01OSAG8Jn4wG2,0ejDHW$qbE3fiiomhnCxMB
+different name,staallatei ??,IfcBeam - staallatei ??
+different GUID,3xcFzxVzD9DfEgcbGOMYmH,1fOhGEq31E$vReTkxrZPH5
+different name,staallatei ??,IfcBeam - staallatei ??
+different GUID,1oot26Inz1pwxngGAk8cuV,0hJmXqt1X9Bvh9D$C5GLOj
+different name,staallatei ??,IfcBeam - staallatei ??
+different GUID,1AjRY3xPX758SLsUl51028,3MqaAEnHfAdfR4I98aF3aP
+different name,staallatei ??,IfcBeam - staallatei ??
+different GUID,2BhHYCsB186eQstC61zld8,1zwzDBtyL9JQ20oHb6Kmfo
+different name,staallatei ??,IfcBeam - staallatei ??
+different GUID,21xb5SEvbE4Pw$b8EVOX6N,22ekdLYm508x9rAi7iIt4k
+different name,staallatei ??,IfcBeam - staallatei ??
+different GUID,0mG1Qo1Nb4HAfQgPiP4n0Y,0P9opEGcv3z9Qa_8spVI4U
+different name,staallatei ??,IfcBeam - staallatei ??
+different GUID,1eJX_08sL1_ffD$3nbLtpZ,2Zr2WdDbTEhvHsWYF$EDZ4
+different name,staallatei ??,IfcBeam - staallatei ??
+different GUID,3ig3xBquD4c9HixSRyX5yM,2_rkpRtn95A9JJOO8Ca5pA
+different name,staallatei ??,IfcBeam - staallatei ??
+different GUID,2tmnKYZKn8sO9BqIuZ6xS0,28wIt14n14Jhr3HD7_5VXf
+different name,staallatei ??,IfcBeam - staallatei ??
+different GUID,2Z2UMyiwrDsfrq9D0VZ8R7,0kBgEFTRz1CQ7W3IgHwGz9
+different name,staallatei ??,IfcBeam - staallatei ??
+different GUID,0fpGnSq1XBN9W48n_kM8JD,1emjWv$IzFc9BnBrkYr93g
+different name,staallatei ??,IfcBeam - staallatei ??
+different GUID,02SVgZJNDEAAHLzfjkFeZE,2oLuJM6H1BsOh0OYVGz_qv
+different name,staallatei ??,IfcBeam - staallatei ??
+different GUID,3SKotjzqrBmBNE6BHE$74D,0zYNP4wDzBvescdVqTcg1R
+different name,staallatei ??,IfcBeam - staallatei ??
+different GUID,3JPq8Lr7j608o_19_tHVwL,3JrdON0ZH0$hVEOEtn116M
+different name,staallatei ??,IfcBeam - staallatei ??
+different GUID,0PCQYvXN55QugpN5zetDz7,2uvcjiKkj6A8XXIgFIdmip
+different name,staallatei ??,IfcBeam - staallatei ??
+different GUID,2fevyoim92YBjo5MBo7Fcl,3hGUssdD1FZP3ku1llC5aP
+different name,staallatei ??,IfcBeam - staallatei ??
+different GUID,0a9r_haP52heLpUcxlwVOG,0iE8$QManCywKTJzKF5Rmt
+different name,staallatei ??,IfcBeam - staallatei ??
+different GUID,2qYBP3OGnE2xwKkdnuHQfu,2gFAiaAtjDGBYniZ1kqBai
+different name,staallatei ??,IfcBeam - staallatei ??
+different GUID,0I7LtwbrXFA9_X5BhUfkIk,15ZAItQzbDfON78TWqkUrn
+different name,"K152,4/12,5","IfcColumn - K152,4/12,5"
+different GUID,03akWG6jD5YvV25Iim327M,3K5ZGJZoT6dRFfCCwMDX_d
+different name,K80/80/4,IfcColumn - K80/80/4
+different GUID,1e5jDbsmzDIxa_hKrQ03J4,0Cmys2ByPCiBgVVACT7K$n
+different name,K80/80/4,IfcColumn - K80/80/4
+different GUID,2n3hZ9D9H7_hLXKsBS_jtw,1uZkaIbpf1UQ$ZCfJhvE0G
+different name,K80/80/4,IfcColumn - K80/80/4
+different GUID,2Ut36uLtj0Jh3lOXK1Cyx8,2yS0DBRB13CgXtUmE96Uji
+different name,K80/80/4,IfcColumn - K80/80/4
+Different number of IfcCovering in storey 00 begane grond,252,0
+different GUID,2IW6IWMcn9p9GSb$1bcM9y,1FW1gjfd1ChgVpQBnCanTs
+different name,stelkozijn,IfcDoor - stelkozijn
+different GUID,1xjGgwmzP23uthLfXurB67,1w8ifYV9D1jv4a5IygdaYx
+different name,merk A,IfcDoor - merk A
+different GUID,39Lqndo0HD0PPTIv$0QRef,1lQqGZPRr8Px5tc7vR57vQ
+different name,stelkozijn,IfcDoor - stelkozijn
+different GUID,1aJ$Qkat1AFgC0aRnCKwoP,2Ln5W_yp51X8dMugvJyja5
+different name,stelkozijn,IfcDoor - stelkozijn
+different GUID,2Vb0PGtxLAoxa0tjC07GCC,3XDy8LFzr3ExRTUko3LnAA
+different name,stelkozijn,IfcDoor - stelkozijn
+different GUID,31JhVzvWf3EhVtVaBbU7f1,0WG7orEND3GB638slU$Zzu
+different name,stelkozijn,IfcDoor - stelkozijn
+different GUID,3KMMm8oqPDGRsQcfPPC6kS,0xeB6cuhTAl8b_MpU2ToYi
+different name,stelkozijn,IfcDoor - stelkozijn
+different GUID,2DaLEnOpD71xPKiE7SoDTP,3frPLkVnXBrAFMord8gfd$
+different name,merk F-R,IfcDoor - merk F-R
+different GUID,3J3WcMT$r8Zhg8fsSyC9$A,3h5rkspI544vMavdw1bSJw
+different name,stelkozijn,IfcDoor - stelkozijn
+different GUID,0$bCLIu6XFZvKNAS5U2$M5,36Lk3VgR12FfYtMCv_sJGv
+different name,stelkozijn,IfcDoor - stelkozijn
+different GUID,2ANGxgZInBiOwD5Faih5nH,2mU20xAbzBmOWLspwn340g
+different name,stelkozijn,IfcDoor - stelkozijn
+different GUID,2qunupXbPCmxdwcf_gKob5,35Lkg4QXnB5gRX$Jg27ZWG
+different name,stelkozijn,IfcDoor - stelkozijn
+different GUID,1ktZHnXqP81AONft3VUKlo,2MfZejJVXFZv486x17vNRQ
+different name,merk F-R,IfcDoor - merk F-R
+different GUID,3ztvEc4nv0AQG9DRef3G4g,0wo_lqegH0lAITf5z$1g6a
+different name,stelkozijn,IfcDoor - stelkozijn
+different GUID,1s39gsbh161QnI10muM$N9,0vboa$F9X7DwrKeFMaDeTS
+different name,stelkozijn,IfcDoor - stelkozijn
+different GUID,2lIYJtavL8Qgz5F0uXNHL_,2g8qdIRyL6mRVexhH2SNCj
+different name,stelkozijn,IfcDoor - stelkozijn
+different GUID,0O3slHyAT0WgNB1xnKYnaE,3vDrFpihL7q87xdxi$x2Z7
+different name,stelkozijn,IfcDoor - stelkozijn
+different GUID,0ZNb2THTz00eu1RAEsgAJm,2Z0B3Gt2LBLh3bww6aiI87
+different name,stelkozijn,IfcDoor - stelkozijn
+different GUID,3IAsrlzln2x9CGCwGk5aBc,2b8a5Y_$n5yO1QNasVmJcr
+different name,stelkozijn,IfcDoor - stelkozijn
+different GUID,0ci9nEgpD5hOOJ58LmeO5E,1yB$u595nAkPGI_1HAH$fs
+different name,stelkozijn,IfcDoor - stelkozijn
+different GUID,2WU8Fxger4FOI4ySi472UL,3i1SCSMFjBs9rDi2xNFXF0
+different name,stelkozijn,IfcDoor - stelkozijn
+different GUID,2$o2jRMbz4Ug6JAhiXdSr5,0jWmoiB511ZOSk6zMj$_S3
+different name,stelkozijn,IfcDoor - stelkozijn
+different GUID,2O5ano1e1EJeQxf8IVwahY,1V_rZ8hXz2bw7AgSI67HBW
+different name,stelkozijn,IfcDoor - stelkozijn
+different GUID,0B9KdcSuf3jh8POLbkPzQ4,1Pwgfb2gjFs9hcRaczr5hb
+different name,stelkozijn,IfcDoor - stelkozijn
+different GUID,0B9hE_gGb05uoY$Fs9k827,2bYvxLkRj2pQZ7Tt0F_c9d
+different name,stelkozijn,IfcDoor - stelkozijn
+different GUID,0YHiCuhWH8Qh_HTW9vOiHy,2q4wo0H6nCzQdC2CQV3dVB
+different name,stelkozijn,IfcDoor - stelkozijn
+different GUID,1h4sXeQ3fCCQTfDg40kePC,1AcPk9YrL4FuIQ8BUe1YA5
+different name,stelkozijn,IfcDoor - stelkozijn
+different GUID,2KQzcnl4P108p1xYLp2BcG,1f70TAPd5AGQs4Tx1hojSf
+different name,merk A2sp,IfcDoor - merk A2sp
+different GUID,1btohEUvb9RxFSreiwC9NA,2gwHH0iPj2Ixt5Y4k1_LTU
+different name,merk A2,IfcDoor - merk A2
+different GUID,1dnueTAkL0h8RlVLQtwd3w,2h7xgDXe519vp9NAV4Ndv4
+different name,merk A1sp,IfcDoor - merk A1sp
+different GUID,28KVDgny54GgQmudzivmSF,1j1v1Hh5nAGBAX4TggiilK
+different name,stelkozijn,IfcDoor - stelkozijn
+different GUID,1oUU4liMH32hV5EvVPxQjH,2SD7pXuQPBGPdV5XoCT6K6
+different name,stelkozijn,IfcDoor - stelkozijn
+different GUID,0X248I49P2ruJd$STte42p,3dnaCdwM19ORt3VzGQ7D$D
+different name,stelkozijn,IfcDoor - stelkozijn
+different GUID,2lRzoejMfDL9Jj8LLmEFKf,3Q2tKNwPL4r82Z7FhMYEZv
+different name,stelkozijn,IfcDoor - stelkozijn
+different GUID,1jm08JDI1AxPr7MMlr69d8,3R2JPuuh96WPpgb5JnfsCc
+different name,merk E3-R,IfcDoor - merk E3-R
+different GUID,2VhjvgnFDDXBW8fTsJGXX_,07nd4dAjDCfxF0FhvnU25X
+different name,stelkozijn,IfcDoor - stelkozijn
+different GUID,0zCkMWkdv5GfPfhUIwPa9J,0TjHEHsa1Bmfxy8$W40s2F
+different name,stelkozijn,IfcDoor - stelkozijn
+different GUID,0FjOoBbcP2FxJiAEY$_Ky$,1tPxeHpf1FM9QmOPjIjwWE
+different name,stelkozijn,IfcDoor - stelkozijn
+different GUID,1N$Oi2JN18FvfRlqLXpxqx,3iYx7s9C10vAGp0lihyQQA
+different name,stelkozijn,IfcDoor - stelkozijn
+different GUID,1k3S_FTjr5YgVNsOxgXfqg,0MJamlqIf7FeCVRECwIFYF
+different name,merk F-R,IfcDoor - merk F-R
+different GUID,2hVrKM8Vv2Xxs7m9ITda8L,3dQSGInCr7guWNN8Gv_fm$
+different name,merk F-R,IfcDoor - merk F-R
+different GUID,0yy1u9ooTD5vShTp5wGvUE,37eGZx9Tj68fgK2FB7GSOL
+different name,D6L,IfcDoor - D6L
+different GUID,3YCmX8dc506hVi08zLmpbh,0uumskptL6CBDsDHm_qvNn
+different name,liftdeur,IfcDoor - liftdeur
+different GUID,1V8Tq0OFj91OWiIb7OgssW,2wKJAImpbDtQPXPEHdSqnf
+different name,liftdeur,IfcDoor - liftdeur
+different GUID,2qQEfBo11B5RTiiCq7k79L,33POxJ5Av9xg35FodnRMBK
+different name,liftdeur,IfcDoor - liftdeur
+different GUID,1uxuNhGl5C28Agr6eD5Bmj,1N8jdPhLj8sgL9WTBmPfA9
+different name,liftdeur,IfcDoor - liftdeur
+different GUID,2tt4s65cb2fgd3alKSa46a,2823zFCGLFJwzqOVgPgY5l
+different name,liftdeur,IfcDoor - liftdeur
+different GUID,1DMKLKe45CzO6gemze$ha$,01$ZvK6jH3q9yL5jdGIGeG
+different name,D3L,IfcDoor - D3L
+different GUID,3OgInA0dD3qBERzneS1WG0,0z9un40jD1I8aH16Pb1wX8
+different name,D3L,IfcDoor - D3L
+different GUID,1cjDN$L7j3xQ6006KWGjlJ,3mxY_DbC16Yhj88mWi96rS
+different name,D2L,IfcDoor - D2L
+different GUID,3cjGEZBqP9GQh7eyumO1LZ,2$qSefNIrCM8BKziGedEMi
+different name,D3R,IfcDoor - D3R
+different GUID,1LZHcsRev6lhsez4LMDFr$,35I3$LT1r7v9lwWhk4$5Mz
+different name,D1R,IfcDoor - D1R
+different GUID,0wAyj9PWL7guJFQHdw7ccc,16vu2$X35DrftxjUzy9_i6
+different name,D5R,IfcDoor - D5R
+different GUID,03KwpgDxXCQBYi7KkY7sYB,3g2i9iZpPE_97wP2de52DE
+different name,D6L,IfcDoor - D6L
+different GUID,2cb8c3os963f5n9Wjr4O99,0B86d8uFD42QbMJSyXJG1M
+different name,D1L,IfcDoor - D1L
+different GUID,3N5xNVjr9Ehhxk6BUdGUAs,3ic8Y1pMj35PLrDX6Rrd50
+different name,D5R,IfcDoor - D5R
+different GUID,15D5L0A5L99eNxZZrhk3Pa,39vBIChQ55ZRzPg7fAoHmV
+different name,D3L,IfcDoor - D3L
+different GUID,2AH9fQqwXE9O9QvwUR77zF,23Uw0gOw59If0oSIXKSv0H
+different name,D1R,IfcDoor - D1R
+different GUID,02v5nA3u16Nh8SnTLbZVnM,1KCCZIigvDsQTerm7zYSn_
+different name,D5R,IfcDoor - D5R
+different GUID,3BDarYIf1EXRuu7o6glIV$,17pUd8ULDFL8RHy_YwLJE4
+different name,D1R,IfcDoor - D1R
+different GUID,2lVoJcfoDAWB0KDozjmBha,0$C63YqCz38wFUQokxM0wP
+different name,D6L,IfcDoor - D6L
+different GUID,3lE1SkMIbDaBDRbQV9PuSz,0D0wgIJxz8zeIWayEIBf0J
+different name,D5L,IfcDoor - D5L
+different GUID,1donuLXK125fRkeWlAA8Cq,3IwyszoTX0JPmw758YLAyM
+different name,D4R,IfcDoor - D4R
+different GUID,3I96DDOZX58xC3RmUZssQx,20FFy1IdDETPH2XlSaymnp
+different name,D2R,IfcDoor - D2R
+different GUID,3lsMx$fx16hhyCY_qE6IRh,228X9WZBfDW8eWH_3n1Gsb
+different name,liftdeur,IfcDoor - liftdeur
+different GUID,3V4FbFEIL7Texif7yDL7jp,21d8CDMdz19AjPHMgeX5_j
+different name,liftdeur,IfcDoor - liftdeur
+different GUID,0zzou4R_11kPXaS0hC0pre,3EEhEzMx58FxJt4xCmkIek
+different name,liftdeur,IfcDoor - liftdeur
+different GUID,2RuuzaH1vFUwKXpU33GTyt,1NCSGiOkPD2uknNWs85lZv
+different name,liftdeur,IfcDoor - liftdeur
+different GUID,2uTeXyy8XDYvkI0uWy38WP,3hLgha6sb6HBJsC52QiXST
+different name,D3L,IfcDoor - D3L
+different GUID,012S6Z0qLCRuoYXSZ2tygw,2ZckTt$MrDm9LKXcdPcIdP
+different name,merk A3,IfcDoor - merk A3
+different GUID,38X2u$b_51PQbXrbF3UXq0,2An05Ivc9Fi9hPFkX1wuDV
+different name,merk A6,IfcDoor - merk A6
+different GUID,0MO3NBPw1FofnfwKUa2odt,0xMILty8j3NuWLG5ODSELF
+different name,merk A5,IfcDoor - merk A5
+different GUID,27b7kJ2C50Wxcp8woudHRw,3UnsetXRTCJOuc1WvIer$r
+different name,stelkozijn,IfcDoor - stelkozijn
+different GUID,0JzQ9ARmz4J9VOnJDh2nWI,3h0j9lIObCqhIFvQJ996Nk
+different name,stelkozijn,IfcDoor - stelkozijn
+different GUID,1$7$AzEPH8hxqREDEXC9Ab,0GsiAiULPD9OSn$99DMEuz
+different name,stelkozijn,IfcDoor - stelkozijn
+different GUID,2b6PFyVHj5AwfHVP2cSS7T,2s3SYJakTFZOvdZouODslW
+different name,stelkozijn,IfcDoor - stelkozijn
+different GUID,0NZRpUHUn8f9KjPRtTRauP,2WKJHNtkHEXBV1EJqviiiV
+different name,D5R,IfcDoor - D5R
+different GUID,3b$SMEeUf10eNHEHoPH0ta,0rSAd8ZfrF2wOODaQF6mzX
+different name,D1R,IfcDoor - D1R
+different GUID,2$GgreKs5Auv1nDBFIDDQQ,1VFX3NfxXATxHx_sNPIlCO
+different name,D2R,IfcDoor - D2R
+different GUID,0NWv8IgP5Ch9a8sHZoyivA,16hToi$Mv1SRwlRH6Tj8dB
+different name,D1R,IfcDoor - D1R
+different GUID,27$YR6LvnA1f4dzXk05qPo,0AI2D9UGX5_QDcXSDbvrH9
+different name,traphek,IfcRailing - traphek
+different GUID,018TK7$EL5zAD5j0tKRbOl,3fgktyO$58hgbxC1Pn9Cts
+different name,traphek,IfcRailing - traphek
+different GUID,0R3bLdPy59eezMGemvtvI1,30vOQH$NHD28BnhomaXleM
+different name,traphek,IfcRailing - traphek
+different GUID,0f24Ke$693gf5gvla2DUIp,2R3BRkyuv15gTuxqu7syNX
+different name,traphek,IfcRailing - traphek
+different GUID,3n$0aQqvnCVgLMGYDxwc9U,2LW6Ab$jH98gk$FXeF3oa1
+different name,vloer_V0,IfcSlab - vloer_V0
+different GUID,152mZBEq1ABBFkricfATYn,0BwbasQHP1Aw397qGfKn02
+different name,vloer_V0,IfcSlab - vloer_V0
+different GUID,1BHDU1gL97UfslrSbfRmfy,3EJaDDPKv4hgF8CxYNgh0d
+different name,vloer_V0,IfcSlab - vloer_V0
+different GUID,0GZ1cjigvCbhA8smeI2EOl,1l6IhzUHj8QPZhAZGFO4BK
+different name,vloer_V0,IfcSlab - vloer_V0
+different GUID,3KFzTADcbBYg2niuF4VUeU,21wSfDzUXAGwZp_M5MElw8
+different name,vloer_V0,IfcSlab - vloer_V0
+different GUID,1JLZkkp4vD_Ph$NdsQnOJw,1OBdg2iMDFHuZvs8ie$4L4
+different name,vloer_V0,IfcSlab - vloer_V0
+different GUID,3c6u9NZVTBmu7ySb3d4Kyx,1RCU6dbbDB2hLIM21eYSii
+different name,vloer_V0,IfcSlab - vloer_V0
+different GUID,2xho8b5LT0bvdcb_$4vT1A,2V5P3QoarFDQ5QvGnW13C9
+different name,vloer_V0,IfcSlab - vloer_V0
+different GUID,1ezF2lk9bATPGbDzbqi3lV,0JAYRWBBj7bheMN2fCA4dk
+different name,vloer_V0,IfcSlab - vloer_V0
+different GUID,0Du7sXlKf9Q9osiRbTp0DB,2JXjAt2QfBIuemXDxECMz_
+different name,vloer_V0,IfcSlab - vloer_V0
+different GUID,2q30Qb1_LBxgFSuRvgl_Fw,2NkozpKbD3UAbUA$iUGucX
+different name,vloer_V0,IfcSlab - vloer_V0
+different GUID,34UVZsoiL7SxjW6pAa_Hb9,1TDYwl$gnBzAaQCO0WxFRc
+different name,vloer_V0,IfcSlab - vloer_V0
+different GUID,0Xrfa1Yov20v9aSa2Qy1KU,3i74oGmbLABhZJQ3eeC3B7
+different name,vloer_V0,IfcSlab - vloer_V0
+different GUID,2S1cg7ETr61vJ48aHPK75L,2KkfPyOmfByOsEUjlrdcXq
+different name,vloer_V0,IfcSlab - vloer_V0
+different GUID,3er4Hi5O59lhIte0bi4WUx,1HaNQdFSb8lvClYD6Dwu8w
+different name,vloer_V0,IfcSlab - vloer_V0
+different GUID,2en633GqrDIwmtA9fYzxWS,1bkp7FTuj6CuO3I8vEQBpb
+different name,vloer_V0,IfcSlab - vloer_V0
+different GUID,1ubXcoJq9Fj9FIjV4W5qwB,34fGLxLXj8dB$TJkKP05gi
+different name,vloer_V0,IfcSlab - vloer_V0
+different GUID,2kLPA4gDD7KxNUCt_3L$np,1khZOp5gb2l85gjs0oLNmR
+different name,vloer_V0,IfcSlab - vloer_V0
+different GUID,2aob8QCl16Q8N5ZYzE4b9k,0sc0aRh0PCufizR$2Jw7at
+different name,vloer_V0,IfcSlab - vloer_V0
+different GUID,2DoYNgCXz1jwarhecdsY1w,2NH20ABAT6_P8S7JskMsn_
+different name,vloer_V0,IfcSlab - vloer_V0
+different GUID,2ZJwwyMMvB5OA8maPq1bML,360dfipub13hDYNYieFsw4
+different name,vloer_V0,IfcSlab - vloer_V0
+different GUID,1ZG4DbpJf0lf8Ak2_bQJHW,1tCvdY5dX4KQd01P3KK$P2
+different name,vloer_V0,IfcSlab - vloer_V0
+different GUID,1YpnSB4hH71g3zKepeErHS,3JeL_NoXjBcBNjvfXBj_zs
+different name,vloer_V0,IfcSlab - vloer_V0
+different GUID,1s_IKjunz8NgE4RwXYmqYm,210G27IyT42e3TwtqNizkk
+different name,vloer_V0,IfcSlab - vloer_V0
+different GUID,1stCMPwc91r80V5f3OShVm,1l3IinHPT4Qf0VwNuGVBqD
+different name,vloer_V0,IfcSlab - vloer_V0
+different GUID,097m$Ifmb1VeHfyhSCj60L,2s0lNb$4X98AY30dDkBZNC
+different name,vloer_V0,IfcSlab - vloer_V0
+different GUID,2xLeotJhnB4e2jMPGUDqwD,3bwIQYCkT6Qg3M00Y1JebZ
+different name,vloer_V0,IfcSlab - vloer_V0
+different GUID,03t_5XD1v8geHDbzKHx$PA,2_s62ViJjAyA3FF7MvILbp
+different name,vloer_V0,IfcSlab - vloer_V0
+different GUID,1d0MiLLsLCdBSuTHp6ynR7,3z3YcrtMfDkOEwbYrC5H$k
+different name,vloer_V0,IfcSlab - vloer_V0
+different GUID,0mRsPczVDDeB_LBFOgCxdq,3xxfm_ol9EgRPexm3fOuPQ
+different name,vloer_V0,IfcSlab - vloer_V0
+different GUID,1pSInisE96t8p52fxSGYjG,3dEOcY0xb0697r$hnB2pZ8
+different name,vloer_V0,IfcSlab - vloer_V0
+different GUID,08Su0zaR5EXQNO6ngU$Nih,1FtHmitHPB0fDl$feyshzw
+different name,vloer_V0,IfcSlab - vloer_V0
+different GUID,1ZgBbxSDX0C9d8RHMnr9Bd,2WE1U5IY99eB_4MZx_AaG6
+different name,vloer_V0,IfcSlab - vloer_V0
+different GUID,0Fi5splwH1mPAxYGMuuTQ1,3vE_5XQ410tO0R5Cf_79vf
+different name,vloer_V0,IfcSlab - vloer_V0
+different GUID,2PngXSH2j6u99nI0sIn2o5,2FkM6Y4sf9wubieqew21G_
+different name,vloer_V0,IfcSlab - vloer_V0
+different GUID,3_HjQT0vD1POpnG530wEp7,1CHkX2lAT0yOwHHdb2kO9n
+different name,vloer_V0,IfcSlab - vloer_V0
+different GUID,1nFD6aK1vEMPoRETGtTcaG,3aavmYYWn2Nw201TCwsyE7
+different name,vloer_V0,IfcSlab - vloer_V0
+different GUID,2jfgBlXC5DqAtt9Imu_ZDa,1f_r4ij_r22eibP4g4XrYJ
+different name,vloer_V0,IfcSlab - vloer_V0
+different GUID,16GzHPPq1BKv2r3QIxB1$6,3g5ot67IrAlA3Qv4Zyt9to
+different name,vloer_V0,IfcSlab - vloer_V0
+different GUID,1IlNDv2PvF_hqZ997BA_c0,2fjcEN2ZjDAu8hRUNqodqy
+different name,vloer_V0,IfcSlab - vloer_V0
+different GUID,2dWeqcZXj94QwNPbNEIcDK,1bdwqueGL8uBFxhWQb8AzH
+different name,vloer_V0,IfcSlab - vloer_V0
+different GUID,2ip6lMIlb0Awnp24k3KfFY,2YnbZBj29ApBRpeFNEnxZY
+different name,vloer_V0,IfcSlab - vloer_V0
+different GUID,3$gsVev9X1F8KTRxQi7mEd,2wzAep4e9Cd8hD79X4gbbr
+different name,vloer_V0,IfcSlab - vloer_V0
+different GUID,1EU0692GvC8Rre0xYHuYMJ,1QeL9W7pn3chBcMKIjsk1d
+different name,vloer_V0,IfcSlab - vloer_V0
+different GUID,2EK7acXG14vgx_QU1OeZ7J,3ZfOR0aGb9LhRtyOR14y1B
+different name,vloer_V0,IfcSlab - vloer_V0
+different GUID,1vpshNcXb0UeBNhC5kKbgC,3BmCoOtvfDrRGSWhi$pPsu
+different name,vloer_V0,IfcSlab - vloer_V0
+different GUID,1hiPVVgU11kOxHw3SC63rG,3p_S1K1UDCQeZ0ESa2yDZ$
+different name,vloer_V0,IfcSlab - vloer_V0
+different GUID,2LoDEf2jP0b9CMdtWhwNOO,3SfaGdpv54fhKgYMYGWVP0
+different name,vloer_V0,IfcSlab - vloer_V0
+different GUID,3UgqfaQcn7kwp58pqnjWYX,3wbvQmlHzDFRZwvik6WBqM
+different name,vloer_V0,IfcSlab - vloer_V0
+different GUID,3ctpV8GSz3JPQfqe2o$oED,2I0QMm7t1E$fDe6fe2kAEo
+different name,vloer_V0,IfcSlab - vloer_V0
+different GUID,0jxtYk_DPFmfsr5FLf4yfo,2SHZ8UTFv65PVl2EHG7Rs2
+different name,vloerstort V0,IfcSlab - vloerstort V0
+different GUID,07Mt9VfSXBPhNIIEhg25gT,3LH$GEDMT67hMVyTbubLwU
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,30X9aYMbfA3vABGnSJSZLO,2FvcL116z4zAEnZiGn8PEX
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,39SjBu3a1E$APuKEawG581,0u_sbI3CHF2x0coltZdUK6
+different name,vloer_V0,IfcSlab - vloer_V0
+different GUID,1z36FH34L0DAymH2KSHwC2,3Mkm2IGPjFsv1fmxGxAQMp
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,0QGCC$bkn95gfJjhCRK1S$,1FeME9BWbCsuZLcp_RktVy
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,0Lv4sEWdn9WfY3cCL$tL9r,2_zX7X7VHCJfmVCsaCi5LY
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,37UC2ejVH0mQsQEsti1ePj,2$J_TlLurF_9iAWCVvxXSJ
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,1FrPU10uj5vRBM$ME6kjwV,2t$PsuAOv779g6JM6jDwUL
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,1m_qhh$In8cv9sJA57EIx9,3Fe3yk6Fb4Eh65W5QfLNu9
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,2DcZS4kev35vv_ejuKPKPl,213rzA_954$A8$erVncvoW
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,2ZCCQn6f5CnA2EvHQZH92C,0Zdc$O$SbFsf31aes402D2
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,09n_zCJi9B28tPtQw6BxUr,1LNXbxQtzC_hr5gpQvK8C9
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,2dHfVnv319IQI87h$OrLBS,155Zwzksf9KQWZT1zaz0Pi
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,3kdu3VxUzF1R6ZJfnANstW,0M26akECT8KBw48WHb$9ZQ
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,3PMBte07rF1u4WPaQp467x,3a6dLaHVv8auH4vjEia6zV
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,0HSv6PpbD2BfTJigk5W2Ro,16WPdifob3SQ8RSl6oY$Sy
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,1TnqA0GVv37hIAk1d8SLxS,0LSD3ioNf0_wWi8rN6hyiP
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,0$5GRLLgn7I8ZPcI7rOsbG,16v24YynzF1xmgTQkMm$IF
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,3pCtkV8rH5cfLSpwnY7plt,0ApkJkcO12xupMGrbYNNVJ
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,2r9Rd7wfb74u0H82M9rkNJ,1Q0YPiyFf8NfL8jMzTZfZX
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,37Ro54gDf1LB1mTnwX5Aup,0P$iWzGtP1FfKoHQu468NG
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,3fBmwjfbHClhZFnLmF3vib,0T9UYfdXn46hvbvbX2sy7m
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,1Ubc9b75DETwPSDHK48dhV,1ZWGOkGLz2$x78T7zWod_M
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,2Bau621bX8OR8tXqSleIiB,2DvYhgsUH2xx3YqPDT_ouz
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,031QW3IZP55A_T8QKJY9nI,3F17H6m1103RrzVlrsQrkz
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,2b_eD15mT89x$yAkCYIShc,2RDVTCfHP9$A48MW5CDcIV
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,3DoyKCgjn75uJSw08MNRdX,3xt9Ktsur8gvwDv_KGIipt
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,3R08IZdRr50ufFCp6Ry$pe,3XMZHK8$H09vIhc6i0v$Ar
+different name,vloertegels,IfcSlab - vloertegels
+different GUID,2LsFs9dmf6Rhv8K9TFseHz,3K1TmiS09FRv8CYZOLs9OZ
+different name,schoonloopmat,IfcSlab - schoonloopmat
+Different number of IfcWall in storey 00 begane grond,226,327
+different GUID,2vImyoNwX9iBXoTp4G3gAg,0VZ6wRFGjC7uShzfRZHgZC
+different name,merk B1sp-R,IfcWindow - merk B1sp-R
+different GUID,2pFYENFv91ygvyAeZOYi93,0hZ3XeV_jE0AQvDhkHYfA$
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,3fcHQBt3H23QcTv6yhJwzo,3xl_XER9f5KuPG3z3xPdId
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,0_Jo1N31L7z9swemKCMYlB,3LEevGQcX2Df4W8DrtCiSv
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,1rAoTfcZXDceLlFXNEmX1C,15FIsD8y19yxSSLRJ3huQo
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,0Nx0E1OHf1DuxTjjuUm2Ac,3aUnqqQGLDWefHJIOR2T6G
+different name,merk B1sp,IfcWindow - merk B1sp
+different GUID,2heiRUoHL5xvP8RwhYL$bG,1_vdNinav8pwS_O8l$K86Y
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,2GfFhoq6r37vCpbSN6CZTL,1xV9Wvp2r2SBCqljSWU$Ok
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,2nrdDYGJ9BhvAHtSOD2bVI,1Gz6oa0FP0eBEi4jg$djQ6
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,0MV6oKxM90DANOdrZ1T$9f,2h5d$Zj09Ebgti$p$2t9da
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,3mgONbLNL2DxrM$kkxuZbY,1cER9eUMf6ZfGN17Jf$EDE
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,3la5L9LMH0juxb_CD9s6XA,0FpjA8ZsX8WvUEg6543dLO
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,1RJVF591z4bOy_pjsU4XRe,01w37qvZTCoPd5jZFw8j_m
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,17GhR_gATFhuBAeAn9fPma,0L6T6xHof5mfzEOoDmHLmR
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,0WtDl5Fx1CGO$F0RJCi8b$,2KpXWdUtL438sXlVFIGqNN
+different name,merk B1,IfcWindow - merk B1
+different GUID,0fKwIjRKL2ThQh97F1hsVV,3cxyp5MhD13hY37BQMKb_v
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,3IkJ5kYzHBoxsDRsZeWtto,3rbdGEp3fCohIdJPPv1JA6
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,1DmcUaFzzFFhg92TJQnxyJ,3Si0fFZYv728iaGbZJBc6l
+different name,merk B1,IfcWindow - merk B1
+different GUID,0eASoFkCvD_OTC_ct3cBps,3McgS9bk5EgxOzPp2EoW7_
+different name,merk B1sp-R,IfcWindow - merk B1sp-R
+different GUID,359iTTnTv3NfCfWlSW9JFd,2TYvid3oH8igdIGS$hZBlo
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,2C60pqTzP8BR1K24Yag_n6,3DIwpUAh92Qwtm6NdGD6BH
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,2_US9yS$f6xgGifWmRr3ce,1AUq4sVeb5GxuQdLqX5XgO
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,3to0Qbzn57AgGEPgcKjSko,0UB8u4Sqv1Ih4ZAbjcH3KT
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,3IRXQx1CX8oxFXhqXHMp_E,2SrHncQuj4SgGiM0mODNoG
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,1Jl$pXjvz5zg9fEBTGRb9s,0czn6iiN98Pv0FJWI06knk
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,2tzwPzboDCgRcvSj$vm6HZ,23Lyb26C99queB2cuyis1S
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,02VFt8mFjD7RYPk4wtj6oc,3YtBQdk0zD2uK$3ykMtM1Z
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,3xZl0Z8zH6Few7zjaPUgW9,0lnbxc5JzDiBEfw4NM4u24
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,10rQERlhDCbxXJCT$_92RE,2PqLGvxi9EJRKmjYhJuD1I
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,1e$Zm7EmzAgRS0uBDNJlVg,2wHRxVIm5EwP_WzJN8A$OQ
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,3NI6Sp$yf87eKCx0T$FWj3,2tKYfEZZH8lRNm4R8jTi2r
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,1dvN3gzSD4L9Bv2$zoJRLk,2Sr_nnrbTBtPu2XN3CfE6i
+different name,merk B1,IfcWindow - merk B1
+different GUID,2xD3QGjx90oAGyybkEra8b,0eD4cRIcjE1vJ2qdPEPMxL
+different name,merk B1,IfcWindow - merk B1
+different GUID,2Ot4pojY5A_AuSDtpUwI4i,1q5LXp1_r3Nvgi1rMQ7k0g
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,19iI2eJ35DvhstxdCyQr3B,2ccvLF77b63QzSpgyWGhIm
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,0eUeiTKgL8z9I4w$AnfEgY,15IPMRZtjBUBVhdcmxaGcC
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,1GOpmZWFHFPu8qESPn3F3y,3ttlYuMUbAgwthLVufYCmb
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,2BeulVMFHFJum3B9E9M$fY,1iSI7Lgb584QwJ$4af5FLl
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,3oJTPYwxj7P9M9aWsDpJCD,1zzm_Oi3jEDerlvdFmptnh
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,03lGFt1VjBDe6syvgmNFAy,1zJFokLaXCTfOj7exUpjWj
+different name,merk B1sp,IfcWindow - merk B1sp
+different GUID,0Ud441PPT0DRsLxYPFfaWG,15KjsG8w1FKg215GsRw9RA
+different name,merk N,IfcWindow - merk N
+different GUID,10Z6sfVZn3GfZCDuDGVlAZ,3XO5zIks13Cvi7M$yLVj4N
+different name,merk N,IfcWindow - merk N
+different GUID,2dnwTIzFTAD9hapAlqsr5S,3Mrs7QEoD7hA3Nw8QFbUn7
+different name,merk N,IfcWindow - merk N
+different GUID,3dRgtW3QbEsQYyv9xoJ71y,1i0Ci7o$T3ZhXglEat8MOK
+different name,merk N,IfcWindow - merk N
+different GUID,2tncJiXU52xOIwnI4dHkq$,349ALBIgb1vBDvD6hMKiQf
+different name,merk B1-R,IfcWindow - merk B1-R
+different GUID,3hlYOSdNT3hRiePew15h4T,3orUwv0WLEW8u0k$OPMhwX
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,37gZNsSDL4iu1S6Wor3ZPj,3hl6lrBvXFXecqkYbhQUxf
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,1O6tmJybvFcAq4a7J9rLAN,3Qk3aPVATBSBSrgY60SemF
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,2AtqXLL8bAsei5_CKwpj0y,0wlk4nsor4VfqIqUTz44yE
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,0rOlpuy6fEpfuuqvscj$PW,1bRQYLpDjEMuGAA2Ct4oE5
+different name,merk B1sp-R,IfcWindow - merk B1sp-R
+different GUID,1rfLYazSH8GBcQryKstIs3,3zhDW6t5X5fua$iLM4xkao
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,3QJnmlRqz5_fVrar74KrOo,3g3nT1aNfFDwJ3ptCND26w
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,207c7$G7HAOg5y2_1xjv$F,2rxWyQZbP9rgqQySQbkbUb
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,2ThtpyjZn4q8nYD1vikjMG,3CU1$5wJT3X9vL0FxuKyQZ
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,2YXmX7u6r4yOOh$kIa$Gd6,0AbAzRmmXAzBdWLF_QssvI
+different name,merk M,IfcWindow - merk M
+different GUID,0YMesrJsv8ZAfgcOQkjCTb,37s$0BTlf7bP1tOyYb9xK2
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,2If2Aad390NwFBO7uQvqMr,1HGqQO1F58F8FA7nIiqoAa
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,0mtRbwfO1BTwxiSzggSc8I,0crPnrFarCvByvIhHgOweW
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,1DsH2dtvb1EQXXq4tfBtYg,3ktdx0JWf2v9MxCEB8podr
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,2aVhmg2N92hhv4rjQpPXmo,2hwhtNiUbFWBIpXLlc_hFy
+different name,merk B1,IfcWindow - merk B1
+different GUID,0k6mb7kcX8yedFIwED8qcY,3R_lW8$Ur4DhpqvJUs0ZGX
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,0xlRUG5ID5LhgTY4CombXh,0avYRurD534hcDGCG22iAV
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,0r4F5aYpjDjepmJs0NROFT,1dwC125FX18emBccdQ0ZJb
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,2bJ1Gv3yL6nf$qJdsuPO4A,0vjTkSg6T2G9hPOVH4nN_V
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,1WI7CxHKj8vQB6ZX1aG6wQ,16Ff91iAfEkuj5tyleD7Ps
+different name,merk B1sp,IfcWindow - merk B1sp
+different GUID,1ty_8KokP6mQYlN4DZkOfx,18Ab7$LgD5l8ofiQzgdWd3
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,0Cx5eRd2fAe9wmZ82jh8FB,38GoXwoIrAse0JchukfpzA
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,3ZVnVKy4D1jBZcLcCGVgY2,0zpSYKi0f06QbXoxnBLURB
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,3iKlrwnUHCxxRo4aLgJC8B,1vMbi8OE55Eu0J2wrHuDAg
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,1KInL01tD6DQPBVoxre2dQ,2F0OSHuXDEdxY4SxiK0SAC
+different name,merk B1-R,IfcWindow - merk B1-R
+different GUID,2KZzNKvwr9uRVfzB5TmmYh,208EpXTej5EuKgZCtlcCPg
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,0GSlUrIePDQRL93MVCRQ89,0jlII24Qn3XvlQ3xMpaqq7
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,2kU5XJFAf4Xe01xgsDZElh,0Dqb5a5aL05wLeAVPBfFd3
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,2ft6HbZKD5ePF2WR3Q2yMt,1QNoGCqVXElgXjPOLjrnqD
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,2ri5H4RCf2ZuCMpo1Ccl52,1DAII8ZkD15uOKR9PIfg3D
+different name,merk B1sp-R,IfcWindow - merk B1sp-R
+different GUID,0$CHzFOKD96AwIJnRtjmCz,2QwVpG7Bn4s9p$JN_h4TuX
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,1nwCQp6CL4h9AJo0EXhJBj,3gQQar6WL0fe3QzPpxlDNC
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,1rC9mTrqD7nRVVhL$0K1bF,1_KT9_kXPAwu0EBig3IxAQ
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,2OeOjUpaH1bxNaxIEYZAXQ,1lwcS25FLAWusqzpz9Rpmk
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,26iMI7lnj4Rukyjg89OAF3,0fE1aiXcT0wAgSMNh5Tk7u
+different name,merk B1,IfcWindow - merk B1
+different GUID,3cLBPtEz1A0uWp58VoUCJm,3kkvcYrcn2cPL9R49IthZk
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,0d06TNXPD9kQ6kfDgFvSX4,2IJBy1MkX8avsFeKt70yKG
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,0Fcj$qK_jDIx0Clu51aeRJ,1q6yl247P4QhCSlAFThBvL
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,1d9kUW3zP0ggxxYmG2vPQM,1a_EZoZ6T6GPOt_eVbqKMy
+different name,stelkozijn,IfcWindow - stelkozijn
+Mismatch in storey GUID,0u4wgLe6n0ABVaiXyikbkA,279NYjPe1158Yhi9cz1XDi
+Mismatch in storey name,01 eerste verdieping,IfcBuildingStorey - 01 eerste verdieping
+different GUID,0u4wgLe6n0ABVaiXyikbkA,279NYjPe1158Yhi9cz1XDi
+different name,01 eerste verdieping,IfcBuildingStorey - 01 eerste verdieping
+different GUID,2irhG5txr74Ovsj2V$0kJv,0fJmqM5M57fhpQa6E7I_mB
+different name,hoeklijn bordes,IfcBeam - hoeklijn bordes
+different GUID,2nUaeeTzv6p9Nb2KG4Pvuq,19TKhh8SD5c8Zh3WO9IwV9
+different name,hoeklijn bordes,IfcBeam - hoeklijn bordes
+different GUID,3E1lhUjbn6Q83O0eMzicqh,0pPdMz25r1GPUW71Od3mAu
+different name,HEB220,IfcBeam - HEB220
+different GUID,0n7b2OZJ50fvlqR00qRqTG,0g_iWGbC95eOR80t7wDwrw
+different name,L150/100/10 (?),IfcBeam - L150/100/10 (?)
+different GUID,0tgQ0Twpj4Jv0a8yyonSSQ,3Nk0DK7IzAuf$mLt0F2rjG
+different name,L150/100/10 (?),IfcBeam - L150/100/10 (?)
+different GUID,20_IKygyf04gphsqph2_Is,1lFPlVUsX8bvX6zNeLm5AK
+different name,betonlatei,IfcBeam - betonlatei
+different GUID,2ua9M0savE3ho4zejCeSAN,21lpzt0RT7afcFfsBDUywo
+different name,staallatei ??,IfcBeam - staallatei ??
+different GUID,2$514k42bBGgy$TBkbUv8z,0C20shOyj2iwnI85ht_LA1
+different name,staallatei ??,IfcBeam - staallatei ??
+different GUID,2BE1_Ywp51qwh9ZUJQKhk8,2uepwXdL98MhEEyHsCgU_T
+different name,staallatei ??,IfcBeam - staallatei ??
+different GUID,1b3CGmbon0_g7rIm5ETrHo,3kjESOWfz1ORaeQCQS04Ym
+different name,staallatei ??,IfcBeam - staallatei ??
+different GUID,0Fsfl1RG1BcRCzgbRibEVF,15fk8nGOf3auZNeV0HB1zE
+different name,staallatei ??,IfcBeam - staallatei ??
+different GUID,2Y889Xoon1RAy$xAEV_pJp,3SoIifg6j0YB7EX0M2bOgl
+different name,staallatei ??,IfcBeam - staallatei ??
+different GUID,3zImRnpR54PhBkXL1xIYVb,3hIOMBiO94XOlVmbHBSFT7
+different name,staallatei ??,IfcBeam - staallatei ??
+different GUID,1dcFLM2Of1FP3qxcp09zLO,33TdWz_5jFsQT54KIdVKS_
+different name,staallatei ??,IfcBeam - staallatei ??
+different GUID,2T99TpgwD5rBgB93z11HfJ,10eMw9KCrE2Aiw_X54pVX3
+different name,staallatei ??,IfcBeam - staallatei ??
+different GUID,00U31JGej7IPlTAjmADJHO,10$ascTE92SvqLBHBFWJt0
+different name,staallatei ??,IfcBeam - staallatei ??
+different GUID,3NRTYv$p90GxvOjrclI4YP,2Ek9Hwd1TFOBtXJuI$GWlA
+different name,staallatei ??,IfcBeam - staallatei ??
+different GUID,32CLSoCg14hfE5iozoDGK_,2mEyY3y510MR6jvtMypel9
+different name,staallatei ??,IfcBeam - staallatei ??
+different GUID,3SKFm8Ymn0Le7ijHCnKAuL,03AHVKivH14ev1rKEpjUwm
+different name,staallatei ??,IfcBeam - staallatei ??
+different GUID,1UZy64a655jeHfotpiaeQv,3JwF84NtDBZ9QkRGvdOubv
+different name,staallatei ??,IfcBeam - staallatei ??
+different GUID,0oBRFvaAL1LRec1DAUWZXx,35XSVtTBn6NhN0sDPV5jNo
+different name,staallatei ??,IfcBeam - staallatei ??
+different GUID,13lKJkBNr3Ihzig_2H1hMm,0m1ZUbLKPCX8B$D1TTUcSN
+different name,HEB220,IfcBeam - HEB220
+different GUID,3ZRYiyNFH08hTnlj_xBf6i,0GKi_fg3zANuLyk2zMzTw9
+different name,K80/80/4,IfcColumn - K80/80/4
+different GUID,11mo33UpLFjwOcPbSdqngd,39RYmJN6f7S9cvAQGUoZ8o
+different name,K80/80/4,IfcColumn - K80/80/4
+different GUID,1CsGhnRaDAb86NCoCwC08x,2HWsIdasj4vOdg9uBUL007
+different name,K80/80/4,IfcColumn - K80/80/4
+different GUID,3OrWvPz0L53vVLOcg_Vn3G,0A53iD45D3PAG7tGqRiWFC
+different name,K80/80/4,IfcColumn - K80/80/4
+different GUID,1NYbVKmtL3YP2AXrmS9FLZ,2Oo9SNA1XDiBMpwqZ_vcSD
+different name,HEA180,IfcColumn - HEA180
+Different number of IfcCovering in storey 01 eerste verdieping,348,0
+different GUID,1ZFLyNI$fDRgE2KgYahsry,3uRiZXcXLByBCp44okEUrj
+different name,merk A3sp,IfcDoor - merk A3sp
+different GUID,3qYGwE1BDBbP2FWtfJUDNa,3SGhfFWDr9pes9CjAiM2N$
+different name,merk A3,IfcDoor - merk A3
+different GUID,1zWpVk7Az3eeFDJEw36Ky9,3b2jlxdYvFexRuaYEydEFC
+different name,merk E1-R,IfcDoor - merk E1-R
+different GUID,2u5XGmt4D2bRNIEXQ9IBsW,2JccvdMv1C3xiUZAiUBCHT
+different name,stelkozijn,IfcDoor - stelkozijn
+different GUID,04E1PaUW1Fze4qITB_nFaa,0rfyFkxj57SgCMSuaYi$5e
+different name,stelkozijn,IfcDoor - stelkozijn
+different GUID,1HDfKcH0v4VRSVJicriZF4,18aqfcbOj0PgmlJwfh1sKe
+different name,stelkozijn,IfcDoor - stelkozijn
+different GUID,08IQ8vQ6n73vV7LBrwxuZu,0mP7twIGHC0R39Vl$m8Zf6
+different name,stelkozijn,IfcDoor - stelkozijn
+different GUID,1fXWFMY$T5VwEu43MZumk6,0qYDKa_gv86OMrxItDPtn4
+different name,stelkozijn,IfcDoor - stelkozijn
+different GUID,3VeGPWRHL5QfWdPbnVK9h3,2H0DiG2mL0u8LaRtJ_B$Ro
+different name,stelkozijn,IfcDoor - stelkozijn
+different GUID,0K1kgDm1jFHfoPfMpxkAe5,0v8AJcDvDAAwB$$fXGWzGo
+different name,stelkozijn,IfcDoor - stelkozijn
+different GUID,1a0yXwaPr6bQS$tJIhLQr1,03Mk2u84rEJhMuyEo0GfXP
+different name,stelkozijn,IfcDoor - stelkozijn
+different GUID,0yGGfH85nFPvINarcAfBNX,1tjldF0kL3Rw_ZbNSsMjbJ
+different name,merk E1-R,IfcDoor - merk E1-R
+different GUID,2qY72vI$D0SenCZx1z6HDK,2c11TG2jLDnwVbgvmk5H79
+different name,merk E4-R,IfcDoor - merk E4-R
+different GUID,2VN0ufVPXBz91XSIqSEA4N,0brKCebxH3OuYyGa8zYVzv
+different name,stelkozijn,IfcDoor - stelkozijn
+different GUID,1YmJTz8Sn4SxVWF6uxPIi6,1I$64eOHz3qOz3uMl6PIzq
+different name,stelkozijn,IfcDoor - stelkozijn
+different GUID,3qU0EkhG9CDeH0fDWtriF3,1CvP2j61999w_jp93f_pGs
+different name,stelkozijn,IfcDoor - stelkozijn
+different GUID,09NbJFNdj9fxN2xh$EA6wX,2u2xR6G6X7sBWFWJPNMVy3
+different name,D1R,IfcDoor - D1R
+different GUID,1Le1BurSf8iQTApHN20xGM,3WaR3lAF19mOxWa7MiUBxr
+different name,D2L,IfcDoor - D2L
+different GUID,0ETp$wstn6uO7g6ZydQW6K,0qeyi9MIj3mfaG0HfzcTTn
+different name,D5L,IfcDoor - D5L
+different GUID,14rAyAJ$L5nPK$yo6WYX5X,3iGFJNQjfBARbuRuVejte5
+different name,D6L,IfcDoor - D6L
+different GUID,0m7Z8$vfnDLxF9ZlRdjI6b,3y03C1B3v7GR3_$1cJ_2gk
+different name,D1L,IfcDoor - D1L
+different GUID,2i$ImWrU5CrPuyb0cxLRsY,2CUx8IGy93_gDvVVCVl8E6
+different name,D1L,IfcDoor - D1L
+different GUID,2zIan9UMbEDv$MtEuXRGaI,0UMl$5fO5EfRlC$XemptKb
+different name,D5R,IfcDoor - D5R
+different GUID,275N_u7Z9EtgoRNFproXEn,1m_N9KeeHCJuu75EGDYEZu
+different name,D3R,IfcDoor - D3R
+different GUID,2wNrfbWo5F3AXCQjcATu9n,23xUWt2BLF5ghtX4_jts5H
+different name,D8R,IfcDoor - D8R
+different GUID,2mNENoxwD4MQMQY_gKi$v7,0t4cKyUUP0_gGUw3kilbGz
+different name,D7L,IfcDoor - D7L
+different GUID,14tZx$UMb8cBHoti0zk1Nr,3PkhOKjr51Tx2tB8E1OQ6l
+different name,D2R,IfcDoor - D2R
+different GUID,0paFAbnyj3DQz4eYs1LQRb,26e9dgUlTAfxGI_vjYKY3f
+different name,D1R,IfcDoor - D1R
+different GUID,0oXb8$CCzDygbz5_8Oxzxv,22RDA4Lnz4NQYMae6gNr0x
+different name,liftdeur,IfcDoor - liftdeur
+different GUID,12kDL1eWzET9Qm2diwFxeL,3zxZELS6T3zQ1HpEvavYyX
+different name,liftdeur,IfcDoor - liftdeur
+different GUID,3FUHlAm49BC88X$DRC3IqI,2nkgVQr159PPbHLJllkU2c
+different name,D3L,IfcDoor - D3L
+different GUID,2XH6N5hOT3yAuGpef5XEDg,1Ptjn$o_j7IA_Kv3dDBJOF
+different name,D1R,IfcDoor - D1R
+different GUID,0WcADPJA571PyQI1eSlkC4,1sGbKjmRP5jwXe9hjITpIp
+different name,D5L,IfcDoor - D5L
+different GUID,0hLbfgnI116fYrSi5yltYv,1VjTFX2qLFuAXH1Okfddoc
+different name,D1R,IfcDoor - D1R
+different GUID,3LHBKM1sPCkOXvRtwp$pev,2TQXoCU15BO8bSrg91n_21
+different name,D4R,IfcDoor - D4R
+different GUID,26_$0XSjr4qx6Hsbp36s4D,2g7CRICqbBg9go3NgiqbMO
+different name,D8R,IfcDoor - D8R
+different GUID,36ovl7bSP7_8ZDfLgjHA1Q,3NzqNEAzjBuv5xrwzuMf6R
+different name,liftdeur,IfcDoor - liftdeur
+different GUID,3vVPMVKpv8WR4t1AhJIyPH,2ZqAgPFWr9dhFyoP9QQt9i
+different name,liftdeur,IfcDoor - liftdeur
+different GUID,2i1Z9kKWv4ie2N0CBoZWie,2h26a_PozEReGClMKnprS6
+different name,liftdeur,IfcDoor - liftdeur
+different GUID,1weVzahvb12Qj14QP5JtRt,0pTer3e0D3LwUc7DuS4SXQ
+different name,liftdeur,IfcDoor - liftdeur
+different GUID,3D1M31qn1D9eCfALMUlAC6,0JMC_afHPCbvqq3$gG8nVX
+different name,liftdeur,IfcDoor - liftdeur
+different GUID,3Ch3PayTPB6BbnIbMg0VDz,17e_E9k1TCnxVVV0jIckmQ
+different name,liftdeur,IfcDoor - liftdeur
+different GUID,1lOvmnURjBcPf07ELTOqCT,2FA8PjK$bFGxeDg2e4bV6b
+different name,liftdeur,IfcDoor - liftdeur
+different GUID,3topRXa9T1svryvk0HDA1V,00jog21pzFDePKNMZBnXKL
+different name,merk A3sp,IfcDoor - merk A3sp
+different GUID,0DE9eeknn1UwV6HdBQLtSn,1EF9Fln2HA1usKYFPuj4iD
+different name,D2R,IfcDoor - D2R
+different GUID,29ln2Cp8P9jBBVLpq36yJx,0cWxOgDizEq882HqG_rOkO
+different name,D5L,IfcDoor - D5L
+different GUID,0REpZXGX116vUWlC_COT3l,2a_EgHO51By9CcXqQxHCQK
+different name,D5L,IfcDoor - D5L
+different GUID,1X$gsMt2nFuv_fouZFh5_Z,0k7JU07Pb67wveZRSgGS82
+different name,D1L,IfcDoor - D1L
+different GUID,2Du$joV9XChBACVeEuRrVe,3TtYkx2UPEqf8$WTUjhDPM
+different name,geveldrager,IfcMember - geveldrager
+different GUID,38Qe2zvj9E0OBObNVI4$Zz,2ECP4WW7j23OcztS5vJ6qj
+different name,traphek,IfcRailing - traphek
+different GUID,2jS7doCMf3$gQseynrXN3R,2XuJylWTn9MRD$B7WvODQ7
+different name,traphek,IfcRailing - traphek
+different GUID,3ludkXavX0QO$8K8MPt6DU,1WbPbwk9v8pxC7wERo9AKZ
+different name,doorvalregel,IfcRailing - doorvalregel
+different GUID,3IbCylBM9Br9aZ0O8sjBun,1I7XsXZMH45R_bi34dh2iM
+different name,afscheiding,IfcRailing - afscheiding
+different GUID,2d4vy8vcj20Bafo1W9udji,2QS7itKwPAVw81PuDGnUlU
+different name,afscheiding,IfcRailing - afscheiding
+different GUID,2xqHe35hv3POCFIMSVSI8z,0Gw06uBD57yhwN_cc704fe
+different name,afscheiding,IfcRailing - afscheiding
+different GUID,3cIEhaoMTBmRz3MyKyfeg3,3M3OhQrlDCWBhSOfBkh2Dr
+different name,afscheiding,IfcRailing - afscheiding
+different GUID,3IIh87vTnD4A6vdLUQS2Oe,1cBY9lLG5AJRkzlX5jqgqF
+different name,afscheiding,IfcRailing - afscheiding
+different GUID,2chnvDXfTFpwmnexcYvbMb,0U2spD8z97qBlsILRmcYMN
+different name,afscheiding,IfcRailing - afscheiding
+different GUID,3pp$tut394gvh1elE1QUg0,2FUszgc_LDt9bL_diLEi8j
+different name,afscheiding,IfcRailing - afscheiding
+different GUID,0hoCeVodP28uiVrRVP6$eg,3yFHXD4fr4TQ2UWPCP75Tj
+different name,afscheiding,IfcRailing - afscheiding
+different GUID,0DSnD4Ox56JQ9EnQB9RZSl,2qGuN0iG172PvmSzO24YjW
+different name,afscheiding,IfcRailing - afscheiding
+different GUID,0BFKBVp5j4I99mDywZOyl1,3S8J$sRNjESRM1LzdH7XuN
+different name,afscheiding,IfcRailing - afscheiding
+different GUID,3507eK6cz8GgD8LOtm7DX1,3IbaTNAwL2R9KGabokn07z
+different name,afscheiding,IfcRailing - afscheiding
+different GUID,0tBGrmMgH7A8ZNmLYPMp64,1ZUfqYpKrE4xIKoSL8f1md
+different name,afscheiding,IfcRailing - afscheiding
+different GUID,08TAmVL5zANxEAKB2zGRnq,0YKZFxH_rBYPpY2QEG4MEC
+different name,afscheiding,IfcRailing - afscheiding
+different GUID,1aIHAtaRH2KfL3oiGGP2dl,1ucd82Gy10peT6r3TfZtYN
+different name,afscheiding,IfcRailing - afscheiding
+different GUID,2zuL$9rZTBtO$YH7gWs8$I,33u$kyipv1KRPZYF7ReDJO
+different name,afscheiding,IfcRailing - afscheiding
+different GUID,1kUFGseD103u4BFiv5Vn3G,1byh1rdEP0lgeVtfR8cgyJ
+different name,afscheiding,IfcRailing - afscheiding
+different GUID,0G5pICjEv0lRYQTb8ZOqUB,06vVcQVpL1zhoEBg40cN3g
+different name,afscheiding,IfcRailing - afscheiding
+different GUID,0XXgMis9HBSh81wobgymNk,2cAT0UXpvEMQYLAL4dHrR_
+different name,afscheiding,IfcRailing - afscheiding
+different GUID,1Q0kMfUETAGg$GA3i1tdOW,3aGIRnPAb5wh0EJan$qeBk
+different name,afscheiding,IfcRailing - afscheiding
+different GUID,0pFFmR0nr3VeFEpxAApon9,2Bat3EJKb7u8GpnLWWZs3b
+different name,afscheiding,IfcRailing - afscheiding
+different GUID,1tso8uyOP408J$2k9zM55E,0lm8wDdk18ih_UPsIvX0Ki
+different name,afscheiding,IfcRailing - afscheiding
+different GUID,1pa426bWv6xPnTJvQSUaMC,1WAFAAmnrD0hK4tS4NOZto
+different name,afscheiding,IfcRailing - afscheiding
+different GUID,2EWFNQA152oRzd_EBfr6uT,1fJOC5hJj0EPdr7O8Q1$KS
+different name,afscheiding,IfcRailing - afscheiding
+different GUID,11l$hD7jv8jwvjooQlt2FZ,1My3Ed5ynARh5F_W38RSlU
+different name,afscheiding,IfcRailing - afscheiding
+different GUID,3sdCktPNvC0uV4NNgbJWLv,2T2NLgbCP9iuw9LQMpBpW1
+different name,afscheiding,IfcRailing - afscheiding
+different GUID,23JeFZDKD8y8FV9a$w$rCJ,11HrWVD3P7ZAK2SFjPad78
+different name,doorvalregel,IfcRailing - doorvalregel
+different GUID,3R0aI_JdHD48zVbQjd5Ze_,2lvOvgLIn4qwCcTaCCGrGD
+different name,doorvalregel,IfcRailing - doorvalregel
+different GUID,0jnTQov8rBlwaue5hK6wre,3mHoPKlY18ChwU282_Gjln
+different name,doorvalregel,IfcRailing - doorvalregel
+different GUID,1rcblQbSX0w8i_vHHFGq3M,1k0QGGESbBouPYSXG2BJH9
+different name,traphek,IfcRailing - traphek
+different GUID,05ZZdIzTnEbQa7eCaF53yx,3RE0v_0bT39ufrf4HUT8dK
+different name,traphek,IfcRailing - traphek
+different GUID,1aYgiQASf1QAHaQ9qpbxvu,1pbEEIBYr99hOpaAH1MQc3
+different name,doorvalregel,IfcRailing - doorvalregel
+different GUID,0wBPIKW6H2KguQzSAxeUoI,2m2lWnBRDB5hEioVISLPFd
+different name,doorvalregel,IfcRailing - doorvalregel
+different GUID,3GbtyA4hj1QvdqYJ9YysW7,3dsIQfODz6hgVAY3rSg_2l
+different name,doorvalregel,IfcRailing - doorvalregel
+different GUID,07cz3VpcX8afcodIcmaPPM,0GtcDb_6L9MOQfzTYYVf7Y
+different name,doorvalregel,IfcRailing - doorvalregel
+different GUID,11$FOiP4fDMwiMWtHH9Tcg,33fHQ$K0nAIB$J4nTmi5aR
+different name,doorvalregel,IfcRailing - doorvalregel
+different GUID,3JT0$Yycb3fxz4HlsjVMEb,3Uzm$mDdv5Wwmtit_czJUu
+different name,doorvalregel,IfcRailing - doorvalregel
+different GUID,0QMRbnWY93Av6dpvLwMXTd,3s59AN8kH2_uyQihpssoXa
+different name,vloerveld,IfcSlab - vloerveld
+different GUID,1OIsB5jXb41PiO2kBNmaM4,3$2okC2oLFmvBeGQ55wtDP
+different name,vloerveld,IfcSlab - vloerveld
+different GUID,3Yfh_tf2L3dOftkR7mQtLp,3UN9fP6rbFkxsmu61f$HbA
+different name,vloerveld,IfcSlab - vloerveld
+different GUID,2s_5IkW0XAae4X3I5zK7q4,27OZwcgvnEXPchXZ14Kp0Y
+different name,vloerveld,IfcSlab - vloerveld
+different GUID,3LhtKzwFz6VPKSl6QvG8CQ,1pDG9dl_X2PPlJ9PRCq$S_
+different name,vloerveld,IfcSlab - vloerveld
+different GUID,1qvBT5n4r5kOSwFD9L8K0o,0MqBuTVgvC4BV_xHN3emNV
+different name,vloerveld,IfcSlab - vloerveld
+different GUID,08ZXIC9eHDWRVFOlPhj72E,1S82EP4tz2tQCI_XO6XgiR
+different name,vloerveld,IfcSlab - vloerveld
+different GUID,3BapTVi1vFMBnwVYgcGczp,0ZPuuzM$j2IhePub1HhbWK
+different name,vloerveld,IfcSlab - vloerveld
+different GUID,2TidtDbWz2HfSqssh$GYwZ,0$9rXrM6HAJvRnoPy0kzF1
+different name,vloerveld,IfcSlab - vloerveld
+different GUID,3bTNRD3VP7Z8V5Qra3JwOp,3o$QH_74fApwiDlfd0Uliy
+different name,vloerveld,IfcSlab - vloerveld
+different GUID,0R4623l2TDzenWFiIiswM1,2QCYXIG7fFgef6ywmKCz9f
+different name,vloerveld,IfcSlab - vloerveld
+different GUID,1kiS27OUHAY8wNtz_qX8bj,1BvQvjm9P0EQkaASlyiD9$
+different name,vloerveld,IfcSlab - vloerveld
+different GUID,2hh9UjWIL2w9WwuMjzqstz,32DogqmH19cud87YN2_TpC
+different name,vloerveld,IfcSlab - vloerveld
+different GUID,1dCrpUZmvC4umTbPe7ddOk,0RoUTrw_r1ZelxH1eMnemW
+different name,vloerveld,IfcSlab - vloerveld
+different GUID,2ah3ltN7nCQ9VF6L1zEK1m,3xU04Devj1ZQ9CXBQb2jVz
+different name,vloerveld,IfcSlab - vloerveld
+different GUID,19E2QmV$L6c8DOIYygVF1N,2PiASrVpP6OB_nXXtksMGQ
+different name,vloerveld,IfcSlab - vloerveld
+different GUID,287l_KcXPC0g4vq6mShiRv,3NRB42kPH6IftDsJHCh$J0
+different name,vloerveld,IfcSlab - vloerveld
+different GUID,3o6eM88iDBLBW61gt9z35u,3y9jWz9q53DA5wYYz7_XQu
+different name,vloerveld,IfcSlab - vloerveld
+different GUID,2qB4dVXdn65uKV2yWsW_6l,3VZw4YdhH2AAcnO9xw$VpS
+different name,vloerveld,IfcSlab - vloerveld
+different GUID,23_XwbBRjAB8x$lT1cavmp,3DYRbYMrT9pxoBWpeInj0j
+different name,vloerveld,IfcSlab - vloerveld
+different GUID,0bxMIwnGLCbgjsQk43tTK$,3cO_mxGA9AhBaYZSdvrzcD
+different name,sporenkap,IfcSlab - sporenkap
+different GUID,2H6QJz_7XBA9rec338IzRM,0zB__2oAr8Z92f3mRuKW3l
+different name,sporenkap,IfcSlab - sporenkap
+different GUID,0DFJCuN8r6WRVW_GxdBvRT,3OtjUIcV59NBjGIIZUOOaE
+different name,sporenkap,IfcSlab - sporenkap
+different GUID,0oWZTX4_z54hp752v_Qa42,37krxHxfrCj8_o59wpWQUQ
+different name,sporenkap,IfcSlab - sporenkap
+different GUID,1c7GSzzuj1WO_Gs_23Ca4q,3MSZYxrSPAEvkODISDSoCH
+different name,sporenkap,IfcSlab - sporenkap
+different GUID,22nWq74YPFteCBjUc6JjZ0,2KZ1FGui54efGFsIEk_I4j
+different name,sporenkap,IfcSlab - sporenkap
+different GUID,0uRa8_$V12fwPAz12OHbBT,3fASCktyv5Gv2_Lnzve9fY
+different name,sporenkap,IfcSlab - sporenkap
+different GUID,2X0E5JmgP1luFCa0knY3CG,3eyfLEyJj9jg7ZuguHx_xu
+different name,sporenkap,IfcSlab - sporenkap
+different GUID,0OJWn0JefCv9hzpdii2Imm,3DlQkkOT191eOemii4eKUd
+different name,prefab balkon,IfcSlab - prefab balkon
+different GUID,0uAZdPNur5UQMtvFbGsfuY,0jF5WXrD99XQtzyr4wRZOx
+different name,gootconstructie,IfcSlab - gootconstructie
+different GUID,2QwOZORnH1U8$Obabf6tRd,3dZ_Iz7iT9wP6ckPpoJuLA
+different name,gootconstructie,IfcSlab - gootconstructie
+different GUID,2QJ29Th2j3j9j2_UL9ptc3,1UZjfAVXLFcBE2A75Ljy_p
+different name,sporenkap,IfcSlab - sporenkap
+different GUID,38Mg2Gj2T8XwRV2IuUentp,3Rt4xKdEbAiu7e02vHJ3el
+different name,sporenkap,IfcSlab - sporenkap
+different GUID,2tmREkUVP0KhkDPItRVwae,35_eVOU2D0twQbrHOYwYpn
+different name,dakisolatie,IfcSlab - dakisolatie
+different GUID,0e2AmNgkb1Gflqp22P2CPd,1XIBxc4_T1Qf1$agzbX6tL
+different name,dak dakkapel,IfcSlab - dak dakkapel
+different GUID,0m_7iL50T1pgK3U7zqTZQ9,09GqoFqaf9VuGpSl0L_wDn
+different name,dak dakkapel,IfcSlab - dak dakkapel
+different GUID,3PYbhELXr92BK4WMFmpGVj,196ja2qP9EgvdhQq4wcgHu
+different name,dak dakkapel,IfcSlab - dak dakkapel
+different GUID,1K_rplvXD0rO3a2dNEYcoq,3mhYE01wH3HuvFQmRDgzJc
+different name,sporenkap,IfcSlab - sporenkap
+different GUID,0UG3QiMpzDlg6DLAqExEcS,3AmwwRNfLA18$9ULalTjRO
+different name,sporenkap,IfcSlab - sporenkap
+different GUID,2OgpDYzvL2QhgeI9VmDEUN,2zpKQGrC908ejSyYo8fhzo
+different name,dakelement,IfcSlab - dakelement
+different GUID,3GhhN$uvX5igu88pzhiJv8,2wLZHjFSzD9gAAjrjoQD5E
+different name,dak dakkapel,IfcSlab - dak dakkapel
+different GUID,1dQx3P9dH7vhwAJwVUYYGE,1dyhjMl8HAi9Y0boeE72Xj
+different name,vloerveld,IfcSlab - vloerveld
+different GUID,1y_z8K3DLD8P7YJTBHImTW,129kNuCg1CcRaFjz85rwOh
+different name,vloerveld,IfcSlab - vloerveld
+different GUID,2aLZDRWLv3kBhXLwCrnxSH,3lQ_j88VD5c8WGW7B3tGqB
+different name,vloerveld,IfcSlab - vloerveld
+different GUID,2MGtJUm9nD$Re1_MDIv0g2,2RtEdkNEL68vCD9ejFg1cq
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,047hRisLn70Bn_GLMR1G1S,23i8z4J_L8UBmE3AuPX3OO
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,35N2HpIELEtPD3xssMGgew,2ff4nvn35EwBwl12HHCDHB
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,19cnP4Bm90V9KyCekAFXxu,0EOHUuyGj4hAEIADAeCOgv
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,3qewII9V1EEubSogUzOIBY,1xdzLKaOn7EQAKxvv$jhQv
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,1ERFleB4fBBfBOswxk$Xdp,3pEvjYtO19_hNauJmVIEns
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,0KiQHeBg1E1vCJHKQmVSFE,3wU5J8F4f4CvRb03nv$uFD
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,0RPHfQWPHBdBX1ccCVEpVD,1rmZ7tMIj69fMvq98459kz
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,3ycHvSZkr4dQo86guV5eIK,0YahEicGfFIQQqGhh1PcSW
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,3TyRkCAozEAhemCLbgpc0y,2OM_r$QoL0sgsfE8tEPtuo
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,0MI_2HZ992Bx$nIp0Ts0HN,0fuOenVQ18oxCmvnDt_S$J
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,22n$AYXlT6Du$WGeK8$9Iq,16pjY1yZX7ahhPU98NcbnL
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,3z$jhdTIz3KQIVA03ccSlX,3CTHzE1kX3$gIpsKACKdhr
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,3lhisrBxL8xgLCRdxNG$2v,3U5J6oz298kxexcQd14L_o
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,1hLy1Edbj5rgNEl39t96Zu,029XZwa95BjBWcP0pYXCfa
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,3U5VF90aX4EPY0n0sy5tfn,1Q9ABoQZH8PRUpe_F5jeDo
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,1TMPN6ORz3V97VjLq_yYT$,3LhWt2pvXCgxuLr2tYmUdl
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,20WcZDP8zBu9vHK_3hpKya,0DnzjiwijAPv3vswrRF5ti
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,1UW7PE1gDERBLJr$nLgoec,0O5ZXUa4n5MxwSaclbmmI6
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,2WXOgWSjzCfR4IRJ_Z1gjK,1rkytDw6DA0PZZSY86vOdc
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,13klpZHlDB8wG49s9DUIV8,3qcTuQB1LCnAzpgvB58Ieo
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,0K6QmOqO9ATe9WGMwhBHoC,0mUcnsVcPFZfodGCOPZynk
+different name,dekvloer,IfcSlab - dekvloer
+Different number of IfcWall in storey 01 eerste verdieping,187,268
+different GUID,2oT9F5t_D3r81DfUpoY23W,3l$5QM1295u8wIrk7j0yZx
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,1cApy3tf55$ewMiOVVXpAY,1WnRvsEPH7wfSITfArS68i
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,2dyqlxLyzFvQOjQrGkU4$r,2ygj2FYLb6iQj6HenK7qy3
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,1xfcxY2sf3LB1ysF5_X4I$,2i4pkVQZf1mg9ggINdBmAC
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,2Qc0XfkND1d86$Q97dSDkt,0dkZwDdObByQaxhh$6Vq9k
+different name,merk B2-R,IfcWindow - merk B2-R
+different GUID,2u4Y9RrS9E7e46nkx$KtkD,0JA1_G0ejFMPm3WqAXJFmV
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,09l8RUnHH77g7h7SXJ62Iv,0kT_uxMHfDTR9hU466Qb5Q
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,0XEOt5SHT7euOAUEqbQw0S,1ZBHuae316zf5i29VHQa9N
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,2$G2$L_ZfD2xyYJh6wxmZd,048YcuEgjBDOlDMFsAkhdi
+different name,merk B2sp,IfcWindow - merk B2sp
+different GUID,20drR2J4r4bPUTTBVjW_Vz,0m_0jZiIH8m8Gld1M3SEBJ
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,1bd$IrGA53LQPvMq9gVcx0,3zLhXamE5128$VMqV4tQd8
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,0zufCFef19dhrSAn7n7kDY,1Oh9_fcgzAvu564TuFGFGl
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,1CNomnrdb3CeKqRVaml6Zj,0Q0b0TmCP6EecXsqO838gR
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,2RXwC8nPLBKOSiamyBX0qt,2WABwQrAD0nerwQCBRIsHB
+different name,merk B1-R,IfcWindow - merk B1-R
+different GUID,2jJseFS1L1B8boC45FrAL7,1AyzAl1VT99PO8OD6UgdPx
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,0FcHfq3eXDUvB1x$PxjHW5,28jzp83jjD4edoTzpYELut
+different name,merk B1sp-R,IfcWindow - merk B1sp-R
+different GUID,2BAFeLAfrFmRqNR9mOZjZA,3AXt0si3XAhfIGZWLEDmsA
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,2ViuBjcVj8z9LMZmOsdtUZ,1qEguO3fn3rRVwrg03jJpx
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,1QutPMQ5z6MggQuGh8QPeo,3sJx$Q3p90rvn$AHWB9vDW
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,1ToOMg6mH3uPQ6JhObMAbP,1O0OyxYbzEWerQ22hpPKDA
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,3TvWm44N9F5RIa$fhkiYVg,18YmyyT3PEPg_LY$aQdfRP
+different name,merk B1sp,IfcWindow - merk B1sp
+different GUID,1T2P9SD_v7pusuMZ3NUpjC,0V7cJXTJvBNBpzLmzBXHUH
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,1PmQ6CQbzAMgXxD2pXWt3a,3s2EZ7B0DE6fHddgT6Pjy8
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,1pPLUmJvHBYO$OdiNX3HUz,2FuJrwghX0bv5eHpgukXG0
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,0y9v8B7Jz8XQeHm3h61$Xt,3V83HERGzE6gehC$aT0UHt
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,3UNWn7XCf1hwvlPusg1icu,1eWJRZkdXAGPTlvNwd3rp1
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,3upcShrCbFfh0jm4mYUUdu,1Bw87gAbvB3ewOrB4_8NI4
+different name,merk B1sp-R,IfcWindow - merk B1sp-R
+different GUID,2aI12utMz8aQ3peDg2uVuG,0U3ZW8Lk552Oo5oMpF59pd
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,3YkS_khHDAjAeJXiOfwXwm,3l7s7GV_93qPdTAsaUVwOL
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,0KGCtyQFv4av1Wdj6buj7k,0wR1Qoo892h8vw3Douglcy
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,16TvrQb8bFTPpj$qS6T5ri,1StiaXV3X8lA4pUhPytDas
+different name,merk G,IfcWindow - merk G
+different GUID,0_nanN5VH5eARTiW6lUQd3,0JlCWSpP1DeOn_$G4Rw9uH
+different name,merk G,IfcWindow - merk G
+different GUID,2okwPp_551sf2xuZcfRIdG,0WTrSw5UX15efu_i4hsqUu
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,3H7pBT9U13kuEq2qj2wzQk,1CtCRbWeL85uq2sp8Q71r6
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,09bCBGNx5F8xAq8JjO37a4,1iUKZI_Q1D8e$zH9pe__vU
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,0tvRrpQa9Brgk0PO3rZ7pS,2cqOrkxXPDNA93fMy0r8Qo
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,2Ap4dwiajE799Gm9tGiJx1,2lWlx5uUP0IPEcJoYNgJve
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,1_nRsWg_f0XubfZfIIRP3k,0HE3djY5f5PfLpmtj1PD6R
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,3SgAlyy0D4NQuzsMpXqOUR,3abMm3EAn12w1o3vcjI2KW
+different name,merk B1,IfcWindow - merk B1
+different GUID,03aP3tMUjC5voZmp9koxhs,1_3wV5KRP3ywXyxFvs74a_
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,2lkytCG9rD3O3IXV5k3j5H,2TtMBPysfEcAEg6C02ISaZ
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,2YIkXYWk12Ruf2QsE9cXTp,263dq4YV95eRm9nO4oqZiU
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,2VRR1TrGT6eBTc8nAX0QwP,3dF1csU6v4yP2YT8gwwSUO
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,05Whcg$392JeMCX54BugRl,1TXr3C0rbAxB86O$sknt2R
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,2m0Oxn1sr74ODbW_x3jNoG,1TPyCi79j9vuXmleBj66C3
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,382pcuNAr1tep31IH5fMSU,1i_vXhZLfD085WTQ5_5beW
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,25iCNH$Vb5quMnNN$zdiEg,1NXaul2tb64gicFzT0DyNa
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,3SinmO3Pj0_fGoIba5Tpbf,2z8o3MMBfB5hKOWQn7ZtvR
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,12TtYnsRH7R8kq19$bZFwV,2aD63C1TjBcgWPlf$G90d9
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,21v6Lxsl1BCPpmriUOgAsP,33LLwMgVT2HOC58shztDB$
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,0fQEU5rGPBq9vOpiEoyBBR,1OVnxMgRj4MP7dePzL5ENU
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,3LppQIb2j30xblkm5GtTTV,0nYJWD5PX3wuLRsYw6DFLO
+different name,merk B1-R,IfcWindow - merk B1-R
+different GUID,01z1iheQT4$8X5aY0_r4QJ,2CpciPS99BpA1xbB2S$4Jm
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,0G1Gjz4oHDNe$dN2BBokLe,1vfKE$6qHCxwFbuLCqjg_j
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,0MXxM0JgP2KuGUWBtQY80N,02_pee96v5TRtj$j_bfn1u
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,0pZslPSAb8jBEsesxVZzu0,0UmXKadWH9P8kf0M1DW8gm
+different name,merk B1sp-R,IfcWindow - merk B1sp-R
+different GUID,3RaVPvaOf64eZBU6WKpwMU,1i2g4Bn_LFBhEj4gMSsVv$
+different name,merk B1-R,IfcWindow - merk B1-R
+different GUID,1teUYP1Rv0ZhB_2gzRilQR,0He6r28v56qgKzXZnq6vRz
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,1EL9JU43nABBdNk_W52fqh,20zv$eM918uR8hVbMAR3Tj
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,0r1tRl0qv5G9URrsYopY0P,31Bh45LcP77QRD$G4LCQ_D
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,176JSQqvPCR9mZPbZYohue,1NEEY_18n55vrPyGfChprB
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,39e5HG9Mz5bhpeErZLhRP4,3gspxKuMD1IgUvVtP_WJio
+different name,merk B1sp-R,IfcWindow - merk B1sp-R
+different GUID,251rxV64H62xIQNojyGRwU,0tByRb2Bf9hQkIdNJttcYa
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,1PAxaJRu13gfudq_tpVBm7,2J0G9mat9CQfIaoqTwvxaS
+different name,merk M,IfcWindow - merk M
+different GUID,3bpb$MQq50M8aknXg_9Fdp,04anPOhoXENhfsIhFJfH7y
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,0ZU09EWLf0fQUCDcc5uEu_,39XI2qL1z8xQATrkcDW_gV
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,1D3QrwQQnDpBzpUuSTr$BU,2HRpN3LXnEVPXzrWf9ki8n
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,1YZgYVVw9F0Qg_cyVJnVhp,364ACvZJz3OAFwhylXBd82
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,3Y6cgtY0rEBQUJPUx_aPRF,1k$jUjwFX7nwQztPLHkebu
+different name,merk M,IfcWindow - merk M
+different GUID,3MrGY57rjE4Owj5UJO3Umk,3QwGJw2HX8eAG$j8IQAGEc
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,1IYBmrd2H8ihMtKIvfnjz0,3lkr58Apz9seSvJyGO4b3a
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,3vvdwTEwn8XfzKTKW82ej4,1HUH24NlfASvws1Z3VZFQW
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,2M$dfAAj90C9cPQZXqCaMP,2zDxozj2L5AAK9llsURcDw
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,2$5nWI0fL8zwtrwndfa9MN,1hQSaKP717Cgg1qzY59CbR
+different name,merk B2-R,IfcWindow - merk B2-R
+different GUID,1YokH0mfn7782tC$kkBV9N,1iM_R82fjC1gi7Ge2wBKv$
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,1drJr9gifENhdb9tpZx1m6,1uiZrxwtr63RA6WL5x135F
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,3Qds1Ttm57nPXC1iJ$aE$M,3979KNorD0EOwvIJSJg$_c
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,3OOESiHE9Cng4Bb4pE0UY6,20MzKj20P2Xv2lD$Sv5C9V
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,1nalLUQ2z9_wBIkbXwMz6_,0sxhfeD8f26QMnz$kd4PWZ
+different name,merk Lsp-R,IfcWindow - merk Lsp-R
+different GUID,0l79Hol6v6XBNPQpgDR__D,2LgClifXHCDQz25c8y3_xo
+different name,merk L-R,IfcWindow - merk L-R
+different GUID,3oAFxBcTz9oeraTpYdYjN5,0MjSf7FbfCIQKIr2MbkfSh
+different name,merk L-R,IfcWindow - merk L-R
+different GUID,3BudmayvDEg9diXrrDKJ0K,2FL1YEjQL1eeGVMkTgvmbF
+different name,merk Lsp-R,IfcWindow - merk Lsp-R
+different GUID,3zP$yy82X1zQpQLI8ob4xL,3fUUsjUOzE6PKm248Q8ZIG
+different name,merk G,IfcWindow - merk G
+different GUID,0rgvpCJSX1cOzYjSKRiBzu,1PHR4Te853Aw4xZKW9BBxU
+different name,merk G,IfcWindow - merk G
+different GUID,0U9_x2D65DmwQy5m_Q35Ne,1fKBGPzynCoQ8souUfGYAU
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,1MAxgv_XP6ZQ97AQrkDyrt,3UB4ARJQPD0eXFDhb3cR8E
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,0HiNZtHwPCJuXK3YsKm49z,2sJWcZnY9Dt9yZIPkReAKI
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,25P1FLrhb43ONVrD2L840O,3r_ZZydkbE0Q2$PK3_0mdS
+different name,stelkozijn,IfcWindow - stelkozijn
+Mismatch in storey GUID,0wPqxf9KX0nPDjgzD8mXwD,1z2LUw1mHE48sZ7WcqyaOo
+Mismatch in storey name,02 tweede verdieping,IfcBuildingStorey - 02 tweede verdieping
+different GUID,0wPqxf9KX0nPDjgzD8mXwD,1z2LUw1mHE48sZ7WcqyaOo
+different name,02 tweede verdieping,IfcBuildingStorey - 02 tweede verdieping
+different GUID,3q2cfkujDA4h8rK4udlhjq,08_D6$UcPEoelm6nT3ITag
+different name,hoeklijn bordes,IfcBeam - hoeklijn bordes
+different GUID,1Jt7say5DBTPG$0$gegcAf,0YgC9Ciiz5ofJwWSWOc$Ta
+different name,hoeklijn bordes,IfcBeam - hoeklijn bordes
+different GUID,1ZUt9o17T0mOX7uFuiqqaj,380HasZRb0AwwBH6Q$Geav
+different name,staal halfspant,IfcBeam - staal halfspant
+different GUID,3SxHgircbC9hSa_f9YYJJ$,2xhMeXodb6OQvf15Ya37mc
+different name,staal halfspant,IfcBeam - staal halfspant
+different GUID,0hcpNW0db6X87YuVp_2ciE,3QXV9MlYX7gR8x$cfxsS3c
+different name,staal halfspant,IfcBeam - staal halfspant
+different GUID,0k653Rg_z8xQ3HPFizAOCW,2mVzZjJDz72h4sbuNH8zAz
+different name,staal halfspant,IfcBeam - staal halfspant
+different GUID,0sfYqP8DDATxl1u47I11Yd,1FeXXJTLz8$OdetPhoOvJM
+different name,HEA180,IfcBeam - HEA180
+different GUID,15yxQAL$f43P0u1dI$k5aM,3eWmEBk1L70QoKz$f2v2iP
+different name,HEA180,IfcBeam - HEA180
+different GUID,130A2mOb118fGCKfA$dOPJ,2D5earmTH8ehJ_2$GIBkEf
+different name,HEA180,IfcBeam - HEA180
+different GUID,0QRdo0_S52Bf0hGTlrzUF5,0vAViJH7DBBO9YhODxwNUa
+different name,HEA180,IfcBeam - HEA180
+different GUID,2HmiD6wm592AAFyz2dr1Pf,2qgZ1ENMz0vPLybSyX3atp
+different name,HEA180,IfcBeam - HEA180
+different GUID,3k9D1gOuf01OXU2EnmzMAH,2QP8WayzHAje0AuY1qSsKA
+different name,HEA180,IfcBeam - HEA180
+different GUID,3eVLh_nMf51BErb6dTmOYv,0SxNchwxL5APDOx7o$yPXv
+different name,HEA180,IfcBeam - HEA180
+different GUID,3doFsyD$TAtOoTUzw7BC1v,3GAYv$Jjn6fw$3K6hEtlOi
+different name,HEA180,IfcBeam - HEA180
+different GUID,0eFgQlw4j5RQ4lKN7Wx8BF,3Oc3HbzIj7TAg_xlAbXp8H
+different name,HEA180,IfcBeam - HEA180
+different GUID,1yOYfHuUPEiObFJrOT7k_r,0rekXP2yz0cw0uuoWmqqkn
+different name,HEA180,IfcBeam - HEA180
+different GUID,2Ukg0dPlL0Ef04YM$OVBat,10M27wXLrBjAcEug1INLX7
+different name,HEA180,IfcBeam - HEA180
+different GUID,1Vl5CJOxv3Dfs5Ry_QCti2,2EFc8_k7X6Rv7A5H72wbSO
+different name,HEA180,IfcBeam - HEA180
+different GUID,1nkBTQxQ52TerLh7DOjRh6,3T0R75xvnDlAJSB7cwQeVv
+different name,geveldrager,IfcBeam - geveldrager
+different GUID,2hmBGtlFT17AQbvvLa0rD0,1lCjmpG4v1XBDlVe_U3_k8
+different name,geveldrager,IfcBeam - geveldrager
+different GUID,3S9hlUrjj2EPxgpyC61kto,2fYNmgBYL0ZeVoeBkPGale
+different name,betonlatei,IfcBeam - betonlatei
+different GUID,0j4QDQjH9A$h43eLDGhXyl,0VAZs1qt589vdXKIyiD$Dr
+different name,stripstaal 80/8,IfcBeam - stripstaal 80/8
+different GUID,1jxOIPWGn7Rfxz4k0FeFEJ,2G2x52bM17axmzAGdu4BYB
+different name,stripstaal 80/8,IfcBeam - stripstaal 80/8
+different GUID,0_sNN9JIv40eZPdsuo5N6E,3ZVRAG7DzFDA4_HZ5YrCG7
+different name,stripstaal 80/8,IfcBeam - stripstaal 80/8
+different GUID,1vP2sJ$_v9XRPftfJxtqWr,1BWVDk0KnEjREzgfxrKmS1
+different name,stripstaal 80/8,IfcBeam - stripstaal 80/8
+different GUID,0UxjVg0CTCqAW8uGT8wJjn,1I3e0V8Rv3Oui$OM7sL2Wf
+different name,stripstaal 80/8,IfcBeam - stripstaal 80/8
+different GUID,16VL86SyDCL8gVUYSjW$7s,32Fqo_2xH3IeE4s6k2EKk_
+different name,stripstaal 80/8,IfcBeam - stripstaal 80/8
+different GUID,1b$Bo90Lv6aO5ZfZ5bKmrB,3rpUTM3cb0Rx8xOoW1_yQw
+different name,stripstaal 80/8,IfcBeam - stripstaal 80/8
+different GUID,3Wlz9yohj8ThYG1fG8xA6r,1iVV6BXFb23u7mvO7h1Ijo
+different name,stripstaal 80/8,IfcBeam - stripstaal 80/8
+different GUID,0RXteokS174O1MF_ZesSRJ,0$PuaXFRr8BeYp9VKNUxJS
+different name,stripstaal 80/8,IfcBeam - stripstaal 80/8
+different GUID,1OSreoxzj3r9gdUen2MmDQ,20SMf5Ge54L9jJ__0VXewm
+different name,stripstaal 80/8,IfcBeam - stripstaal 80/8
+different GUID,29IOQ3fjb3cBrPW939Umfc,2giWWOyv13pwQH75xKNsnU
+different name,stripstaal 80/8,IfcBeam - stripstaal 80/8
+different GUID,0EV1tBRrXBFB54GuiZ9KNi,10yNMXZ4f9bQS$8i8RuNK$
+different name,stripstaal 80/8,IfcBeam - stripstaal 80/8
+different GUID,3SXKMDKGbFJ8igoQRlAZ6R,0iOn2lLVr3XAhB8mcBg8SA
+different name,stripstaal 80/8,IfcBeam - stripstaal 80/8
+different GUID,04Vz55ZDX70v$sJ1Z2p7ix,1z7lH21Ej2BfNOO0JgoXNW
+different name,stripstaal 80/8,IfcBeam - stripstaal 80/8
+different GUID,11gA5Dui92yhHMbdm2nIvn,1hM$UJVFDDKumd6KLwiblt
+different name,stripstaal 80/8,IfcBeam - stripstaal 80/8
+different GUID,3WwF3ZUyL3_uOcvhLTlqWJ,2wnKfOStnF9Pcvn6IbXlyd
+different name,balusters,IfcColumn - balusters
+different GUID,1L$7w_vsP2O9IsnEN5d1nZ,1cE6ZdAfH1JOvTOoW8Ku8h
+different name,balusters,IfcColumn - balusters
+different GUID,159QrTsQb9zu88XvB88A2Z,1kSize9CX3Ugs_8ZRtI$cX
+different name,balusters,IfcColumn - balusters
+different GUID,0MManSxITCBR5hqtmVQft$,1_kV49PMr9meb9fsEBwhay
+different name,balusters,IfcColumn - balusters
+different GUID,0PwN5MKCnENu413RHBr2sB,0gSfDP7N5B9gpG4D$OIKGZ
+different name,balusters,IfcColumn - balusters
+different GUID,3o_mcdn_vDavgeLjgPBtk_,23hbJvqjnEyAvRgkeaAmSG
+different name,balusters,IfcColumn - balusters
+different GUID,1C_2jEzdDEK8Xv0nCzYd1Q,2CaxxS8j1Akvll3dhd6iO5
+different name,balusters,IfcColumn - balusters
+different GUID,0RXt3SWyX7NQmQgLj8MtLn,0xt24g$IjAmgQmOzt6q4ur
+different name,balusters,IfcColumn - balusters
+Different number of IfcCovering in storey 02 tweede verdieping,268,0
+different GUID,3UPz4qnhz6dR_hTWbylJYM,1PDKteMQD03upmniQjAG9g
+different name,merk A3,IfcDoor - merk A3
+different GUID,3xkLH3xAf9Qvv7jXLTD0bw,1f27ectFvCnv2KlcGA30q4
+different name,liftdeur,IfcDoor - liftdeur
+different GUID,13lQ7MfpP9YQNh0Z31qoMP,1U8huSUv13QxJ6MuZznXS_
+different name,merk E2-R,IfcDoor - merk E2-R
+different GUID,3Elkb_Klj4kOU0Qc6PaizN,085X5s_jz2fPf1_aqjlsLz
+different name,stelkozijn,IfcDoor - stelkozijn
+different GUID,26wG__yAf4jhBihTArGrfi,0xb0mSAjjAt8_InPtmTPUt
+different name,stelkozijn,IfcDoor - stelkozijn
+different GUID,2BidPHSyjAeQnxVo9HGHwm,0vUuvAQ5v3hA$CeL4en3jB
+different name,stelkozijn,IfcDoor - stelkozijn
+different GUID,3WXd7RsH9CT9CRRwuhBxrU,39afIxTDn20g16baDEd$7Q
+different name,merk H,IfcDoor - merk H
+different GUID,06lQ_SRDbDyuiUF0YIGOKi,3DePbkze19KeDlv7VZpfgi
+different name,stelkozijn,IfcDoor - stelkozijn
+different GUID,1zulTwZuvE8uDQG8i0rPWu,1pHve$RuzFhP8wOvZWEvfz
+different name,stelkozijn,IfcDoor - stelkozijn
+different GUID,0ghxYtUBn0pv_pxPdAfhme,3mkd$6X0j08A3Of50fvLPj
+different name,stelkozijn,IfcDoor - stelkozijn
+different GUID,3G$_TtmoH0i97AYiv2eBBu,1iGGFWGDTC$v9N_AyIKgdf
+different name,merk H,IfcDoor - merk H
+different GUID,2_vRJL86PBTQqE3ySM6YFm,0xOKFMZ4r6OeCm42UM1AS4
+different name,stelkozijn,IfcDoor - stelkozijn
+different GUID,1soUbpz7v1zxTj9qXJhloc,0b_bg7MaT0GfHtIAz2nz0W
+different name,stelkozijn,IfcDoor - stelkozijn
+different GUID,0LbBET9Yz9egUjXX_5FIas,2mHnmRTR57PBFpIFcCi06r
+different name,stelkozijn,IfcDoor - stelkozijn
+different GUID,1EgBW0IB95EeR9l7z9ma4W,0c6PkOLoz8FequtYWKQexg
+different name,stelkozijn,IfcDoor - stelkozijn
+different GUID,2zx7EWNY98lOv3r2x2yc76,00w9A5qHPB2uenLl3yPPpm
+different name,stelkozijn,IfcDoor - stelkozijn
+different GUID,262iH081180RfRZcryzr7v,2AKx7RvUHD8fAz5htVwYlp
+different name,stelkozijn,IfcDoor - stelkozijn
+different GUID,0HKXdsxQDBXehvvnIH9Bj2,0bropPVUr4FQJtZXzG8S3j
+different name,merk E2-R,IfcDoor - merk E2-R
+different GUID,1FtRH1k0bE4fyu_U9mJBmf,0kOZS8Woz2jgOzs4w7HuUS
+different name,merk H,IfcDoor - merk H
+different GUID,27bh8yZhL8hPRD0H6aMxEY,3Wkqk1SATE_PIAj9E8zcQK
+different name,merk H,IfcDoor - merk H
+different GUID,3v$Jw_gpr6OOS8FFzqFDOt,3ax5BF4O1EVB2OgE$RrnLk
+different name,stelkozijn,IfcDoor - stelkozijn
+different GUID,1_5gcKSrbEWfNgi3h_qdnx,2xF$c5bq97lAmOQ6nYEOz_
+different name,stelkozijn,IfcDoor - stelkozijn
+different GUID,3V_oBYi792a9_YZErx8HIx,0R$hLfQHf9FPZqWCB1zZqr
+different name,stelkozijn,IfcDoor - stelkozijn
+different GUID,2VKgopOMr4PQnzIHA$Zbht,2zaZy5_a5AzwYCMyvCEpWa
+different name,stelkozijn,IfcDoor - stelkozijn
+different GUID,2152K7A7j0Xhs5JOT$GaL4,2TUQm6pI1CZg80KoL8LBLx
+different name,stelkozijn,IfcDoor - stelkozijn
+different GUID,25jGa8wIHFKepyW_M4Ngs7,3mP9zsdEn6awdruQb8pLE0
+different name,stelkozijn,IfcDoor - stelkozijn
+different GUID,3G7ktHYG96gQbiZjzEbR8N,2lyce_mBL3RBsroF4suEPt
+different name,liftdeur,IfcDoor - liftdeur
+different GUID,2K7avqptP0rAzb1886J2AI,2zAcZjNOfChuYeu7PfpteC
+different name,liftdeur,IfcDoor - liftdeur
+different GUID,0mLDe0vvD7lQPHmwh__YTZ,3vEzzoraX0Hg8TjlX2TzgX
+different name,liftdeur,IfcDoor - liftdeur
+different GUID,1MMTbq1t93CfhQ63Tyks8n,09DwWanyr54vKTHWNka04B
+different name,D1R,IfcDoor - D1R
+different GUID,0HTjC8kFv6W9Fd4e3r5fjg,3fPEdY9wLAOOvlPKVS6NfI
+different name,D2L,IfcDoor - D2L
+different GUID,2pAvanoIzEV8kE6N3CBDLL,2AOhQA$6n2nQWQhaOGGNuF
+different name,D5L,IfcDoor - D5L
+different GUID,1jTFg_BbD2_gRGTcr0jnVr,3hmfiZb158_ebRL5o7inW7
+different name,D5L,IfcDoor - D5L
+different GUID,0h4oGef9T1PgTelA09ZLn2,0J9BG$KC9Ekx8FI8AgTATV
+different name,D6L,IfcDoor - D6L
+different GUID,2EKQPtlE15r9nj5or9E3v0,3jEXq39FT4NxwFHelzpHll
+different name,D1L,IfcDoor - D1L
+different GUID,3sicsb7Rv7vOSpwjkHwdXP,3TnqifHYL8PgbSTmwfLmzt
+different name,D1L,IfcDoor - D1L
+different GUID,2Gq0QN14T6$e3J8hk70VQH,0_am6zJJvDuQ0FjSEuE32Q
+different name,D5R,IfcDoor - D5R
+different GUID,3wks5cHiv9puC78stid7dq,0J9YMqjTT1yuFO0Myc6lOF
+different name,D3R,IfcDoor - D3R
+different GUID,06_o2t73nBXvUfWV0NnaRj,0wXRqr0n18Kf$v3ce$9OqV
+different name,D5L,IfcDoor - D5L
+different GUID,0$vj6GrA15b852nxv8ecYB,1rQqZBzyPA38NljYTth9VA
+different name,D2R,IfcDoor - D2R
+different GUID,0etZemLbbAog_wCl27YohR,1fXty3KmTAQP$TI3xLdG9I
+different name,D1R,IfcDoor - D1R
+different GUID,0rEPlH2fP8YQ_q3GiazsFo,0Evr7Kb89DsfGwRFchrJqN
+different name,merk A3sp,IfcDoor - merk A3sp
+different GUID,2$y_vPdK50rvRCnxRgbax0,1fpFX55MT0rALXlhZlA$mG
+different name,liftdeur,IfcDoor - liftdeur
+different GUID,2nEtJExy5EkR8dxB8J7WF8,15VcyA1D55aeP$b6mWx$rn
+different name,liftdeur,IfcDoor - liftdeur
+different GUID,1UCnFJQ7nDgAX31ppgw6Pa,3n9hbVn0zAJOqt0owk9op6
+different name,liftdeur,IfcDoor - liftdeur
+different GUID,1Uv0j9g_TDo9SZvipUwvCd,1$ffLl8B5ADRE_I0BjCJqz
+different name,liftdeur,IfcDoor - liftdeur
+different GUID,2zilQ_m$j83PfsTQ$4$xs$,2gr0NgZhP7aubtkPzvBO_4
+different name,liftdeur,IfcDoor - liftdeur
+different GUID,3nUiG96vjAwPUR6jFmv$ZI,3G02Mo_kz3uACTdlJvXaZp
+different name,D8R,IfcDoor - D8R
+different GUID,0xrZguOJ55xx5lucOklTa9,2BCPuUt293qx0gZsT7Xeb$
+different name,D7L,IfcDoor - D7L
+different GUID,36MmH3zZH16QTwC46Vbk$D,21a9hNcT54xfRsqivOPoRt
+different name,D1L,IfcDoor - D1L
+different GUID,30hxmiOx15DRzAggBisbdA,0dUc22r5HEDQTgOB9fYZ20
+different name,geveldrager,IfcMember - geveldrager
+different GUID,0IAn27JfLBpu8ypPPKG8k3,2SHXpxGhv4Ng1m83NxgEsN
+different name,traphek,IfcRailing - traphek
+different GUID,0eucvL7jTBzhWlFD6WbUM1,1MxSVlQ7j7MxTFvKX421Pb
+different name,traphek,IfcRailing - traphek
+different GUID,0rmB3$jx1C38gqkeVCpSq2,2F$LDPtMfDSA4aHMt9fv7u
+different name,afscheiding,IfcRailing - afscheiding
+different GUID,2En3RuMqXFt8Nnzr9SXngL,2R9$nY6FH09BR44thuzzzJ
+different name,afscheiding,IfcRailing - afscheiding
+different GUID,1IoKrB2iX0RQCSK1TL0EpR,1EZE73EdT6r9TUIgBjp64f
+different name,afscheiding,IfcRailing - afscheiding
+different GUID,2XeGjIW4DD$Q8B54MkxXRb,2a3H868TzFTPqgIIVX31GF
+different name,afscheiding,IfcRailing - afscheiding
+different GUID,24vQSbcN92TOxmunUjRgX6,0Afqo$I7z1egGw4WGP4jdu
+different name,afscheiding,IfcRailing - afscheiding
+different GUID,0zYXyPDxL5auGRALTCz_bx,2mS1wUkB5B6uVadZqNeDNK
+different name,afscheiding,IfcRailing - afscheiding
+different GUID,1Y2Xz5kabEJx2M1UUviS71,3VowNPfHT1Hfa5n5UVNtof
+different name,afscheiding,IfcRailing - afscheiding
+different GUID,3CMQf2OJH6YBcD79nUtMw0,0Vvn0youXB5x_0PKCKC7b_
+different name,afscheiding,IfcRailing - afscheiding
+different GUID,3L2fUzvM18JRXMvi_HFisB,0jSAgsQprCmxK6QLvE63jh
+different name,afscheiding,IfcRailing - afscheiding
+different GUID,0VpKNQ$9fCAAgyLBv4rjWn,2c5H3Df8vCf9T3JTpfA8nC
+different name,afscheiding,IfcRailing - afscheiding
+different GUID,3MiF_WpoP8N9Hh8R8TEcJp,18jIBnCOz3oRmVY82nnaeM
+different name,afscheiding,IfcRailing - afscheiding
+different GUID,1eu8ngk854$evnd$QPrRsf,3484uPNWD49xne3YM$abG5
+different name,afscheiding,IfcRailing - afscheiding
+different GUID,3x36ju8yjC2ew728PDBVhv,3A25rz8Nf4oOsIGCbFvkIq
+different name,leuning,IfcRailing - leuning
+different GUID,3c2hrdPxL4ihih105Tr2La,3TieoKx_90a98EWAV_rmFr
+different name,leuning,IfcRailing - leuning
+different GUID,1eKQCZPOb0mfovg9ikZP$E,1gE35XsyDFZQy5_WZuKhDW
+different name,leuning,IfcRailing - leuning
+different GUID,2QCntWGSf9MxHhI1elKAjJ,1feiqokin84Bj2xAXZQj62
+different name,leuning,IfcRailing - leuning
+different GUID,1qY54Y7TPA49KudgbcGIhQ,3SulZTxCj5pxItrI6m61oE
+different name,leuning,IfcRailing - leuning
+different GUID,1APfFU__n83R4ra1XYtgu6,2ZCjDBFlrEMAj7Hqhb$40Q
+different name,leuning,IfcRailing - leuning
+different GUID,1DtFBJrsT9yQcdifhZoX3i,3yfPnPuP5F2AwVAkwL9XuO
+different name,leuning,IfcRailing - leuning
+different GUID,0AbS2GH2P94hXNOYagmx2C,2YV4ZkDyb9qOI7PdD$xs8B
+different name,leuning,IfcRailing - leuning
+different GUID,3Q_hQpMLHCnxUrLPy5MlJq,1Wuu14Lsn4FQ1OrXGBmFgi
+different name,leuning,IfcRailing - leuning
+different GUID,0zgJo8u2H6Hv6t9viYmKxm,1_n8tujczBAQYO3vxPOyNW
+different name,leuning,IfcRailing - leuning
+different GUID,1RN0CQ6Lb1ku4LwN9DvM0W,3bwM26Huz7bfGq$u5ilK33
+different name,traphek,IfcRailing - traphek
+different GUID,2$MSonz3z9Y9Jeihbq_AXi,12BRpcdZLEdeZtTL6gW9sW
+different name,traphek,IfcRailing - traphek
+different GUID,2WhALKJ6HDCBIy$zrtx8Xo,3BqS5sL_P8M9_cLqAP5Jar
+different name,vloerveld,IfcSlab - vloerveld
+different GUID,0QENsgqy1AHgG_7VgYdbwc,2gEyRsE1rCQe725LPs3_YQ
+different name,vloerveld,IfcSlab - vloerveld
+different GUID,1Kvhfn7iT0lvacFUqniu5y,3tFoXpp1XDHfbSfjhw_Jh8
+different name,vloerveld,IfcSlab - vloerveld
+different GUID,1A4uhs68j3Suvp_DeIOyYn,0a7UzqVsHAkOg6LTqmnc3a
+different name,vloerveld,IfcSlab - vloerveld
+different GUID,12tm$BD113oAzHX6K_xB_Z,2VaQz4Uqr0NQDpw2pzS1_g
+different name,vloerveld,IfcSlab - vloerveld
+different GUID,0GDbLsPyr8u8sjnEP52zPP,3GFMcjxPn4ngLK1MSPl7MH
+different name,vloerveld,IfcSlab - vloerveld
+different GUID,0oWjkdPRH11hIjsKRnvymk,3OnzoFN111Tfe98WnxMwJK
+different name,vloerveld,IfcSlab - vloerveld
+different GUID,0AWsnDjX10P8BR94gyNj2o,15WNTnJ0vADwXb389iFuYW
+different name,vloerveld,IfcSlab - vloerveld
+different GUID,3kQNZLqVfDcRRvBkM1IMS9,3$unM5SyH9EgQQs2VCnJa$
+different name,vloerveld,IfcSlab - vloerveld
+different GUID,06YbFx9M15FBLOYIMVt2$r,2q6d7P4xPEcx0_2PsNc3gn
+different name,vloerveld,IfcSlab - vloerveld
+different GUID,3y2ALpG0z8_OFPbRCDWgIT,3aNrQgnmD2YgNtlgnGtkp3
+different name,vloerveld,IfcSlab - vloerveld
+different GUID,3TpyrZupTCDPuevUhz2MFt,2G27MuO2r6agQzUkVwV3aT
+different name,vloerveld,IfcSlab - vloerveld
+different GUID,1fRPC59i5A$Bo5RZ$znSER,20yLg4Ofn9suOTvpgC6pAe
+different name,prefab balkon,IfcSlab - prefab balkon
+different GUID,2qZf7$0pX6jh2ueXurPaRM,2eW8FQmgjDt8YvNDWoIFlu
+different name,prefab balkon,IfcSlab - prefab balkon
+different GUID,26QGTgi0r7xhS4C$UZx$YZ,3K6B3R7lPBLOR6vBRIFYC4
+different name,plat dak,IfcSlab - plat dak
+different GUID,2ppWtuzIb52xZcr932qIAx,1$AvaeAAj0HwTqztAnwQ5G
+different name,plat dak,IfcSlab - plat dak
+different GUID,0ZzyGbASLD1wvphFCXGJtB,0SNN8P1XXCC8lfu94jzS1T
+different name,plat dak,IfcSlab - plat dak
+different GUID,0d2YNnUYH3Khfs3ilMqi4T,3MnFwgx_v79AbaBc5L72gw
+different name,plat dak,IfcSlab - plat dak
+different GUID,2_2cZUZ01FcvMu56$zuMQU,3g3wTRZTT1COWvC2g4Y2KQ
+different name,plat dak,IfcSlab - plat dak
+different GUID,0Afia98bP9KBSQQT1fcIdJ,0YY0hJjdH6cAQ4PUEqsbC$
+different name,plat dak,IfcSlab - plat dak
+different GUID,0EHLW2CirCPANVPbmTwDe0,3A706Tfx9CrgP5beGMgwg9
+different name,dakelement,IfcSlab - dakelement
+different GUID,0W2prqqkT7HxP90f8uQS80,0qYQh9yPP0L8kNnK1VqQv8
+different name,vloerveld,IfcSlab - vloerveld
+different GUID,3IbuwYOm5EV9Q6cXmwVWqd,1cpApvLZvDEhVOQmVlSYMc
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,2OE9tlHI938fd8O3mI3mRz,1FV9ZPbG98UhFExAmTxgD4
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,2JUSlrYQr1YwP3ayxXu$lj,1fZT9Hb0v8r96YTYzvUupB
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,0IjlUMbxXBUhcjfKxT2apw,3c8g2nilzFZxJJKGDNkjEw
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,2_qWdodb95chXxayrOIlDh,2jhw0uRzTD_QYHFQDgNbTs
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,23kW8A8yPA5wftTGD5UJ8H,1o99EoJGr7GQZhLR4rSt2g
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,24d$bXEtDFMPrak4J5bypx,1G8ZfSNPL2MegLFO85ECTi
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,1TcxEYnb1DneRMQvN9jV_3,3NP7Ybk2jBD8HsFNRb4b$T
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,3Ri_Iqblr1TOWWvS199ANc,3av7LQWYrAU9UcaLjWoJ9W
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,1kXSox_0P3kBFuaJXmZIbM,2jI0rSg$DEx9q0NTzo$B7I
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,1PBBUyIv59YPrzStA9_TH5,12$68sQdv8Y8B9QEWo$4v5
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,36cEtcIur7XxueyFJ22C$U,0eRRxdsXj8POep3CMcVwsw
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,3LCPmQCcP9UfP49BhFjY_v,0L0ybvSBTD2xO3iHH00t64
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,1uDn0xT8LBkP15zQc9MVDW,13dpqEiaf2NAM72$E$anlj
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,2bOVZypgn3veu4GI9jl2pr,1mcZxXpoD5_87ysJ2TYdJ3
+different name,dekvloer,IfcSlab - dekvloer
+Different number of IfcWall in storey 02 tweede verdieping,114,164
+different GUID,2PKnB$Yrb4QPj4dii4Mh9J,3jzEL2HY52VBzI2Oc63rVB
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,305UsCgOr5d9qsncJ$8RVN,0ozqoexxv1LP$UdnlbL4lG
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,0sS$ynhr12VfVoUHJgHL8n,1KJ_zr7WvCb98zDWLBYWGg
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,1D6XPjH$jCMBVPpXzrBrBh,3a4HBncyX8NuW$CtGhwYuD
+different name,merk Csp-R,IfcWindow - merk Csp-R
+different GUID,0Yp5qy$a5C1OAOYHZOB8II,1Yzn1zxLT3ZA77yWv1SeNI
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,0_$NSu2evBVeFZQgjiEuAx,2kTk98bN18OOVkDSa3ooZd
+different name,merk C-R,IfcWindow - merk C-R
+different GUID,11$JW3xLX2xA3HAKDO$V4x,0ltwcd23r8wO8U3J5cmbFu
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,32FFCa8B198P$NJwP8hwgu,2nhpxs3njFVuhgnP1pLEfD
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,2oDI2uiQHDBf119Ffbq8pl,0qr_rUitv9vvlsc1n5HUli
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,1wlI6JqsLEOhCsZqoJuwxZ,32uN_Pkg13QR8HW58hT0iF
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,2JBh8Xn6DDFfR$iL4REVIO,3NkbNxrTH4W9CPhKWMJEKH
+different name,merk Csp,IfcWindow - merk Csp
+different GUID,23hLVZfJz6LAZH1fYDmUwS,0kN9CcLQH8VOwzmEQ_jxQ0
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,0co_SMokj9s9Ux6ep1NuBV,3Si6eySCjDxgIZYUhi$rND
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,2NlbpQJhX57A98fAICSHEw,14NGh3poX3QeuLPcscl8EM
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,2_cZuNiRL9_POUhd7yFcwr,0PjgeprAT62hfkp49_8lzr
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,3h8HoOyCv3LAYN5dc$49X5,3SBb$aCfzEWxkb9K8ggz1O
+different name,merk Csp-R,IfcWindow - merk Csp-R
+different GUID,1m4nE1pPr2b8wIfR9a_VVL,1g7fRMXg51dwbWteyVKlX9
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,1wEE7IMAj3ZewoallFdW$w,1Ntv7PXO53teqPTEJ9PmOp
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,3rQ8vxEjf7ChTPNEIHZubP,12U$nctgnA_835f5H3rbvz
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,0If$3rc9P57xz4jVBVFnR1,1G$9dr1Zz5Ceufj0fOmntR
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,0NDCKOxXf8aw$lz$AzvqxX,2HU5nNJJL9N8dRLSfqSK87
+different name,merk Csp-R,IfcWindow - merk Csp-R
+different GUID,0ijouLVuz4qOaWI8eCDmYZ,1LlOu9srvAWgjLn_YLsR26
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,2R58Jw87jDCevbnOC3rmac,02x3oS9vrB6A7F0TgLDP_c
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,2$V3GlXWDFa9ozTMOGOymq,1$nFpkt5f5jxlVuadjaqKv
+different name,merk C-R,IfcWindow - merk C-R
+different GUID,3jpBco5Of4g9v0dMt1k4Gs,0r33YoI3b4CPNBgE0$s$EZ
+different name,merk C,IfcWindow - merk C
+different GUID,1HMWw8mcr1KOvkIr0tFQMU,3eRexlrMf7iPOYnFs_Tj$e
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,0KhPVJu4P3A9E4zoWFJz0w,2y5y2Enk1Et9FM_oRdrKll
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,1q3tRNJXP28AT4_Y9XviYV,05ThQf9c16wOU3AS0E$Vuo
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,3chKGarqH0KuFJTVdW349F,22sgD87SH7kAtBYTrcwlmv
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,21DYv1qCP5FOPMzDf2BdGU,2oQQ88NYb2VQuyESsd302Q
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,1qR9Yh4uT2M8QYv5il00VU,2FOfa9jNvBGfwOGC34NN89
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,1czSEvfOzE4Oi_LLlJxhyd,218CDPX9f87wVGWNZ4wTLv
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,3BOPbUZ1T5Ug2zkGHwafoi,32e$wLOzfBJ9bHrgK0AlF8
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,3fi85$zLn2ghOSoxhxMJYO,1$sKhkgRP8GBS0fXIG94$x
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,3IqSuYSFHADuKaAsofIt9x,3Us2rE4krF99nifgBta32G
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,1DGTGmOMj8AvihClKJPKCD,0cBChAZgr6jhHZRD8IYgzh
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,1SPXkEO_f5xPavTXTLbPI$,0g$oREaDH5VwJbqPuqpAJG
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,2swgU59GXB_xDlq7OzgSpv,3ZAvGM1Cv6den8eWwtvDOL
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,11ycc28Dr4oepXoXW_NnL6,2XTeKLvUv3iPsvd9KtCLTi
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,2CT4vuDHz80BzUCFoJ0LTI,3eD1EPm9P1BAYq5gfpvCcI
+different name,merk C-R,IfcWindow - merk C-R
+different GUID,3W9VqGRgr09fcNbT79krnR,0$l$L03Lr8yPidNj31fr$q
+different name,merk Csp-R,IfcWindow - merk Csp-R
+different GUID,3RrFw8EAf1GRoBD_pVEc41,10YfvNRYfCKwLG7Z_6UZW2
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,1Hjs_P2aXCOPI7_$2kdF6v,26OuDK001Acf8gViOzESdh
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,35s4FHAyjB4RwDF8g0$JwM,2zSD682sL1r9ooACSYZKQs
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,33HuU010bEdBTNffikwk7C,0bGT2U6ZHBHw6bCb$XGNz6
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,3YghERoAfAiunwtuKsXi69,3eBWVx2M15Khp7XegkG12F
+different name,merk Csp,IfcWindow - merk Csp
+different GUID,3dxXVt7mz5yQHgR4nKqxCm,3kmA8hWuzBCeGiz7EX8cfh
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,1ZvjfnAcr7VueX4qTg5Ajj,2xwiW5Vxz9t8kCA8JgJ777
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,2OraOVIKPAOg8rJoQjQczk,1yGbGQ6S9258q$NRibK9c9
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,0w67SppZj5MvHkxZnft01E,36d7GN01j73PzeWMxc7Tf$
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,2VSPey61T9RB_q$osXbLMV,1jiK23uY162gsTbRuNaYQC
+different name,merk C,IfcWindow - merk C
+different GUID,2Fr_G_D5z2SQ4zYSECOkbO,1t1hXfVoH8hhtud9dWZL_j
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,1WF0f7xan32xUC_zu0m2Yd,2uvl8MQLT0hBDmNZOAvMVU
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,39mUraBw56_gD25yTzysZW,0OvalmdZX2jgi1a4sPuiyS
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,171wovydf4b8htV6pg$TFJ,1ZVBOrkX1AyQCDR3$Jab$a
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,1BecTfmYnDMvo6swvRkssx,0L_EXnEwXCxO0XtTy$K1ii
+different name,merk Csp,IfcWindow - merk Csp
+different GUID,0EHGvEFwz0_OPzoNWThJC6,1Zwm2dkav3Av$wZYeu_LK4
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,1f7zMqweP0kuzgAoVzEWut,2D6B2YqozDm8$6zHIfuVhn
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,2lt7ZnqNjDs9E2NE_fHF_4,0Dv3rUaAb4E9p4yIr1jcus
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,05CYtgzRz4DxcXy88RuGvo,1yXS_7MPDFXhV1yovKRTfB
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,1fI1NXTpj7BxFTmw5$kjhb,3vyEoXswb8LwAcIeEKtV5O
+different name,merk C,IfcWindow - merk C
+different GUID,2zVo1VURr81P4zGfpGNjd9,2Rc8DrcNb9JuprDp0et7nN
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,0mPuDc5FT2YhFju_2TJR5L,15CzDI0fX5tg1p9adNOWAk
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,32SyG2XEDDDhMCQmPD9LrL,1GM5YEK7f1lvxmP3BDoyaB
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,2blRi3iY12ng6i9rcsih4e,0k_r_oL2L0PQUyQLMqu1tg
+different name,stelkozijn,IfcWindow - stelkozijn
+different GUID,0e582X10f8qQO1eTOH2xCn,26DVaeCt509BiGCYCVCwcS
+different name,dakkoepel 1000x,IfcWindow - dakkoepel 1000x
+Mismatch in storey GUID,2Hyat1fsPEGfyYPyim12A1,3ctewaMPD9ORDINILEPmEJ
+Mismatch in storey name,03 derde verdieping,IfcBuildingStorey - 03 derde verdieping
+different GUID,2Hyat1fsPEGfyYPyim12A1,3ctewaMPD9ORDINILEPmEJ
+different name,03 derde verdieping,IfcBuildingStorey - 03 derde verdieping
+different GUID,1fm9a1a$DBjRw8D_aKJGAN,1pZs1Oucf3SvTnud2mF$Ys
+different name,betonlatei,IfcBeam - betonlatei
+different GUID,2MZ_55Sir09gB7BB1JSjYM,2pcwEzmxL6$9S14lqQVszu
+different name,HEB220,IfcColumn - HEB220
+different GUID,0_1$ZiaxXBKAoIe0SzFsy4,1sPduZHAv4pBaMENm12wd8
+different name,HEB220,IfcColumn - HEB220
+different GUID,03LjPhAPb7YwcCfCKjoBp0,1RljbEzD15J9OJifcevMPj
+different name,HEB220,IfcColumn - HEB220
+different GUID,0dAofjIyHFM9KgIhqrn1sO,0YwqgXxqL7DPzRuGhs$Ldx
+different name,HEB220,IfcColumn - HEB220
+different GUID,13VGtZxGT04gWQa7ANTKuD,2ZCgGZXsb5chaHMoCJvKBp
+different name,HEB220,IfcColumn - HEB220
+Different number of IfcCovering in storey 03 derde verdieping,236,0
+different GUID,36DzLjnuL9XA2dudd2r92m,0xABZzc75CZvWI3KqiHZ$q
+different name,liftdeur,IfcDoor - liftdeur
+different GUID,3vqhA9V$zD8Ri_tijsQ9Uy,1MhOuoDDz44g8sRQ3n0X1N
+different name,merk A3sp,IfcDoor - merk A3sp
+different GUID,3lVtU7tjD3YOCLUfqajZ2A,0BjGC_nJH5NuHcdGQRRMhv
+different name,merk A4,IfcDoor - merk A4
+different GUID,0_AyfC57H5ZhnJFKbaFPKq,3I_dbe4Tv9oAVmcZdHbBhG
+different name,D1R,IfcDoor - D1R
+different GUID,1ct3PC$Rf39OYRwaCfR2gz,0otERe5CHAshH86mKPCqSt
+different name,D2L,IfcDoor - D2L
+different GUID,3p9J1sHcf4ju8QNF1IhRNV,2nih7pbHz7u9CcnxiS23_t
+different name,D5L,IfcDoor - D5L
+different GUID,1f8696ukP6ngAHgpRZz3ju,3lcnVGN5b3IR6O4$_2Pl3j
+different name,D5L,IfcDoor - D5L
+different GUID,0Hdk5PAnP3pwtj9xXKmFBe,2lQb$g$yP8MgJPpoPksFYJ
+different name,D6L,IfcDoor - D6L
+different GUID,2vFhUBbYLDEuToK036Hl$0,3s_tytUXP98OTxgfNJC1R0
+different name,D1L,IfcDoor - D1L
+different GUID,3XlDiPbzT5wuWLtvoN9ad0,2b3MM65zrERPAehfNRwlJo
+different name,D1L,IfcDoor - D1L
+different GUID,12pKvnM8rEghVj2eehBckA,3dCVkP_1P1xxwkk1UmunF3
+different name,D5R,IfcDoor - D5R
+different GUID,0WwnDCcYLFJx3r5wMCkNbs,2431rks6PF6vUItAf7ba1U
+different name,D3R,IfcDoor - D3R
+different GUID,2Jqop0uBb9AxYtqSXLjzrD,0rNdcQMg542xAOedQU8Cvl
+different name,D5L,IfcDoor - D5L
+different GUID,3rLHaGT8f4ffCX220B$XUw,0AedAUbh12iPro2u_7Vfcy
+different name,D9L,IfcDoor - D9L
+different GUID,1AjHEuqyLASxbhLNVsGq0u,1mV_2SRSf4rQgUWQTxOPzP
+different name,D2R,IfcDoor - D2R
+different GUID,0IzB0Fhx1E3e$Sm$$GKqe7,2$gkrnplX94hdPvXwjyzMs
+different name,D1R,IfcDoor - D1R
+different GUID,0w3wabzRLAz99bhnECWj79,1w2Lem9eHCYxaT6ki9xHlw
+different name,liftdeur,IfcDoor - liftdeur
+different GUID,140c7DVn1Fdgh5_iO2DSKg,0gW2xq64r7d9OLc3ywd8dY
+different name,merk E5-R,IfcDoor - merk E5-R
+different GUID,0EWFPIrsv7_9lhqHOpPwsU,1KleA91qLDCh23g9i1sC4m
+different name,merk E5-R,IfcDoor - merk E5-R
+different GUID,3tB9bs0jH8kvDCXNaFXLU4,2E4kaAqIf8iuN7XL4RsXCh
+different name,liftdeur,IfcDoor - liftdeur
+different GUID,2PEMzkDK9Dxum8sPRjDtq_,1y3ZtMky1BouxyBPCj6PaD
+different name,liftdeur,IfcDoor - liftdeur
+different GUID,3MkalSSaPB_h_tTcRHxH9A,300AGWGu5Fh9A6xVnZB84_
+different name,liftdeur,IfcDoor - liftdeur
+different GUID,13kU2WeeX43AmAN7yJpj7M,2jXD7pg2j4MQSuoYLdluVG
+different name,liftdeur,IfcDoor - liftdeur
+different GUID,073$0OxmvEMu0iJzPT4cfg,097OK1iu1D1OdgE2Swxbkm
+different name,liftdeur,IfcDoor - liftdeur
+different GUID,3Qw1ZJI6n0$OYdAwY3sPY0,2j4qbbBK16rOfnSYkVK24a
+different name,liftdeur,IfcDoor - liftdeur
+different GUID,31CBV10iDANhFbENO3uY2l,3YZGlEwPzCxQgwSS5EbrGA
+different name,liftdeur,IfcDoor - liftdeur
+different GUID,0OL2bP1B5Ezfgv8L13MayF,1ccfd7xBzDcRHWzBx50x0l
+different name,D1L,IfcDoor - D1L
+different GUID,0BdZvEASv6CQzOF5XRxnwa,0aLX7VIofE$QUg15EgFMLB
+different name,afscheiding,IfcRailing - afscheiding
+different GUID,3GEaOjb217ev9MF3XCA4P8,2Zf4E$r5rCr9AgaRFsIj_n
+different name,afscheiding,IfcRailing - afscheiding
+different GUID,05ajDVemL5uvOYzxRLkb$L,3BjDCvXU99Sv81$wyk$Hk9
+different name,afscheiding,IfcRailing - afscheiding
+different GUID,070iNkOUbFOhtuLKtsFL5C,3TEfV0tE95GekSFxqyDL1m
+different name,afscheiding,IfcRailing - afscheiding
+different GUID,28jKLIe0X0Ah4tPVOHU$ou,0KgWeeXvjFhBOH$dPK$801
+different name,afscheiding,IfcRailing - afscheiding
+different GUID,2sexmWFsn3Rwu0HEwxJaJd,0Q1WIFmjbAvfmkwUso1CGQ
+different name,doorvalregel,IfcRailing - doorvalregel
+different GUID,3ke5ra4iT7aPGg739tq0zL,0yqsaH8S5DNBdGDeN9iC3j
+different name,doorvalregel,IfcRailing - doorvalregel
+different GUID,1wAo8RhUL6Nh2E75ITIH0g,0WRu22_QD3jhFM8bBZ3Bq5
+different name,doorvalregel,IfcRailing - doorvalregel
+different GUID,3Vvdnq6hXF2Bda8sgYk3k1,0dYQZlzdz0uPHBYGHufGcE
+different name,doorvalregel,IfcRailing - doorvalregel
+different GUID,1bsL1PPGP0xxu5vLj_m07q,16hZiFf7P85etaRB6_7f9M
+different name,doorvalregel,IfcRailing - doorvalregel
+different GUID,3uSAdjkw9CheK9Wa_vvbhb,31QOGB9PL4ffJD4eF88Dkm
+different name,doorvalregel,IfcRailing - doorvalregel
+different GUID,2$wd39Uf5Ewu3h$roxzxxr,0HW2b9CPr6ogSyS8qslysX
+different name,doorvalregel,IfcRailing - doorvalregel
+different GUID,0zQ1PSMITDMBDkf951bOnV,3oJf0atjP5Rh8IcI8rqbKz
+different name,doorvalregel,IfcRailing - doorvalregel
+different GUID,27ycuSSRf5cu8kU2IBAstQ,0026$kgLL6_9qtpoCeSWFq
+different name,afscheiding,IfcRailing - afscheiding
+different GUID,0XV2JAMy9FsO_611MuPEdE,0IBM8s4fb8dBFaBBywEGlJ
+different name,afscheiding,IfcRailing - afscheiding
+different GUID,13NPacY7jEZhGpdkn4GxV$,16XpzEHqnDlAjikeguaHAm
+different name,afscheiding,IfcRailing - afscheiding
+different GUID,1VT50AUTP8L9rp6iFtPo$v,1sYFxdJH55jfe_h97PFVFI
+different name,afscheiding,IfcRailing - afscheiding
+different GUID,3i4Sz9JIX568dmh1bgNUzr,3f2eXSlu92qufojng6J8Dn
+different name,afscheiding,IfcRailing - afscheiding
+different GUID,08kQxXlpj2LfOhfG5JnAe5,1SeqekPMbB2fn4gi4erx1u
+different name,afscheiding,IfcRailing - afscheiding
+different GUID,3zjI9arYLFPOwI_s2qR5q8,2dW5wRScj9txusTEEFYV1T
+different name,afscheiding,IfcRailing - afscheiding
+different GUID,1HQGFZa79CiRrtzPU0iA54,3YcWeCHXX86Oeg56IzfUzp
+different name,traphek,IfcRailing - traphek
+different GUID,3JnGo5kRD3kv3Rkne47JeJ,36dMvl7Hv9qOlK3hvLnI7S
+different name,sporenkap,IfcSlab - sporenkap
+different GUID,1Y55qRPPPCRhLwNtBw8nIA,1YSsDNq8n9WeWs89xbYnfm
+different name,dak dakkapel,IfcSlab - dak dakkapel
+different GUID,1S4kav8FL1RQylSmEgz4YB,3lnrmkj$z7WuoVBVGrnUeP
+different name,vloerveld,IfcSlab - vloerveld
+different GUID,23jZ8BYuD3JQAc1sRY1ypr,1PZ$idbmD5zOvV47n0j4g4
+different name,vloerveld,IfcSlab - vloerveld
+different GUID,0MTjgouej41vc5kR6nZXQG,3FNFE0LBTDhP96CXp7xvKW
+different name,vloerveld,IfcSlab - vloerveld
+different GUID,1H88Aq3XD3j98yuey8MDDj,20luV6G4T6zgYDJMfh5moX
+different name,vloerveld,IfcSlab - vloerveld
+different GUID,3pG6Qgm9z3BByeQ1OKEmau,1scgqqb_X7re343ypgvu8q
+different name,vloerveld,IfcSlab - vloerveld
+different GUID,1pRH$qNy55BR7B$JxNXYH$,1reyr$Xrr5J9zFkKsBpfjp
+different name,vloerveld,IfcSlab - vloerveld
+different GUID,1CdYrpLtD2wuxJCq5tooJl,1sjS$jk6T1d93BEIxl9vPp
+different name,vloerveld,IfcSlab - vloerveld
+different GUID,2OQCgPiQv7IPpLtWt$dHbD,2IeRSRF_f1zRQQ6xwEt9vc
+different name,vloerveld,IfcSlab - vloerveld
+different GUID,3C2fvEKUr00BlwuG1or05l,2a9EKTlVXBHhseN$JXSXVO
+different name,vloerveld,IfcSlab - vloerveld
+different GUID,3VK06fkLr3MfpgZhk2ZxRI,1G_DzJCW58Renf2eR405Gl
+different name,vloerveld,IfcSlab - vloerveld
+different GUID,2ebzGcSDj2Cf3lvWw81TRa,0Pg0w6Txz13vDZsxhaCZ6k
+different name,vloerveld,IfcSlab - vloerveld
+different GUID,3AqFO5i0TDCQqSc0OVWUzc,2LLnCS4D5D4u2rwBuovZKc
+different name,vloerveld,IfcSlab - vloerveld
+different GUID,3RcgO_0A18ORamoBzt$oQ9,08eifkTAnEJRBCtzTr8lhv
+different name,vloerveld,IfcSlab - vloerveld
+different GUID,208bKcFObBc8ucwRJqscKk,3VPI5q8eTBBOYL8kYpnCY1
+different name,sporenkap,IfcSlab - sporenkap
+different GUID,3cj6_fAyT6kPILoDF$wKMX,2bRRQNo797eAPDng9xZQ5k
+different name,sporenkap,IfcSlab - sporenkap
+different GUID,2vutFlEAD3Ugi_zdTrbWBS,2tyGBKSaDFpfQtYLBGMJtu
+different name,sporenkap,IfcSlab - sporenkap
+different GUID,2HEBa_Npr1jQ8s9obbPF2y,39CZ_lqgnEFuxzSIFgqoh5
+different name,sporenkap,IfcSlab - sporenkap
+different GUID,2wsdn60pL2PgWkM4Apz3uQ,2qKo42HpPB8Q6Bh4nBiUbD
+different name,sporenkap,IfcSlab - sporenkap
+different GUID,3XdwbHlMf53wMrtC2PO79d,1hmL27tHD4PezvN1FFpGW4
+different name,dakisolatie,IfcSlab - dakisolatie
+different GUID,0m0I4KgsXEGRQe2Tq5guRM,336gHAny17FOvGxWhQvuWB
+different name,dakisolatie,IfcSlab - dakisolatie
+different GUID,230CzH9r97RxWhaS7vmI4K,2mv0skwQfE1PKQm6X6Pq3B
+different name,sporenkap,IfcSlab - sporenkap
+different GUID,2bnmrBiIfCoQCmG_dJX3q2,2j7Fe_5_v7vOXibeuumuI7
+different name,sporenkap,IfcSlab - sporenkap
+different GUID,2NATeAkvnCxgoLp$zXNJDG,3y4E5yUwbFd9Go19Gu8g$H
+different name,sporenkap,IfcSlab - sporenkap
+different GUID,2nJAO3UnH0JuhOgnPY7o0D,0BGAClTKL7qeMTOOopTuZL
+different name,sporenkap,IfcSlab - sporenkap
+different GUID,3R1RBkDqD7iBFqSmsKgnyx,3fOtzkSdb3ffzYJ0tnWjlv
+different name,sporenkap,IfcSlab - sporenkap
+different GUID,3wNwkdwNf7kBh8Eh5_$5AF,1Ik_097b9DB9XVE7grCZS8
+different name,gootconstructie,IfcSlab - gootconstructie
+different GUID,2M6iV1w3L7VB9hYFPSL_6J,1DNOxJl2n8IePioKPcUKbL
+different name,gootconstructie,IfcSlab - gootconstructie
+different GUID,14qqjZl7f5_O1QcMnFBPgA,23TCEtykz7XeoG1XvBE9Vo
+different name,gootconstructie,IfcSlab - gootconstructie
+different GUID,2ejS5cDxLFQhvzUC_qNbGC,06IiUcQ7r7JvEStDdK9ohR
+different name,gootconstructie,IfcSlab - gootconstructie
+different GUID,03i6tXqM92pRcyXdK4pHfZ,3TdScSgwLB08fhwFpoHsHv
+different name,gootconstructie,IfcSlab - gootconstructie
+different GUID,0tr9H3L4z0bgmFmHrjfIlm,1R0chY0e97$91xjSN$x_s4
+different name,sporenkap,IfcSlab - sporenkap
+different GUID,2y77Wo22nAL9U8bQl$_LJJ,3tzYHHPtbF8fK8uW0axfqK
+different name,sporenkap,IfcSlab - sporenkap
+different GUID,0gCnprdT1BYw$FV0IhK4K2,0N5l3tj6X6JwXy2fDFPKxi
+different name,sporenkap,IfcSlab - sporenkap
+different GUID,2vGfAAaCDC$u2rePIbFqLy,1y6BTVjCT7K8hbejhBPFN5
+different name,sporenkap,IfcSlab - sporenkap
+different GUID,3XRFYXp0L3jv3w1tgjXD2W,3ZWHiJM5jE_xldTHRxOlnc
+different name,sporenkap,IfcSlab - sporenkap
+different GUID,2wdkOxZDD4qQGeJ0R9Eu_y,1vK6CRlFz5eg6sUfIMitWg
+different name,sporenkap,IfcSlab - sporenkap
+different GUID,2$65Lm72TCPfpHlSfm4bPo,0wVVoPZK149xAUmigy7eUc
+different name,sporenkap,IfcSlab - sporenkap
+different GUID,1hMpM9NJL5ge_OGm0yLfuO,0tsdWHqvrF5Ak4c8YkE3ov
+different name,plafond,IfcSlab - plafond
+different GUID,2GKCxEc8DCcQXZmul0WfvP,1F3iJuC4D5RuVSY69t4VM4
+different name,plafond,IfcSlab - plafond
+different GUID,2m5HGNcWT04BL0QSshC4KA,1$k6LjAe51lxl4bl3C9ts4
+different name,sporenkap,IfcSlab - sporenkap
+different GUID,3ba9sS8vzCi9NHvwEDPExx,1_V$CHHMb9dxkRbZLZzSRW
+different name,gootconstructie,IfcSlab - gootconstructie
+different GUID,3MORkgOl16lQy8zTVRCs0O,3rod7kEDbA0uB1ZsCgZgir
+different name,gootconstructie,IfcSlab - gootconstructie
+different GUID,0FZ2ZM9d5DIBoZIOWtnXUi,36Ba7uEDj0Dv1hc4sP2pnm
+different name,gootconstructie,IfcSlab - gootconstructie
+different GUID,0cUNscBFPAzvxaou82m7PU,2G9IzbKDjEmxnLwli2GaXn
+different name,sporenkap,IfcSlab - sporenkap
+different GUID,0P2TI_R_rCoOkYPRW5xJk8,0nXVtgsrfA4OQ_oUJBsRjD
+different name,sporenkap,IfcSlab - sporenkap
+different GUID,3X88NCenT88BCur6dUWHN1,1_5__BuhX72P$8PpFU9uSw
+different name,sporenkap,IfcSlab - sporenkap
+different GUID,0M1e2eG$96hwzT4wUV$Q8v,0hzUzSq4z1kQ7WCj7k9bVT
+different name,sporenkap,IfcSlab - sporenkap
+different GUID,0$jhLwYyD01Oy9ZGgC6CC8,3ub$8d9WH8Kwf9OxE7DV0f
+different name,gootconstructie,IfcSlab - gootconstructie
+different GUID,1blRjj5854xvDlLga$sV2m,3gkCoHxaH6PQJ_OkBtGTXh
+different name,gootconstructie,IfcSlab - gootconstructie
+different GUID,3sruW6UjbAcuugSUfH$cuH,06ES9kSpT4eeeZIYvf_bnj
+different name,sporenkap,IfcSlab - sporenkap
+different GUID,2HT1QptlXCmBlOoXE0NFwh,3naUVN6jLE6vieY6Xgne5y
+different name,sporenkap,IfcSlab - sporenkap
+different GUID,3JRVPh_yrDlwCpdavEA8oD,3uG55t_DP9yeS6f9U_zyc4
+different name,sporenkap,IfcSlab - sporenkap
+different GUID,0Bmn53Z2fFOh7cTWkmLXNQ,20nWXp0PT0IxwQs2rNuqyM
+different name,dak dakkapel,IfcSlab - dak dakkapel
+different GUID,19ymqVSczESeP2KD$erpa8,06BpJ2DXv0agneTuuNMnZL
+different name,sporenkap,IfcSlab - sporenkap
+different GUID,2rJ_D9OD15OxfhleuqX8IK,3tKjXsTj9BGvx$eFNEn8rF
+different name,dak dakkapel,IfcSlab - dak dakkapel
+different GUID,0uDACp5ab5PQznlaOgmnBv,2yKI7CGBT4JuGeB9EgmCzg
+different name,dak dakkapel,IfcSlab - dak dakkapel
+different GUID,1C6_0xdun0cQIIHmq4$Tev,1jMl75Duv5K9FvzDGdEKX_
+different name,plafond,IfcSlab - plafond
+different GUID,2ljbxVY757oh3U28o$Mplw,3JzyosUaPEYu6tuvpuHbHS
+different name,dakaftimmering,IfcSlab - dakaftimmering
+different GUID,1WSrSNLRn7EvqVoTs$M0PF,3H2OhEabn9uQaGvMX8Yb0f
+different name,sporenkap,IfcSlab - sporenkap
+different GUID,3M4fpBwzf4iQ4c3fvQBeRj,3kK0JsQJ91NfgyJimzL_w4
+different name,dakaftimmering,IfcSlab - dakaftimmering
+different GUID,3cJFqtukHCAfLVbyFxBs__,1vwb0W4MDD1xZ8JAlK3iuT
+different name,spouwisolatie,IfcSlab - spouwisolatie
+different GUID,251Lqt4LjE9Rr$wq4BqN$h,02fg3IuZz67R2puktTh90i
+different name,spouwisolatie,IfcSlab - spouwisolatie
+different GUID,25wmD99kP49vNjkioNsfxV,36bmzmRBf9qvsLWSWOZx_a
+different name,plafond,IfcSlab - plafond
+different GUID,2KYFELha55M8mkz2cp9hbD,1xmXJ_5K5ByBdtppWmkO7q
+different name,sporenkap,IfcSlab - sporenkap
+different GUID,3x3aB3jdLDwecrkVRvbpz7,2JXd_l28L1lOQ4AUYvI_Hv
+different name,sporenkap,IfcSlab - sporenkap
+different GUID,3rT2B46bX7bfYW98$CQ_BF,0_Bk7oJXv79xlk_TqRNi$U
+different name,sporenkap,IfcSlab - sporenkap
+different GUID,3TMPpMSyn6_xrsGAT9pObK,3Rki3UNUT569iwanKwQdY6
+different name,sporenkap,IfcSlab - sporenkap
+different GUID,0PqbLmY4j1RPqNOOK2eDc9,0JxfpW5tn3gQMMfw6y$kL1
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,0NoCl6BDz7XeoXwbToQuxv,1UX$sD0aPDovMehl2XFAc3
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,1AdGVsRPb4RRWb4qvI7uRy,2v2KXNYov5Hux8ZKtpZC3b
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,3F1xvX$9TFOQyspn6Ek2Cs,3w8hv219rFZ8WG4Mq8WkD2
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,0K9UoAj6n9HvS0pMeXdVOy,0W8PzFhv95TRd08YxTYopG
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,11b4l8r$L2VO3CaHmD2Nt0,3sP0BA2yrF8OZo02hPvwRF
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,0BA5pIAPb4QBkmNlgEbu7Z,3vWqGZEBb3ZgyJbbYzYhz5
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,27vIv2l_z50whfg_2wR_Jh,2ZQqdV38r0J8C8mF3wMia7
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,0rH_wyN7P26e3gGvknLdfN,3wqcfzc1j9FhKUyh4q8enU
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,2xJxW3_1LEheyM8N4ef$kW,3VlXH7sgf07fIKu$4Q$fMB
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,2Zh_HSGGPDUAc40uyeUaqQ,3nxBArqB5EefxLtdi2pQ00
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,3nz7uS4R5DovP3jeKI_v93,3fwXqptR5ECx5k42JBRzyy
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,25tyzjfSP76hJKtX0Kf9lQ,0WHZjhM5LAvAjIsT0JGF6p
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,3XV8C2cOLDNhkQGD3$xxPe,2Zs7w3LLX2H9ThSeGnnBEP
+different name,dekvloer,IfcSlab - dekvloer
+different GUID,3RJ4kV2Lr6Ye3XokonTVkI,3977OIXv95sfpM4kjGVWew
+different name,dekvloer,IfcSlab - dekvloer
+Different number of IfcWall in storey 03 derde verdieping,71,103
+different GUID,178Zovd$P9MeTHI2jV$s2n,3ZY4Dmfa1Feu0KVAoeaNAw
+different name,merk Dsp,IfcWindow - merk Dsp
+different GUID,3ZKKU$3lPCq8PEyTGjaGdU,2i4Fv26gL4DBUhTzGOlhS5
+different name,merk K,IfcWindow - merk K
+different GUID,3kTNDXm3L6jgBFZ2taLcKJ,0P90ov0z5FO8cx82esaLjC
+different name,merk Ksp,IfcWindow - merk Ksp
+different GUID,30Awpp2EX78eiSUY7FvQt3,3HD5A_xkD1rOy2$$q9ySq9
+different name,merk Ksp,IfcWindow - merk Ksp
+different GUID,0xmEoRha9E$xhaP7dhI3oe,188ssuYuXAgPzZspk5TaLm
+different name,merk K,IfcWindow - merk K
+different GUID,3vBRjYZSX1a8J6d0CTn4Yh,19YJgP2PT0N9Tbf4OCJMlW
+different name,merk K,IfcWindow - merk K
+different GUID,2KiBBLKs133RJOEnn$kg25,1KxY1zeeTFpApA5siHbsnj
+different name,merk Dsp,IfcWindow - merk Dsp
+different GUID,2boqH8yCb7me06TlnJm870,2lskBEsO10JQLPg6lJlWw5
+different name,merk D,IfcWindow - merk D
+different GUID,2GoKiXXxrC7g4IPoyQPZ2t,3t2HjZ8oPFGeo2T9YzQFCO
+different name,merk J,IfcWindow - merk J
+different GUID,1vWdN2kyHCyOFb8jrE1QwS,0Huo4a$XLEjAflg7smShpu
+different name,merk Jsp,IfcWindow - merk Jsp
+different GUID,2EqkVNVRnBUvQjRlN4tm$r,0deA8TQhH99eP5yZeRHHe0
+different name,merk J,IfcWindow - merk J
+different GUID,266hPy3$L5vfMXcAOOFF6p,2BJZRO3l1BeQQT23fhgjfv
+different name,merk Jsp,IfcWindow - merk Jsp
+Mismatch in storey GUID,0oaSdYqubDuuJF4k9AqHjC,0py3_Y85H5bxP070jRh1zc
+Mismatch in storey name,04 dak,IfcBuildingStorey - 04 dak
+different GUID,0oaSdYqubDuuJF4k9AqHjC,0py3_Y85H5bxP070jRh1zc
+different name,04 dak,IfcBuildingStorey - 04 dak
+different GUID,1mFLnqgNHBkAV$cfC8mJta,2bf_Ny3jz6we2viV6xVTqS
+different name,HEB220,IfcBeam - HEB220
+different GUID,2HlSnEsQL1iQ5gLavb9Pta,3ga8JNopj8n9wt8lgJCy2M
+different name,HEA220,IfcBeam - HEA220
+different GUID,01JdAyGrj26g2fujj4OJW6,1OcGzyCFbAxBuFr2PQm2qQ
+different name,HEB220,IfcBeam - HEB220
+different GUID,3S7g662RP9xumMzv4I5k23,3_iME0rLvCeAA$CYMQ7aa7
+different name,HEA220,IfcBeam - HEA220
+different GUID,14yQrUSwr1yPkY2tJYbM7F,2GsDx54DD1DuzmfOuNEyEC
+different name,HEB220,IfcBeam - HEB220
+different GUID,2id5JruDL6g9P3kQnXGsrB,0seaTNaQb0KReWb0GFSIn4
+different name,HEA220,IfcBeam - HEA220
+different GUID,0pwbcyQ8v6mRtN2Pp6uYo8,2OQe8Z0Ar2_vZxadKqWtto
+different name,HEA220,IfcBeam - HEA220
+different GUID,2vZbEEmu532wegCOlbXcov,20z3UESCf5jfUX_PJgQiQL
+different name,HEB220,IfcBeam - HEB220
+different GUID,19VI1vhaL4XBgHychoTMot,1Oay5ezuT9pQoEWK7xcRjX
+different name,HEB220,IfcBeam - HEB220
+Different number of IfcCovering in storey 04 dak,158,0
+different GUID,0R01g3qJzFSxv4gJ4$3cXG,1u8YKtidjBWemKmaZ1MT0M
+different name,lifttop,IfcSlab - lifttop
+different GUID,3FNJ$2Wdn2kP$lyqGxZYDn,373_v6lrjCGvQCm0RJtygA
+different name,dakvloer,IfcSlab - dakvloer
+different GUID,1zSO73pt58WgpU6aeLSlbY,1C1W7p43P7PvUgxm3gHW2p
+different name,dakvloer,IfcSlab - dakvloer
+different GUID,1wuh6sjeT00uLlgKuqZKO1,3jzj$RT_L8x9KN$5qOULfM
+different name,dakvloer,IfcSlab - dakvloer
+different GUID,2sQQOHvvn90RraU1PncqLF,0FTF09lpn5RfM4uNfQYRHz
+different name,dakvloer,IfcSlab - dakvloer
+different GUID,2UkNEhSU99wxIlgSLDnlY5,2LOscZ1Dz57wi6KMPDzrya
+different name,dakvloer,IfcSlab - dakvloer
+different GUID,0bRJSA0Oz6NeAWECfwArnR,3GOAD2a7z0R80SKbSbex7G
+different name,dakvloer,IfcSlab - dakvloer
+different GUID,2o7xQ9ZfP3GB2M6B7oQ_P3,3meLHCia51Kh7XNQYLgtYo
+different name,dakvloer,IfcSlab - dakvloer
+different GUID,2qj4JD$qL8rwGXap2mJd2_,1T2g6M_kT4bh0vNQVuJpy4
+different name,dakvloer,IfcSlab - dakvloer
+different GUID,0SX7yPVRb06hAYFrxAJ8KC,2LQVcd5rLAVAAozcvzetGT
+different name,dakvloer,IfcSlab - dakvloer
+different GUID,3gkzTZGgn9L8ymV7puXSKG,0RusZS0uzCvvfQ1LonvzWt
+different name,dakisolatie,IfcSlab - dakisolatie
+Different number of IfcWall in storey 04 dak,18,22
+different GUID,0_f7yvHAD4nwZoIARNjl1v,1Na1jewij9ygg9j$aJZP3j
+different name,dakkoepel 1000x,IfcWindow - dakkoepel 1000x
+different GUID,187USFh2r5cOPBWBpNJgHJ,3Y6Caaj359MhJP2vL6$rSw
+different name,dakkoepel 1000x,IfcWindow - dakkoepel 1000x
+different GUID,3wi$IxEnzE7PY_Fz$GwcQX,2eeaHys895NvFR8c8moGUo
+different name,dakkoepel 1000x,IfcWindow - dakkoepel 1000x
+different GUID,3kikpo5Zf9XQWnNfyl$b3h,1npzQ$bSPFdRzPoD9EtMX2
+different name,dakkoepel 1000x,IfcWindow - dakkoepel 1000x
+different GUID,1oUqZKaXTFE9XEtTIlzoKi,1AZ2J35dT77u0_1nxB_8Kf
+different name,dakkoepel 1000x,IfcWindow - dakkoepel 1000x

@@ -4,6 +4,7 @@ from datetime import datetime
 import ifcopenshell
 from ifcopenshell.file import file as IfcFile
 from ifcopenshell.entity_instance import entity_instance as IfcEntity
+import pandas as pd
 
 
 class Component(ABC):
@@ -30,9 +31,13 @@ class Component(ABC):
     
     def check_import(self, other, report):
         if self.guid != other.guid:
-            report.add_discrepancy(f"Different GUID: {self.guid} vs {other.guid}")
+            report.add_discrepancy(error = 'different GUID', 
+                                   in_original = self.guid, 
+                                   in_import = other.guid)
         if self.name != other.name:
-            report.add_discrepancy(f"Different name: {self.name} vs {other.name}")
+            report.add_discrepancy(error = 'different name', 
+                        in_original = self.name, 
+                        in_import = other.name)
 
 class Project(Component):
     def __init__(self, entity_instance, name):
@@ -50,9 +55,10 @@ class Project(Component):
 
 
 class Site(Component):
-    def __init__(self, entity_instance, name):
-        super().__init__(entity_instance, name)
+    def __init__(self, entity_instance, name, file):
+        super().__init__(entity_instance, name, file)
         self.buildings = []
+        self.file = file
         self._init_buildings()
 
     def _init_buildings(self):
@@ -72,10 +78,19 @@ class Site(Component):
     def check_import(self, other, report):
         super().check_import(other, report)
         if len(self.buildings) != len(other.buildings):
-            report.add_discrepancy(f"Different number of buildings in site {self.guid}")
+            report.add_discrepancy(error = 'Different number of buildings in site', 
+                                    in_original = len(self.buildings),
+                                    in_import = len(other.buildings))
         for self_building, other_building in zip(self.buildings, other.buildings):
-            if self_building.guid != other_building.guid or self_building.name != other_building.name:
-                report.add_discrepancy(f"Mismatch in building details for site {self.guid}")
+            if self_building.guid != other_building.guid:
+                report.add_discrepancy(error=f"Mismatch in building GUID",
+                                       in_original=self_building.guid,
+                                       in_import=other_building.guid)
+            if self_building.name != other_building.name:
+                report.add_discrepancy(error=f"Mismatch in building name",
+                                       in_original=self_building.name,
+                                       in_import=other_building.name)
+
             self_building.check_import(other_building, report)
 
 
@@ -103,15 +118,22 @@ class Building(Component):
 
     def check_import(self, other, report):
         super().check_import(other, report)
-        for storey, other_storey in zip(self.storeys, other.storeys):
-             storey.check_import(other_storey, report)
-
         if len(self.storeys) != len(other.storeys):
-            report.add_discrepancy(f"Different number of storeys in building {self.guid}")
+            report.add_discrepancy(error='Different number of storeys in building',
+                                   in_original=len(self.storeys),
+                                   in_import=len(other.storeys))
+            return  # Skip further comparison if storey count differs
 
         for self_storey, other_storey in zip(self.storeys, other.storeys):
-            if self_storey.guid != other_storey.guid or self_storey.name != other_storey.name:
-                report.add_discrepancy(f"Mismatch in storey details for building {self.guid}")
+            if self_storey.guid != other_storey.guid:
+                report.add_discrepancy(error=f"Mismatch in storey GUID",
+                                       in_original=self_storey.guid,
+                                       in_import=other_storey.guid)
+            if self_storey.name != other_storey.name:
+                report.add_discrepancy(error=f"Mismatch in storey name",
+                                       in_original=self_storey.name,
+                                       in_import=other_storey.name)
+
             self_storey.check_import(other_storey, report)
 
 
@@ -153,6 +175,16 @@ class Storey(Component):
     def display(self):
         print(f"Storey: {self.entity_instance} ({self.guid}")
 
+    def check_import(self, other, report):
+        super().check_import(other, report)
+        for component_type in self.components:
+            if len(self.components[component_type]) != len(other.components[component_type]):
+                report.add_discrepancy(error=f'Different number of {component_type} in storey {self.name}',
+                                       in_original=len(self.components[component_type]),
+                                       in_import=len(other.components[component_type]))
+            else:
+                for self_component, other_component in zip(self.components[component_type], other.components[component_type]):
+                    self_component.check_import(other_component, report)
 
 class IfcBeam(Component):
     pass
@@ -203,36 +235,54 @@ class IfcWindow(Component):
         pass
 
 
-class ComparisonReport():
+class ComparisonReport:
     def __init__(self):
-          self.discrepancies = []
-        
-    def add_discrepancy(self, discrepancy):
-        self.discrepancies.append(discrepancy)
-    
+        self.discrepancies = []
+
+    def add_discrepancy(self, error = 'error', in_original = None, in_import = None):
+        self.discrepancies.append({'error': error, 'in_original': in_original, 'in_import': in_import})
+
     def display(self):
-         for discrepancy in self.discrepancies:
-            print(discrepancy)
-
-original_file = ifcopenshell.open('original_Schependomlaan (1).ifc')
-original_tree = Site(original_file.by_type('IfcSite')[0], 'Site')
-
-
-import_file = ifcopenshell.open('import_Schependomlaan.ifc')
-import_tree = Site(import_file.by_type('IfcSite')[0], 'Site')
+        for discrepancy in self.discrepancies:
+            print(f"Error: {discrepancy['error']}, in_original: {discrepancy['in_original']}, in_import: {discrepancy['in_import']}")
+    
+    def to_dataframe(self):
+        return pd.DataFrame(self.discrepancies)
+    
+    def export_to_csv(self, filename):
+        df = self.to_dataframe()
+        df.to_csv(filename, index=False)
+    
+    def error_summary(self):
+        return self.to_dataframe().error.value_counts()
 
 
 def generate_import_validation(original_tree, import_tree):
     report = ComparisonReport()
-    import_projects = import_file.by_type("IfcProject")
+    import_projects = import_tree.file.by_type("IfcProject")
     if len(import_projects) > 1:
         discrepancies = [f"project {project} is incorrectly added and no decomposition" 
                         for project in import_projects if not project.IsDecomposedBy]
         for discrepancy in discrepancies:
-            report.add_discrepancy(discrepancy)
+            report.add_discrepancy(error = 'Incorrect decomposition IfcProject', in_original = 'Only single IfcProject', in_import = discrepancy)
     original_tree.check_import(import_tree, report)
 
     return report
 
-report = generate_import_validation(original_tree, import_tree)
-import pdb; pdb.set_trace()
+
+def run(original_fn, import_fn):
+    original_file = ifcopenshell.open(original_fn)
+    original_tree = Site(original_file.by_type('IfcSite')[0], 'Site', original_file)
+
+    import_file = ifcopenshell.open(import_fn)
+    import_tree = Site(import_file.by_type('IfcSite')[0], 'Site', file = import_file)
+
+    report = generate_import_validation(original_tree, import_tree)
+
+    report.export_to_csv('report.csv')
+
+    error_summary = report.error_summary()
+    print(error_summary)
+
+if __name__ == '__main__':
+    run(original_fn = 'original_Schependomlaan (1).ifc', import_fn = 'import_Schependomlaan.ifc')
