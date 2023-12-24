@@ -270,13 +270,22 @@ def generate_import_validation(original_tree, import_tree):
     return report
 
 
+
+def get_property_set(entity: IfcEntity) -> Optional[Any]:
+    if hasattr(entity, 'IsDefinedBy') and entity.IsDefinedBy:
+        for definition in entity.IsDefinedBy:
+            if definition.is_a('IfcRelDefinesByProperties'):
+                property_set = definition.RelatingPropertyDefinition
+                if property_set and property_set.is_a('IfcPropertySet'):
+                    return property_set
+        return None
+
 def run(original_fn, import_fn):
     original_file = ifcopenshell.open(original_fn)
     original_tree = Site(original_file.by_type('IfcSite')[0], 'Site', original_file)
 
     import_file = ifcopenshell.open(import_fn)
     import_tree = Site(import_file.by_type('IfcSite')[0], 'Site', file = import_file)
-
     report = generate_import_validation(original_tree, import_tree)
 
     report.export_to_csv('report.csv')
