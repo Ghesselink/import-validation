@@ -291,18 +291,20 @@ class ComparisonReport:
             print(f"\033[92mAdded: {i['guid']} ({i['entity_type']})\033[0m")    # Green text for additions
 
 
-
-def get_property_set(entity: IfcEntity) -> Optional[Any]:
-    if hasattr(entity, 'IsDefinedBy') and entity.IsDefinedBy:
-        for definition in entity.IsDefinedBy:
-            if definition.is_a('IfcRelDefinesByProperties'):
-                property_set = definition.RelatingPropertyDefinition
-                if property_set and property_set.is_a('IfcPropertySet'):
-                    return property_set
-        return None
+def get_properties(element):
+    def get_recursive_props(psets):
+        properties = {}
+        for name, value in psets.items():
+            if isinstance(value, dict):
+                properties[name] = get_recursive_props(value)
+            else:
+                properties[name] = value
+        return properties
+    return get_recursive_props(ifcopenshell.util.element.get_psets(element))
 
 
 def run(original_fn : str, import_fn : str):
+    print(f"Validating import : {import_fn}")
     report = ComparisonReport()
 
     original_file = ifcopenshell.open(original_fn)
@@ -310,10 +312,26 @@ def run(original_fn : str, import_fn : str):
 
     import_file = ifcopenshell.open(import_fn)
     import_tree = Project(import_file.by_type('IfcProject')[0], 'Project', file = import_file)
+    
+    # wall = original_file.by_guid("1nOs6Hg0v9fR$sLR1LjIyX")
+    # properties = get_properties(wall)
+
+    # original_wall = original_file.by_guid("1nOs6Hg0v9fR$sLR1LjIyX")
+    # original_wall_props = get_properties(original_wall)
+
+    # import_wall = import_file.by_guid("1nOs6Hg0v9fR$sLR1LjIyX")
+    # import_wall_props = get_properties(import_wall)
+
+    # original_beam = original_file.by_guid("3vSAOyJwTEhQMEIJ6D9qRY")
+    # original_beam_props = get_properties(original_beam)
+
+    # import_beam = import_file.by_guid("3vSAOyJwTEhQMEIJ6D9qRY")
+    # import_beam_props = get_properties(import_beam)
+
 
     original_tree.check_import(import_tree, report)
 
     report.display()
 
 if __name__ == '__main__':
-    run(original_fn = 'original_Schependomlaan (1).ifc', import_fn = 'test_files/1_schependomlaan.ifc')
+    run(original_fn = 'original_Schependomlaan (1).ifc', import_fn = 'test_files/3_schependomlaan.ifc')
