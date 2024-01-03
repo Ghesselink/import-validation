@@ -17,11 +17,9 @@ class Component(ABC):
         self.entity_type = self.calculate_type()
         
     def calculate_entity_name(self):
-        # Logic to extract name from entity
         return self.entity_instance.Name if hasattr(self.entity_instance, 'Name') else None
 
     def calculate_guid(self):
-        # Logic to extract GUID from entity
         return self.entity_instance.GlobalId if hasattr(self.entity_instance, 'GlobalId') else None
 
     def calculate_type(self):
@@ -203,8 +201,6 @@ class Storey(Component):
     def check_import(self, other, report):
         super().check_import(other, report)
         for comp_type, orig_components in self.components.items():
-            if comp_type == 'IfcWall':
-                pass
             import_components = other.components.get(comp_type, [])
 
             orig_guid_map = {comp.guid: comp for comp in orig_components}
@@ -319,9 +315,6 @@ def run(original_fn : str, import_fn : str):
 
     import_file = ifcopenshell.open(import_fn)
     import_tree = Project(import_file.by_type('IfcProject')[0], 'Project', file = import_file)
-    
-
-
 
     original_tree.check_import(import_tree, report)
 
