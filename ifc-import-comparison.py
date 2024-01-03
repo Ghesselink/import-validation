@@ -169,7 +169,6 @@ class Storey(Component):
             'IfcDistributionElement': [],
             'IfcDoor': [],
             'IfcMember': [],
-            'IfcObject': [],
             'IfcOpening': [],
             'IfcPipe': [],
             'IfcRailing': [],
@@ -187,15 +186,15 @@ class Storey(Component):
         contains_elements = self.entity_instance.ContainsElements or []
         for contains_element in contains_elements:
             for related_element in contains_element.RelatedElements:
-                entity_type = related_element.is_a()
-                if entity_type == 'IfcStair':
-                    pass
-                component_class = globals().get(entity_type, None)
-                if component_class and entity_type in self.components:
-                    component = component_class(entity_instance=related_element,
-                                                name=related_element.Name, 
-                                                parent=self)
-                    self.components[entity_type].append(component)
+                for comp_type in self.components:
+                    if related_element.is_a(comp_type):
+                        component_class = globals().get(comp_type, None)
+                        if component_class:
+                            component = component_class(entity_instance=related_element,
+                                                        name=related_element.Name, 
+                                                        parent=self)
+                            self.components[comp_type].append(component)
+
 
 
     def display(self):
@@ -204,6 +203,8 @@ class Storey(Component):
     def check_import(self, other, report):
         super().check_import(other, report)
         for comp_type, orig_components in self.components.items():
+            if comp_type == 'IfcWall':
+                pass
             import_components = other.components.get(comp_type, [])
 
             orig_guid_map = {comp.guid: comp for comp in orig_components}
@@ -211,14 +212,17 @@ class Storey(Component):
             for guid, comp in orig_guid_map.items():
                 if guid not in import_guid_map:
                     report.add_deletion(guid, comp_type)
+                elif get_properties(orig_guid_map[guid].entity_instance) != get_properties(import_guid_map[guid].entity_instance):
+                    report.add_modification(guid, comp_type)
 
             for guid, comp in import_guid_map.items():
                 if guid not in orig_guid_map:
                     report.add_addition(guid, comp_type)
 
                 elif orig_guid_map[guid].name != comp.name:
-                    report.add_deletion(guid, comp_type)
-                    report.add_addition(guid, comp_type)
+                    report.add_modification(guid, comp_type)
+    
+
 
 class IfcBeam(Component):
     pass
@@ -281,8 +285,11 @@ class ComparisonReport:
         self.deletions.append({'guid' : guid, 'entity_type': entity_type})
 
     def add_modification(self, guid, entity_type):
-        self.add_deletion({'guid' : guid, 'entity_type': entity_type})
-        self.add_addition({'guid' : guid, 'entity_type': entity_type})
+        """
+        Modifications are in the style of 'git diff'; one element deleted and one added
+        """
+        self.add_deletion(guid, entity_type)
+        self.add_addition(guid, entity_type)
 
     def display(self):
         for i in self.deletions:
@@ -313,20 +320,7 @@ def run(original_fn : str, import_fn : str):
     import_file = ifcopenshell.open(import_fn)
     import_tree = Project(import_file.by_type('IfcProject')[0], 'Project', file = import_file)
     
-    # wall = original_file.by_guid("1nOs6Hg0v9fR$sLR1LjIyX")
-    # properties = get_properties(wall)
 
-    # original_wall = original_file.by_guid("1nOs6Hg0v9fR$sLR1LjIyX")
-    # original_wall_props = get_properties(original_wall)
-
-    # import_wall = import_file.by_guid("1nOs6Hg0v9fR$sLR1LjIyX")
-    # import_wall_props = get_properties(import_wall)
-
-    # original_beam = original_file.by_guid("3vSAOyJwTEhQMEIJ6D9qRY")
-    # original_beam_props = get_properties(original_beam)
-
-    # import_beam = import_file.by_guid("3vSAOyJwTEhQMEIJ6D9qRY")
-    # import_beam_props = get_properties(import_beam)
 
 
     original_tree.check_import(import_tree, report)
