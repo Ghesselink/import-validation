@@ -172,40 +172,28 @@ class Building(Component):
 
 
 class Storey(Component):
+    ALLOWED_TYPES = ['IfcBeam', 'IfcColumn', 'IfcCovering', 'IfcDistributionElement', 'IfcDoor', 
+                    'IfcMember', 'IfcObject', 'IfcOpening', 'IfcPipe', 'IfcRailing', 'IfcRoof',
+                    'IfcSlab', 'IfcSpace', 'IfcStair', 'IfcWall', 'IfcWindow']
+    
     def __init__(self, entity_instance, name, parent = None):
         super().__init__(entity_instance, name, parent = None)
-        self.components = {
-            'IfcBeam': [],
-            'IfcColumn': [],
-            'IfcCovering': [],
-            'IfcDistributionElement': [],
-            'IfcDoor': [],
-            'IfcMember': [],
-            'IfcOpening': [],
-            'IfcPipe': [],
-            'IfcRailing': [],
-            'IfcRoof': [],
-            'IfcSlab': [],
-            'IfcSpace': [],
-            'IfcStair': [],
-            'IfcWall': [],
-            'IfcWindow': []
-        }
-        self._init_storey_elements()
-        pass
+        self.components : List[Component] = self._init_storey_elements()
 
     def _init_storey_elements(self):
+        components = []
         contains_elements = self.entity_instance.ContainsElements or []
         for contains_element in contains_elements:
             for related_element in contains_element.RelatedElements:
-                for comp_type in self.components:
+                for comp_type in self.ALLOWED_TYPES:
                     if related_element.is_a(comp_type):
                         component_class = globals().get(comp_type, None)
                         if component_class:
                             component = component_class(entity_instance=related_element,
                                                         name=related_element.Name, 
                                                         parent=self)
-                            self.components[comp_type].append(component)
+                            components.append(component)
+        return components
 
 
 
@@ -214,24 +202,20 @@ class Storey(Component):
 
     def check_import(self, other: 'Storey', report: 'ComparisonReport') -> None:
         super().check_import(other, report)
-        for comp_type, orig_components in self.components.items():
-            import_components = other.components.get(comp_type, [])
 
-            orig_guid_map = {comp.guid: comp for comp in orig_components}
-            import_guid_map = {comp.guid: comp for comp in import_components}
-            for guid, comp in orig_guid_map.items():
-                if guid not in import_guid_map:
-                    report.add_deletion(guid, comp_type)
-                # elif get_properties(orig_guid_map[guid].entity_instance) != get_properties(import_guid_map[guid].entity_instance):
-                #     report.add_modification(guid, comp_type)
+        orig_guid_map = {comp.guid: comp for comp in self.components}
+        import_guid_map = {comp.guid: comp for comp in other.components}
+        for guid, comp in orig_guid_map.items():
+            if guid not in import_guid_map:
+                report.add_deletion(guid, comp.entity_type)
 
-            for guid, comp in import_guid_map.items():
-                if guid not in orig_guid_map:
-                    report.add_addition(guid, comp_type)
+        for guid, comp in import_guid_map.items():
+            if guid not in orig_guid_map:
+                report.add_addition(guid, comp.entity_type)
 
-                elif orig_guid_map[guid].name != comp.name:
-                    report.add_deletion(guid, comp_type, msg = f"Name : {orig_guid_map[guid].name}")
-                    report.add_addition(guid, comp_type, msg = f"Name : {comp.name}")
+            elif orig_guid_map[guid].name != comp.name:
+                report.add_deletion(guid, comp.entity_type, msg = f"Name : {orig_guid_map[guid].name}")
+                report.add_addition(guid, comp.entity_type, msg = f"Name : {comp.name}")
     
 
 
