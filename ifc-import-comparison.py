@@ -40,8 +40,18 @@ class Component(ABC):
 
     def display(self) -> None:
         print(f"{self.__class__.__name__}: {self.entity_instance} ({self.guid})")
+
+    def get_subcomponent_attributes(self):
+        subcomponents = []
+        for attr_name in dir(self):
+            attr = getattr(self, attr_name)
+            if isinstance(attr, list):
+                flattened_list = [item for sublist in attr for item in (sublist if isinstance(sublist, list) else [sublist])]
+                if all(isinstance(item, Component) for item in flattened_list):
+                    subcomponents.extend(flattened_list)
+        return subcomponents
     
-    def check_import(self, other: 'Component', report: 'ComparisonReport') -> None:
+    def check_eq_import(self, other: 'Component', report: 'ComparisonReport') -> None:
         if self.guid != other.guid:
             report.add_deletion(self.guid, self.entity_type)
             report.add_addition(other.guid, self.entity_type)
@@ -50,6 +60,27 @@ class Component(ABC):
         if self.name != other.name:
             report.add_deletion(self.guid, self.entity_type)
             report.add_addition(self.guid, self.entity_type)
+
+        for attr_name in dir(self):
+            self_attr = getattr(self, attr_name)
+            if isinstance(self_attr, list) and all(isinstance(item, Component) for item in self_attr):
+                other_attr = getattr(other, attr_name, [])
+                self._compare_subcomponents(self_attr, other_attr, report)
+
+    def _compare_subcomponents(self, self_components, other_components, report):
+        self_map = {comp.guid: comp for comp in self_components}
+        other_map = {comp.guid: comp for comp in other_components}
+
+        for guid, self_comp in self_map.items():
+            if guid in other_map:
+                self_comp.check_eq_import(other_map[guid], report)
+            else:
+                report.add_deletion(guid, self_comp.entity_type)
+
+        for guid, other_comp in other_map.items():
+            if guid not in self_map:
+                report.add_addition(guid, other_comp.entity_type)
+
 
 
 class Project(Component):
@@ -71,23 +102,6 @@ class Project(Component):
                                         name = 'Site', 
                                         parent=self))
         return sites
-        
-    
-    def check_import(self, other: 'Project', report: 'ComparisonReport') -> None:
-        super().check_import(other, report) 
-
-        original_sites = {s.guid: s for s in self.sites}
-        import_sites = {s.guid: s for s in other.sites}
-
-        for guid, storey in original_sites.items():
-            if guid in import_sites:
-                storey.check_import(import_sites[guid], report)
-            else:
-                report.add_deletion(guid, self.entity_type)
-
-        for guid, storey in import_sites.items():
-            if guid not in original_sites:
-                report.add_addition(guid, self.entity_type)
 
 
 class Site(Component):
@@ -111,22 +125,6 @@ class Site(Component):
         print(f'Site: {self.entity_instance} ({self.guid})')
         for building in self.buildings:
             building.display()
-        
-    def check_import(self, other: 'Site', report: 'ComparisonReport') -> None:
-        super().check_import(other, report) 
-
-        original_buildings = {s.guid: s for s in self.buildings}
-        import_buildings = {s.guid: s for s in other.buildings}
-
-        for guid, storey in original_buildings.items():
-            if guid in import_buildings:
-                storey.check_import(import_buildings[guid], report)
-            else:
-                report.add_deletion(guid, original_buildings[guid].entity_type)
-
-        for guid, storey in import_buildings.items():
-            if guid not in original_buildings:
-                report.add_addition(guid, import_buildings[guid].entity_type)
 
 
 class Building(Component):
@@ -152,23 +150,6 @@ class Building(Component):
         
     def get_storey_names(self):
         return [storey.name for storey in self.storeys]
-
-
-    def check_import(self, other: 'Building', report: 'ComparisonReport') -> None:
-        super().check_import(other, report) 
-
-        original_storeys = {s.guid: s for s in self.storeys}
-        import_storeys = {s.guid: s for s in other.storeys}
-
-        for guid, storey in original_storeys.items():
-            if guid in import_storeys:
-                storey.check_import(import_storeys[guid], report)
-            else:
-                report.add_deletion(guid, original_storeys[guid].entity_type)
-
-        for guid, storey in import_storeys.items():
-            if guid not in original_storeys:
-                report.add_addition(guid, import_storeys[guid].entity_type)
 
 
 class Storey(Component):
@@ -199,24 +180,6 @@ class Storey(Component):
 
     def display(self):
         print(f"Storey: {self.entity_instance} ({self.guid}")
-
-    def check_import(self, other: 'Storey', report: 'ComparisonReport') -> None:
-        super().check_import(other, report)
-
-        orig_guid_map = {comp.guid: comp for comp in self.components}
-        import_guid_map = {comp.guid: comp for comp in other.components}
-        for guid, comp in orig_guid_map.items():
-            if guid not in import_guid_map:
-                report.add_deletion(guid, comp.entity_type)
-
-        for guid, comp in import_guid_map.items():
-            if guid not in orig_guid_map:
-                report.add_addition(guid, comp.entity_type)
-
-            elif orig_guid_map[guid].name != comp.name:
-                report.add_deletion(guid, comp.entity_type, msg = f"Name : {orig_guid_map[guid].name}")
-                report.add_addition(guid, comp.entity_type, msg = f"Name : {comp.name}")
-    
 
 
 class IfcBeam(Component):
@@ -335,7 +298,7 @@ def run(original_fn : str, import_fn : str) -> None:
     # wall = original_file.by_guid('1nOs6Hg0v9fR$sLR1LjIyX')
     # element.get_psets(wall, should_inherit=False)
 
-    original_tree.check_import(import_tree, report)
+    original_tree.check_eq_import(import_tree, report)
 
     report.display()
 
