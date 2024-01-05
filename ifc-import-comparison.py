@@ -4,34 +4,44 @@ from datetime import datetime
 import ifcopenshell
 from ifcopenshell.file import file as IfcFile
 from ifcopenshell.entity_instance import entity_instance as IfcEntity
-import pandas as pd
 
+import element
 
 class Component(ABC):
-    def __init__(self, entity_instance, name, parent = None):
-        self.entity_instance = entity_instance
-        self.name = name
-        self.parent = parent
-        self.entity_name = self.calculate_entity_name()
-        self.guid = self.calculate_guid()
-        self.entity_type = self.calculate_type()
+    def __init__(self, entity_instance : ifcopenshell.entity_instance, name : str, parent : Optional['Component'] = None):
+        self.entity_instance: ifcopenshell.entity_instance = entity_instance
+        self.name: str = name
+        self.parent: Optional['Component'] = parent
+        self.entity_name: Optional[str] = self.calculate_entity_name()
+        self.guid: Optional[str] = self.calculate_guid()
+        self.entity_type: str = self.calculate_type()
+        self.psets: List[PropertySet] = self._init_psets()
         
-    def calculate_entity_name(self):
+    def calculate_entity_name(self) -> Optional[str]:
         return self.entity_instance.Name if hasattr(self.entity_instance, 'Name') else None
 
-    def calculate_guid(self):
+    def calculate_guid(self) -> Optional[str]:
         return self.entity_instance.GlobalId if hasattr(self.entity_instance, 'GlobalId') else None
 
-    def calculate_type(self):
+    def calculate_type(self) -> str:
         return self.entity_instance.is_a()
     
-    def get_parent(self):
-        return self.parent
+    def _init_psets(self):
+        psets = []
+        for relationship in getattr(self.entity_instance, 'IsDefinedBy', []):
+            if relationship.is_a("IfcRelDefinesByProperties"):
+                definition = relationship.RelatingPropertyDefinition
+                if definition:
+                    psets.append(PropertySet(entity_instance = definition,
+                        name = 'PropertySet', 
+                        parent=self))
+        return psets
+        
 
-    def display(self):
+    def display(self) -> None:
         print(f"{self.__class__.__name__}: {self.entity_instance} ({self.guid})")
     
-    def check_import(self, other, report):
+    def check_import(self, other: 'Component', report: 'ComparisonReport') -> None:
         if self.guid != other.guid:
             report.add_deletion(self.guid, self.entity_type)
             report.add_addition(other.guid, self.entity_type)
@@ -50,20 +60,21 @@ class Project(Component):
     def __init__(self, entity_instance, name, file):
         super().__init__(entity_instance, name)
         self.file = file
-        self.sites = []
-        self._init_sites()
+        self.sites: List[Site] = self._init_sites()
 
     def _init_sites(self):
+        sites = []
         for decomposes in self.entity_instance.IsDecomposedBy or []:
             for related_object in decomposes.RelatedObjects:
                 if related_object.is_a('IfcSite'):
-                    self.sites.append(Site(entity_instance = related_object,
+                    sites.append(Site(entity_instance = related_object,
                                         name = 'Site', 
                                         parent=self))
+        return sites
+        
     
-    def check_import(self, other, report):
+    def check_import(self, other: 'Project', report: 'ComparisonReport') -> None:
         super().check_import(other, report) 
-
 
         original_sites = {s.guid: s for s in self.sites}
         import_sites = {s.guid: s for s in other.sites}
@@ -82,24 +93,26 @@ class Project(Component):
 class Site(Component):
     def __init__(self, entity_instance, name, parent = None):
         super().__init__(entity_instance, name, parent = None)
-        self.buildings = []
-        self._init_buildings()
+        self.buildings : List[Building] = self._init_buildings()
 
     def _init_buildings(self):
+        buildings = []
         decomposes = self.entity_instance.IsDecomposedBy or []
         for decomposition in decomposes:
             for related_object in decomposition.RelatedObjects:
                 if related_object.is_a('IfcBuilding'):
-                    self.buildings.append(Building(entity_instance = related_object,
+                    buildings.append(Building(entity_instance = related_object,
                                                    name = 'Building', 
                                                    parent=self))
+        return buildings
+                    
 
     def display(self):
         print(f'Site: {self.entity_instance} ({self.guid})')
         for building in self.buildings:
             building.display()
         
-    def check_import(self, other, report):
+    def check_import(self, other: 'Site', report: 'ComparisonReport') -> None:
         super().check_import(other, report) 
 
         original_buildings = {s.guid: s for s in self.buildings}
@@ -119,16 +132,17 @@ class Site(Component):
 class Building(Component):
     def __init__(self, entity_instance, name, parent = None):
         super().__init__(entity_instance, name, parent = None)
-        self.storeys = []
-        self._init_storeys()
+        self.storeys : List[Storey] = self._init_storeys()
 
     def _init_storeys(self):
+        storeys = []
         decomposes = self.entity_instance.IsDecomposedBy or []
         for decomposes in decomposes:
             for related_object in decomposes.RelatedObjects:
                 if related_object.is_a('IfcBuildingStorey'):
-                    self.storeys.append(Storey(entity_instance = related_object,
+                    storeys.append(Storey(entity_instance = related_object,
                                                name = related_object.Name, parent=self))
+        return storeys
         
 
     def display(self):
@@ -140,7 +154,7 @@ class Building(Component):
         return [storey.name for storey in self.storeys]
 
 
-    def check_import(self, other, report):
+    def check_import(self, other: 'Building', report: 'ComparisonReport') -> None:
         super().check_import(other, report) 
 
         original_storeys = {s.guid: s for s in self.storeys}
@@ -198,7 +212,7 @@ class Storey(Component):
     def display(self):
         print(f"Storey: {self.entity_instance} ({self.guid}")
 
-    def check_import(self, other, report):
+    def check_import(self, other: 'Storey', report: 'ComparisonReport') -> None:
         super().check_import(other, report)
         for comp_type, orig_components in self.components.items():
             import_components = other.components.get(comp_type, [])
@@ -208,15 +222,16 @@ class Storey(Component):
             for guid, comp in orig_guid_map.items():
                 if guid not in import_guid_map:
                     report.add_deletion(guid, comp_type)
-                elif get_properties(orig_guid_map[guid].entity_instance) != get_properties(import_guid_map[guid].entity_instance):
-                    report.add_modification(guid, comp_type)
+                # elif get_properties(orig_guid_map[guid].entity_instance) != get_properties(import_guid_map[guid].entity_instance):
+                #     report.add_modification(guid, comp_type)
 
             for guid, comp in import_guid_map.items():
                 if guid not in orig_guid_map:
                     report.add_addition(guid, comp_type)
 
                 elif orig_guid_map[guid].name != comp.name:
-                    report.add_modification(guid, comp_type)
+                    report.add_deletion(guid, comp_type, msg = f"Name : {orig_guid_map[guid].name}")
+                    report.add_addition(guid, comp_type, msg = f"Name : {comp.name}")
     
 
 
@@ -269,32 +284,49 @@ class IfcWindow(Component):
         pass
 
 
+class PropertySet(Component):
+    def __init__(self, entity_instance: ifcopenshell.entity_instance, name: str, parent: Optional['Component'] = None):
+        super().__init__(entity_instance, name, parent)
+        self.properties = self._init_properties()
+    
+    def _init_properties(self):
+        pass
+
+
 class ComparisonReport:
     def __init__(self):
         self.additions = []
         self.deletions = []
 
-    def add_addition(self, guid, entity_type):
-        self.additions.append({'guid' : guid, 'entity_type': entity_type})
+    def add_addition(self, guid, entity_type, msg = None):
+        addition = {'guid' : guid, 'entity_type': entity_type}
+        if msg is not None:
+            addition['message'] = msg
+        self.additions.append(addition)
 
-    def add_deletion(self, guid, entity_type):
-        self.deletions.append({'guid' : guid, 'entity_type': entity_type})
+    def add_deletion(self, guid, entity_type, msg = None):
+        deletion = {'guid' : guid, 'entity_type': entity_type}
+        if msg is not None:
+            deletion['message'] = msg
+        self.deletions.append(deletion)
 
-    def add_modification(self, guid, entity_type):
+    def add_modification(self, guid, entity_type, msg = None):
         """
         Modifications are in the style of 'git diff'; one element deleted and one added
         """
-        self.add_deletion(guid, entity_type)
-        self.add_addition(guid, entity_type)
+        self.add_deletion(guid, entity_type, msg)
+        self.add_addition(guid, entity_type, msg)
 
     def display(self):
         for i in self.deletions:
-            print(f"\033[91mDeleted: {i['guid']} ({i['entity_type']})\033[0m")  # Red text for deletions
+            message = f" -> {i['message']}" if 'message' in i else ""
+            print(f"\033[91mDeleted: {i['guid']} ({i['entity_type']}){message}\033[0m")
         for i in self.additions:
-            print(f"\033[92mAdded: {i['guid']} ({i['entity_type']})\033[0m")    # Green text for additions
+            message = f" -> {i['message']}" if 'message' in i else ""
+            print(f"\033[92mAdded: {i['guid']} ({i['entity_type']}){message}\033[0m")
 
 
-def get_properties(element):
+def get_properties(instance : ifcopenshell.entity_instance) -> Dict[str, Any]:
     def get_recursive_props(psets):
         properties = {}
         for name, value in psets.items():
@@ -303,10 +335,10 @@ def get_properties(element):
             else:
                 properties[name] = value
         return properties
-    return get_recursive_props(ifcopenshell.util.element.get_psets(element))
+    return get_recursive_props(ifcopenshell.util.element.get_psets(instance))
 
 
-def run(original_fn : str, import_fn : str):
+def run(original_fn : str, import_fn : str) -> None:
     print(f"Validating import : {import_fn}")
     report = ComparisonReport()
 
@@ -315,6 +347,9 @@ def run(original_fn : str, import_fn : str):
 
     import_file = ifcopenshell.open(import_fn)
     import_tree = Project(import_file.by_type('IfcProject')[0], 'Project', file = import_file)
+
+    # wall = original_file.by_guid('1nOs6Hg0v9fR$sLR1LjIyX')
+    # element.get_psets(wall, should_inherit=False)
 
     original_tree.check_import(import_tree, report)
 
